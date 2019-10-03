@@ -1,0 +1,39 @@
+title: "Buttons"
+description: |
+  Buttons should be used in situations where a dramatic, obvious action is required. Try not to over use buttons because they should be the primary call-to-action for a screen.
+
+patterns:
+    hamburger:
+      title: "Hamburger"
+      description: |
+        The hamburger button is exclusively used to hide the nav on all screen sizes.
+      width: "12em"
+    submit:
+      title: "Submit"
+      description: |
+        The submit button is to be used to submit forms.
+      fields:
+        - name: text
+          type: string
+          example: "Submit"
+      width: "12em"
+    x:
+      title: "X"
+      description: |
+        The x button is exclusively used to close the nav.
+      width: "12em"
+    github:
+      title: "GitHub"
+      description: |
+        The GitHug button directs viewers to the GitHub page of Sophie Riopel.
+      width: "12em"
+    behance:
+      title: "Behance"
+      description: |
+        The Behance button directs viewers to the Behance page of Sophie Riopel.
+      width: "12em"
+    instagram:
+      title: "Instagram"
+      description: |
+        The Instagram button directs viewers to the Instagram page of Sophie Riopel.
+      width: "12em"

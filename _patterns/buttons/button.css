@@ -1,0 +1,83 @@
+.btn {
+  background-color: var(--color-primary-yellow);
+  border-radius: 0;
+  color: var(--color-secondary);
+}
+
+.btn-hamburger {
+  background-color: var(--color-primary-yellow);
+  color: var(--color-secondary);
+  border-radius: 0;
+}
+
+.btn-hamburger:hover {
+  background-color: var(--color-primary-purple);
+  color: var(--color-secondary);
+  border-radius: 0;
+}
+
+.btn-x {
+  background-color: var(--color-primary-orange);
+  color: var(--color-secondary);
+  border-radius: 0;
+}
+
+.btn-x:hover {
+  background-color: var(--color-primary-red);
+  color: var(--color-secondary);
+  border-radius: 0;
+}
+
+.btn-submit {
+  background-color: var(--color-primary-yellow);
+  color: var(--color-secondary);
+  border-radius: 0;
+}
+
+.btn-submit:hover {
+  background-color: var(--color-primary-purple);
+  color: var(--color-secondary);
+  border-radius: 0;
+}
+
+.btn-github {
+  background-color: transparent;
+  border-color: transparent;
+  color: var(--color-primary-purple);
+  border-radius: 0;
+}
+
+.btn-github:hover {
+  background-color: transparent;
+  border-color: transparent;
+  color: var(--color-primary-pink);
+  border-radius: 0;
+}
+
+.btn-behance {
+  background-color: transparent;
+  border-color: transparent;
+  color: var(--color-primary-pink);
+  border-radius: 0;
+}
+
+.btn-behance:hover {
+  background-color: transparent;
+  border-color: transparent;
+  color: var(--color-primary-red);
+  border-radius: 0;
+}
+
+.btn-instagram {
+  background-color: transparent;
+  border-color: transparent;
+  color: var(--color-primary-red);
+  border-radius: 0;
+}
+
+.btn-instagram:hover {
+  background-color: transparent;
+  border-color: transparent;
+  color: var(--color-primary-orange);
+  border-radius: 0;
+}
