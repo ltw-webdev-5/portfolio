@@ -1,0 +1,23 @@
+title: "Cards"
+description: |
+  Cards should be used when there are multiple image and type groups.
+
+patterns:
+    card-project:
+      title: "Project Card"
+      description: |
+        The Project Cards are used on the homepage to lead viewers to each individual project page. Each of them must have the project name and their field.
+      fields:
+        - name: heading
+          type: string
+          example: "LaundroMate"
+        - name: text
+          type: string
+          example: "App Design 	&#9679; UI/UX"
+        - name: image
+          type: string
+          example: "/images/laundromate.jpg"
+        - name: button_url
+          type: url
+          example: "/laundromate/"
+          required: false
