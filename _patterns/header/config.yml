@@ -1,0 +1,9 @@
+title: "Header"
+description: |
+  The header accessed by a hamburger button which opens a full page nav.
+
+patterns:
+    header:
+      title: "Full Page Navigation"
+      description: |
+        The Full Page Navigation is used to navigate through the website to different sections.

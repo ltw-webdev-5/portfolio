@@ -1,0 +1,30 @@
+title: "Forms"
+description: |
+  Forms and inputs should be used to collect data from the viewer or to make a choice.
+background: "--color-primary-light"
+
+patterns:
+    email-input:
+      title: "Email Input"
+      description: |
+        Email inputs are only to be used when the answer is a valid email address.
+      fields:
+        - name: email-label
+          type: string
+          example: "Email"
+    text-area:
+      title: "Text Area"
+      description: |
+        Text areas should be used when the answer should be long and detailed. Any input field expecting text that is more then one sentence should use a text area.
+      fields:
+        - name: area-label
+          type: string
+          example: "Text Area"
+    text-input:
+      title: "Text Input"
+      description: |
+        Text inputs are to be used when the user is expected to give a short answer with text.
+      fields:
+        - name: text-label
+          type: string
+          example: "Text Input"

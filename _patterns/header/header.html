@@ -1,0 +1,49 @@
+<div class="header">
+  <div class="grid island">
+    <div class="unit unit-xs-hidden unit-s-hidden m-1 l-1 pad-t-2">
+      <img class="logo push-1-4" src="/images/logo-sr.svg" alt="sr">
+      <h2 class="push">Sophie Riopel</h2>
+    </div>
+
+    <div class="unit xs-1 s-1 unit-m-hidden unit-l-hidden pad-t-2">
+      <img class="logo-small push-1-4" src="/images/logo-sr.svg" alt="sr">
+      <h2 class="push-2 tena">Sophie Riopel</h2>
+    </div>
+
+    <div class="unit xs-1 s-1 m-1-2 l-1-2">
+      <ul class="gutter-1-2">
+        <li class="{% if page.highlight_nav == 'index' %}current{% endif %} push-1-2"><a class="yellow hover giga" href="/index/">Home</a></li>
+        <li class="{% if page.highlight_nav == 'contact' %}current{% endif %} push-1-2"><a class="orange hover giga" href="/contact/">Contact</a></li>
+      </ul>
+      <ul class="list-group-inline">
+        <li>
+          {% pattern buttons/github %}
+        </li>
+        <li>
+          {% pattern buttons/behance %}
+        </li>
+        <li>
+          {% pattern buttons/instagram %}
+        </li>
+      </ul>
+  </div>
+  <div class="unit unit-xs-hidden unit-s-hidden m-1-2 l-1-2 text-right">
+    <h3 class="darkest">Project</h3>
+    <ul class="gutter-1-2">
+      <li class="{% if page.highlight_nav == 'laundromate' %}current{% endif %} push-1-2"><a class="orange hover giga" href="/index/">LaundroMate</a></li>
+      <li class="{% if page.highlight_nav == 'jolie' %}current{% endif %} push-1-2"><a class="red hover giga" href="/contact/">Jolie Pattisserie</a></li>
+      <li class="{% if page.highlight_nav == 'saja' %}current{% endif %} push-1-2"><a class="pink hover giga" href="/index/">SAJA</a></li>
+      <li class="{% if page.highlight_nav == 'bus' %}current{% endif %} push-1-2"><a class="purple hover giga" href="/contact/">Bus Passes 2021</a></li>
+    </ul>
+  </div>
+
+  <div class="unit xs-1 s-1 unit-m-hidden unit-l-hidden text-left">
+    <h3 class="darkest nina">Project</h3>
+    <ul class="gutter-1-2">
+      <li class="{% if page.highlight_nav == 'laundromate' %}current{% endif %} push-1-2"><a class="orange hover giga" href="/index/">LaundroMate</a></li>
+      <li class="{% if page.highlight_nav == 'jolie' %}current{% endif %} push-1-2"><a class="red hover giga" href="/contact/">Jolie Pattisserie</a></li>
+      <li class="{% if page.highlight_nav == 'saja' %}current{% endif %} push-1-2"><a class="pink hover giga" href="/index/">SAJA</a></li>
+      <li class="{% if page.highlight_nav == 'bus' %}current{% endif %} push-1-2"><a class="purple hover giga" href="/contact/">Bus Passes 2021</a></li>
+    </ul>
+  </div>
+</div>

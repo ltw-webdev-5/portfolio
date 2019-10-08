@@ -21,3 +21,48 @@ patterns:
           type: url
           example: "/laundromate/"
           required: false
+    card-intro:
+      title: "Section Intro Card"
+      description: |
+        The Section Cards are used as the top left side item on each section on large screens and the top item on small screens.
+      fields:
+        - name: heading
+          type: string
+          example: "HELLO"
+        - name: text
+          type: string
+          example: "Sophie Riopel is a UI/UX Designer."
+        - name: text-2
+          type: string
+          example: "I spend most of my days scouring the web with online shopping and find severe joy with all the different UI layouts I come across. The idea of finding cool products online with ease blows my mind. When an eCommerce website is too hard to navigate through, I immediately start thinking of why it's not working and how to fix it. The idea that there are awesome products online but people struggle with getting to them, breaks my soul."
+        - name: text-3
+          type: string
+          example: "I spend way too much time thinking about other people and finding solutions for them. That's when I realized that I wanted to design cool websites and apps to help users get excited about their upcoming packages."
+    card-about:
+      title: "About Me Card"
+      description: |
+        The About Me Card is only used on the homepage following the section card. This card will include my name, logo and social media links.
+      fields:
+        - name: heading
+          type: string
+          example: "Sophie Riopel"
+        - name: image
+          type: string
+          example: "/images/logo-sr.svg"
+    card-contact:
+      title: "Contact Card"
+      description: |
+        The Contact Card is used on the contact page. It will contain the contact forms.
+      fields:
+        - name: email-label
+          type: string
+          example: "Email"
+        - name: text
+          type: string
+          example: "Submit"
+        - name: area-label
+          type: string
+          example: "Message"
+        - name: text-label
+          type: string
+          example: "Text Input"

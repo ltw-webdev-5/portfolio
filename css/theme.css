@@ -63,6 +63,10 @@ ul {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 ::before {
   display: none;
 }
@@ -90,7 +94,11 @@ ol > li:before {
 }
 
 .dark {
-  background-color: var(--color-secondary-dark);
+  color: var(--color-secondary-dark);
+}
+
+.darkest {
+  color: var(--color-secondary-darkest);
 }
 
 .white {
@@ -99,4 +107,36 @@ ol > li:before {
 
 .bg-yellow {
   background: var(--color-primary-yellow);
+}
+
+.bg-grey {
+  background: var(--color-secondary-light);
+}
+
+.yellow {
+  color: var(--color-primary-yellow);
+}
+
+.orange {
+  color: var(--color-primary-orange);
+}
+
+.red {
+  color: var(--color-primary-red);
+}
+
+.pink {
+  color: var(--color-primary-pink);
+}
+
+.purple {
+  color: var(--color-primary-purple);
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.half-height {
+  height: 50vh;
 }
