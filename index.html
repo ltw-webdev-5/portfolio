@@ -1,3 +1,19 @@
 ---
 layout: default
 ---
+{% pattern banner/frustrated-banner heading="Alchemy Potatoes" text="Hexed? Cursed? Need a dependable charm? Look no further!" %}
+<main class="wrapper">
+<h1 class="island pad-t-2 push-1-2">Shop</h1>
+<p class="gutter pad-b-2">Potato Alchemy uses 1000 year old wizardy to take the best of all the charms, without any of the side effects!</p>
+
+{% pattern sections/section-header heading="Curses" icon="/images/icons.svg#curses" %}
+<div class="grid grid-stretch gutter-1-4 pad-b-2 wrapper">
+  {% for product in site.products %}
+  {% if product.repellent-category == "Curses" %}
+  <div class="unit xs-1 s-1 m-1-2 l-1-3 island-1-4 unit-content-distribute">
+
+      {% pattern cards/product-card data=product %}
+  </div>
+  {% endif %}
+  {% endfor %}
+</div>

@@ -4,19 +4,16 @@ description: |
 
 patterns:
   product-card:
-    title: "Evil be Gone!"
+    title: "polaroid"
     description: |
       Use this type of card for products
     fields:
       - name: title
         type: string
-        example: "Funny Potion"
+        example: "cap libecap"
       - name: details
         type: string
-        example: "Chop into small pieces, Place in mouth, tell joke. 10x funnier!"
-      - name: price
-        type: string
-        example: "25"
+        example: "me"
       - name: data
         type: object
         data:

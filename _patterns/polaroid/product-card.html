@@ -4,24 +4,16 @@
       <div class="relative">
         <menu class="action-tools-top absolute pin-lt list-group-inline island-1-2">
           <li>
-            <button class="btn action-btn">
-              <i class="icon i-64">
-                <svg><use xlink:href="{{include.data.icon}}" /></svg>
-              </i>
-            </button>
+            <p>Cap</p>
+            <p>Libe</p>
+            <p>Cap</p>
           </li>
         </menu>
-        <img class="img-flex" aria-details="#potato-type" src="{{include.data.image}}" alt="potato-charm">
+        <img class="img-flex" aria-details="#display" src="{{include.data.image}}" alt="portfolio-photo">
       </div>
       <div class="island bg-colour max-length content-fill relative">
         <h2 class="push-1-8">{{include.data.name}}</h2>
         <p class="pad-b-2">{{include.data.description}}</p>
-        <div class="leftside pad-t absolute pin-lb">
-          <p class=" price push-0">${{include.data.price}}</p>
-        </div>
-        <div class="rightside pad-b-1-4 absolute pin-rb">
-        {% pattern buttons/buy text="Add to Cart" url=include.data.url %}
-        </div>
       </div>
     </div>
   </article>
