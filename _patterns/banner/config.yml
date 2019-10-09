@@ -1,0 +1,43 @@
+title: "Banner"
+description: |
+  Use for call to action and hero banners
+
+patterns:
+  frustrated-banner:
+    fields:
+      - name: heading
+        type: string
+        example: Alchemy Potatoes
+      - name: text
+        type: string
+        example: "Hexed? Cursed? Need a dependable charm? Look no further!"
+      - name: button_text
+        type: string
+        example: "Get Charmed"
+        required: false
+      - name: button_url
+        type: url
+        example: "/products/"
+        required: false
+    title: "Frustrated"
+    description: |
+      Can be used to give the sense of frustation that comes with being cursed
+  main-banner:
+    fields:
+      - name: heading
+        type: string
+        example: Alchemy Potatoes
+      - name: text
+        type: string
+        example: "Hexed? Cursed? Need a dependable charm? Look no further!"
+      - name: button_text
+        type: string
+        example: "Get Charmed"
+        required: false
+      - name: button_url
+        type: url
+        example: "/products/"
+        required: false
+    title: "Main"
+    description: |
+      Use this banner as the default
