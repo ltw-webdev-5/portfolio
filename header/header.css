@@ -1,0 +1,26 @@
+.horizontal-nav ul li {
+  padding: 0, 2em;
+}
+
+.contact, a {
+  text-decoration: none;
+  color: var(--color-secondary-light);
+}
+
+a:hover {
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+.horizontal-nav {
+  background-color: var(--color-header);
+}
+
+.current {
+  background-color: var(--color-primary);
+}
+
+.current a {
+  color: #fff;
+  font-weight: bold;
+}

@@ -1,0 +1,25 @@
+title: "Cards"
+description: |
+  The form can be used when creating a product description. Use corresponding icon with product description
+
+patterns:
+  product-card:
+    title: "Evil be Gone!"
+    description: |
+      Use this type of card for products
+    fields:
+      - name: title
+        type: string
+        example: "Funny Potion"
+      - name: details
+        type: string
+        example: "Chop into small pieces, Place in mouth, tell joke. 10x funnier!"
+      - name: price
+        type: string
+        example: "25"
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product
+    width: "20em"

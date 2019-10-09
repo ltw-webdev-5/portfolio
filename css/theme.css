@@ -1,0 +1,75 @@
+:root {
+  --color-primary: #db69da;
+  --color-secondary: #007574;
+  --color-secondary-light: #61c7b3;
+  --color-neutral: #9Baba4;
+  --color-neutral-dark: #403f3f;
+  --color-background: rgba(23, 58, 39, 0.4);
+  --background-image: url("../images/texture.jpg");
+  --color-card:#454545;
+  --color-sidebar: #151515;
+  --color-header:#000;
+  --font-primary: Montserrat, sans-serif;
+  --font-secondary: "professor-minty", sans-serif;
+}
+
+
+html {
+  font-family: var(--font-primary);
+  color: #fff;
+  background-color: var(--color-background);
+  background-image: var(--background-image);
+}
+
+.main-title {
+  color: #fff;
+  font-family: var(--font-secondary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+}
+
+p {
+  font-family: var(--font-primary);
+}
+cite {
+  font-family: var(--font-primary);
+  font-weight: 300;
+}
+
+mark {
+  background-color: var(--color-secondary-light);
+}
+a {
+  color: #fff;
+}
+
+b {
+  font-family: var(--font-primary);
+  font-weight: bold;
+}
+
+ol, ul, dl, q, th {
+  font-family: var(--font-primary);
+  color: var(--color-secondary-light);
+}
+
+cite {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+}
+
+.skip-links a {
+  position: absolute;
+  top: -10em;
+}
+
+.skip-links a:focus {
+  top: 0;
+}
+
+a:focus {
+  outline: 3px solid var(--color-neutral);
+}
