@@ -4,7 +4,7 @@
   border-color: var(--color-primary);
   overflow: hidden;
   box-shadow: 0 .1em .4em var(--color-neutral);
-  background-color: var(--color-card);
+  background-color: #fff;
 }
 
 .action-card:hover {
@@ -24,6 +24,9 @@
   color: #555;
 }
 
+article {
+  background-color: #fff;
+}
 menu {
   display: inline-block;
   margin: 0;
