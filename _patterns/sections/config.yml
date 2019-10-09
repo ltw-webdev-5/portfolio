@@ -1,0 +1,43 @@
+title: "Sections"
+description: |
+  To help seperate content into their own categories
+
+patterns:
+  product-details:
+    fields:
+      - name: heading
+        type: string
+      - name: text
+        type: string
+      - name: image
+        type: url
+    title: "Product Details"
+    description: |
+      Use this layout for the product description
+
+  section-header:
+    fields:
+      - name: heading
+        type: string
+        example: "Curses"
+      - name: icon
+        type: url
+        example: "/images/icons.svg#curses"
+    title: "Product sections"
+    description: |
+      Use this to help seperate the product sections
+
+  suggestions:
+    fields:
+      - name: heading
+        type: string
+        example: "Bad breath Curse"
+      - name: text
+        type: string
+        example: "Chomp on this for great breath"
+      - name: image
+        type: url
+        example: "/images/potato.jpg"
+    title: "Up sell"
+    description: |
+      Use this layout with the product details as a way to encourage the user to buy more products
