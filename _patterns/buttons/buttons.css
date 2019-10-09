@@ -1,0 +1,5 @@
+.btn {
+  color: var(--color-primary);
+  border-color: var(--color-secondary);
+  border-style: solid;
+}

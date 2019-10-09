@@ -1,10 +1,11 @@
 :root {
   --color-primary:#FF977E;
   --color-secondary:#FFE3A3;
+  --color-secondary-dark: #FFC748;
   --color-neutral:#ACACAC;
   --color-dark: #000;
 
-  --font-primary: font-family: 'Muli', sans-serif;
+  --font-primary: 'Muli', sans-serif;
 }
 
 html {
