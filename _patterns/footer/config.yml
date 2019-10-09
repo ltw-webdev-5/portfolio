@@ -1,0 +1,9 @@
+title: "Footer"
+description: |
+  To be used once per page to provide copyright and contact info
+
+patterns:
+  footer:
+    title: "Footer"
+    description: |
+      Basic footer
