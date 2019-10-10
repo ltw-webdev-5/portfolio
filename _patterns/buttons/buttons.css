@@ -4,7 +4,7 @@
   color: #fff;
 }
 
-.btn-magic, .btn:hover {
+ .btn:hover {
   background-color: var(--color-primary);
   border-color: var(--color-primary);
   color: #fff;
@@ -27,25 +27,4 @@
   background-color: var(--color-neutral);
   border-color: var(--color-neutral);
   color: var(--color-neutral-dark);
-}
-
-.btn-magic {
-  background-color: var(--color-secondary);
-  border-color: var(--color-secondary);
-  color: #fff;
-  position: relative;
-  animation: float 5s ease-in-out infinite backwards;
-  box-shadow: 8px 8px 20px rgba(110,73,108, .5);
-}
-
-.update-btn {
-  background-color: var(--color-primary);
-  border-color: var(--color-primary);
-  color: #fff;
-}
-
-@keyframes float {
-  0% {top: -10px;}
-  50% {top: 10px}
-  100% {top:-10px;}
 }

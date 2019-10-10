@@ -7,10 +7,10 @@ patterns:
     fields:
       - name: heading
         type: string
-        example: Alchemy Potatoes
+        example: Cap Libecap
       - name: text
         type: string
-        example: "Hexed? Cursed? Need a dependable charm? Look no further!"
+        example: "Graphic Design"
       - name: button_text
         type: string
         example: "Get Charmed"

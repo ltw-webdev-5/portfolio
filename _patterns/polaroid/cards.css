@@ -13,6 +13,7 @@
 	line-height: 0;         /* ensure no space between bottom */
 
 	display: inline-block;  /* don't go wider than image */
+  max-height: 500px;
 }
 .vignette img {
 	z-index: -1;            /* position beneath */
@@ -55,6 +56,20 @@ menu {
   padding-bottom: 1rem;
 }
 
+.sticky {
+  background-color: var(--color-orange-light);
+  filter: drop-shadow(0 .1em .1em #000);
+  color: #000;
+  min-height: 200px;
+  max-height: 500px;
+}
+
+.sticky-note {
+  display: block;
+  padding-top: 25em;
+  background-image: url("/images/stickynote-01.svg");
+  background-repeat: no-repeat;
+}
 /* .max-height {
   max-height: 500px;
 } */

@@ -20,3 +20,21 @@ patterns:
           source: "site.products[0]"
           type: Product
     width: "20em"
+
+  sticky-note:
+    title: "sticky-note"
+    description: |
+      Use this type of card for short text, ie titles for projects
+    fields:
+      - name: title
+        type: string
+        example: "Project 1"
+      - name: description
+        type: string
+        example: "packaging"
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product
+    width: "20em"

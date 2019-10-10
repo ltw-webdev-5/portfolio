@@ -7,7 +7,7 @@ patterns:
     fields:
       - name: text
         type: string
-        example: "Get Charmed"
+        example: "hola"
       - name: url
         type: url
         example: "/products/"
@@ -19,7 +19,7 @@ patterns:
     fields:
       - name: text
         type: string
-        example: "GET CHARMED!"
+        example: "hello"
       - name: url
         type: url
         example: "/products/"
@@ -32,26 +32,13 @@ patterns:
     fields:
       - name: text
         type: string
-        example: "GET CHARMED!"
+        example: "hello"
       - name: url
         type: url
         example: "/products/"
     title: "Light"
     description: |
       The light button is for dark backgrounds, where it will be used instead of the basic button.
-    width: "12em"
-  magic:
-    fields:
-      - name: text
-        type: string
-        example: "GET CHARMED!"
-      - name: url
-        type: url
-        example: "/products/"
-    title: "Magic"
-    description: |
-      The Magic button is for entertainment. It should only be used once on a page and ideally with no other buttons on the same page.
-    padding: "2em 0"
     width: "12em"
   form-btn:
     fields:
@@ -64,28 +51,4 @@ patterns:
     title: "Send Form"
     description: |
       Use this button at the end of any forms
-    width: "12em"
-  cart:
-    fields:
-      - name: text
-        type: string
-        example: "Add to Cart"
-      - name: url
-        type: url
-        example: "/products/"
-    title: "Shopping Cart"
-    description: |
-      Use this button on mobile to access the shopping cart or within product item cards
-    width: "12em"
-  update-btn:
-    fields:
-      - name: text
-        type: string
-        example: "Update Cart"
-      - name: url
-        type: url
-        example: "/products/"
-    title: "Update Cart"
-    description: |
-      Use this button on mobile to update the shopping cart
     width: "12em"
