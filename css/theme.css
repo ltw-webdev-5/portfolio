@@ -5,7 +5,7 @@
   --color-orange-light: #ffbb4d;
   --color-orange: #fc962e;
   --color-background: rgba(23, 58, 39, .4);
-  --background-image: rgba(23, 58, 39, .6) url("../images/texture.jpg");
+  --background-image: url("../images/texture.jpg");
   --color-note-orange:#e6790a;
   --color-burnt-orange: #e86807;
   --color-red: #962903;
@@ -22,8 +22,7 @@
 html {
   font-family: var(--font-primary);
   color: #fff;
-  background-color: var(--color-background);
-  background: var(--background-image);
+  background:  linear-gradient( rgba(23, 58, 39, .4), rgba(23, 58, 39, .4)), var(--background-image);
 }
 
 .main-title {

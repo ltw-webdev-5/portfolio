@@ -3,7 +3,7 @@ description: |
   The form can be used when creating a product description. Use corresponding icon with product description
 
 patterns:
-  product-card:
+  polaroid:
     title: "polaroid"
     description: |
       Use this type of card for products

@@ -3,7 +3,7 @@ description: |
   To help seperate content into their own categories
 
 patterns:
-  product-details:
+  project-brief:
     fields:
       - name: heading
         type: string
@@ -11,33 +11,19 @@ patterns:
         type: string
       - name: image
         type: url
-    title: "Product Details"
+    title: "Project Brief"
     description: |
-      Use this layout for the product description
+      Use this layout for the project brief and description
 
   section-header:
-    fields:
-      - name: heading
-        type: string
-        example: "Curses"
-      - name: icon
-        type: url
-        example: "/images/icons.svg#curses"
-    title: "Product sections"
-    description: |
-      Use this to help seperate the product sections
-
-  suggestions:
-    fields:
-      - name: heading
-        type: string
-        example: "Bad breath Curse"
-      - name: text
-        type: string
-        example: "Chomp on this for great breath"
-      - name: image
-        type: url
-        example: "/images/potato.jpg"
-    title: "Up sell"
-    description: |
-      Use this layout with the product details as a way to encourage the user to buy more products
+    section-header:
+      fields:
+        - name: heading
+          type: string
+          example: "About"
+        - name: icon
+          type: url
+          example: "../../images/icons_brush.svg"
+      title: "Portfolio sections"
+      description: |
+        Use this to help seperate the portfolio sections
