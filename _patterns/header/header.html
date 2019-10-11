@@ -1,5 +1,5 @@
-<div class="nav-grid pin-rt">
-  <nav>
+<div>
+  <div class="pin-rt">
     <input type="checkbox" class="nav-check" id="nav-check">
     <label class="nav-label btn-hamburger text-center island-1-2" for="nav-check">
       <i class="icon i-20 nav-open">
@@ -9,8 +9,8 @@
         <svg><use xlink:href="/images/icons.svg#x"/></svg>
       </i>
     </label>
-    <div class="nav push-0">
-      <div class="grid">
+    <nav role="navigation" id="nav" class="nav">
+      <div class="grid push-0">
         {% pattern navigation/nav-header %}
       </div>
       <div class="grid grid-bottom">
@@ -20,6 +20,6 @@
       <div class="grid">
         {% pattern navigation/nav-social %}
       </div>
-    </div>
-  </nav>
+    </nav>
+  </div>
 </div>

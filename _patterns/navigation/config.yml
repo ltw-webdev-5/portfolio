@@ -1,0 +1,21 @@
+title: "Navigation"
+description: |
+  These are all pieces of the navigation. They all go within a full page nav in the header.
+
+patterns:
+    nav-header:
+      title: "Navigation Header"
+      description: |
+        The Navigation Header is used on the top right of the full page navigation.
+    nav-left:
+      title: "Navigation Left"
+      description: |
+        The Navigation Left is used under the Navigation Header and contains the links for Home and Contact.
+    nav-right:
+      title: "Navigation Right"
+      description: |
+        The Navigation Right is used next to the Navigation Left or under it if its a small screen and contains the links for all the projects.
+    nav-social:
+      title: "Navigation Social"
+      description: |
+        The Navigation Social is used at the bottom of the nav to link social media.
