@@ -1,17 +1,57 @@
-.header {
+.nav-grid {
+  align-items: flex-start;
+}
+
+.nav {
+  display: none;
+  list-style-type: none;
+  padding: 0;
   height: 100vh;
   width: 100vw;
   background-color: var(--color-secondary-light);
 }
 
-.logo {
-  max-width: 200px;
+.nav a {
+  display: block;
+  text-decoration: none;
 }
 
-.hover:hover {
-  text-decoration: underline;
+.nav-label {
+  cursor: pointer;
 }
 
-.highlight_nav {
-  text-decoration: underline;
+.nav-label {
+  display: block;
+}
+
+.nav-check {
+  position: absolute;
+}
+
+label.nav-label::before {
+  display: none;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+  display: block;
+}
+
+.btn-hamburger {
+  background-color: var(--color-primary-yellow);
+  color: var(--color-secondary);
+  border-radius: 0;
+  border-color: transparent;
+  margin: 15px;
+}
+
+.nav-close {
+  display: none;
 }
