@@ -9,13 +9,17 @@
         <svg><use xlink:href="/images/icons.svg#x"/></svg>
       </i>
     </label>
-    <ul class="nav push-0">
+    <div class="nav push-0">
+      <div class="grid">
         {% pattern navigation/nav-header %}
+      </div>
       <div class="grid grid-bottom">
         {% pattern navigation/nav-left %}
         {% pattern navigation/nav-right %}
       </div>
-      {% pattern navigation/nav-social %}
-    </ul>
+      <div class="grid">
+        {% pattern navigation/nav-social %}
+      </div>
+    </div>
   </nav>
 </div>
