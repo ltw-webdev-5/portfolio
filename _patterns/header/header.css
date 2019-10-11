@@ -32,6 +32,10 @@ label.nav-label::before {
   display: block;
 }
 
+.nav-open {
+  display: block;
+}
+
 .nav-check:checked ~ .nav-label .nav-open {
   display: none;
 }
@@ -40,12 +44,17 @@ label.nav-label::before {
   display: block;
 }
 
-.btn-hamburger {
+.nav-label.btn-hamburger {
   background-color: var(--color-primary-yellow);
   color: var(--color-secondary);
   border-radius: 0;
   border-color: transparent;
   margin: 15px;
+  display: flex;
+}
+
+.nav-label.btn-hamburger:hover {
+  background-color: var(--color-primary-purple);
 }
 
 .nav-close {
