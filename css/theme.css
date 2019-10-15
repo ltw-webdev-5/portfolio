@@ -16,8 +16,8 @@
   --font-primary: acumin-pro, sans-serif;
   --font-secondary: fatboy, serif;
   --font-header: acumin-pro-wide, sans-serif;
+  --font-subheader: ff-market-web, sans-serif;
 }
-
 
 html {
   font-family: var(--font-primary);

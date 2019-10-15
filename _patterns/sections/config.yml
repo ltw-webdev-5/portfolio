@@ -14,6 +14,7 @@ patterns:
     title: "Project Brief"
     description: |
       Use this layout for the project brief and description
+    width: "80%"
 
   section-header:
     section-header:

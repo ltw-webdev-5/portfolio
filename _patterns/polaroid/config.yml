@@ -38,3 +38,21 @@ patterns:
           source: "site.products[0]"
           type: Product
     width: "20em"
+
+  image-on-paper:
+    title: "image on paper"
+    description: |
+      Use this type of card for images with a border
+    fields:
+      - name: title
+        type: string
+        example: "cap libecap"
+      - name: details
+        type: string
+        example: "me"
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product
+    width: "80%"

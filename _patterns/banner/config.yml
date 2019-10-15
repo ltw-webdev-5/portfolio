@@ -13,7 +13,7 @@ patterns:
         example: "Graphic Design"
       - name: button_text
         type: string
-        example: "Get Charmed"
+        example: "contact"
         required: false
       - name: button_url
         type: url

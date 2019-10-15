@@ -2,15 +2,18 @@
 layout: default
 ---
 
-<main class="wrapper">
-  <body>
-    <section>
-      <div>
+
+  {% pattern banner/main-banner heading="Cap Libecap" text="Graphic Design" %}
+  <div class="pad-t wrapper">
+    <section class="pad-t pad-b grid">
+      <div class="island unit xs-1 s-1 m-1-2 l-1-2">
         {% pattern polaroid/polaroid title="cap libecap" details="me" data=Product %}
       </div>
+      <div class="island unit xs-1 s-1 m-1-2 l-1-2">
+        {% pattern polaroid/sticky-note title="Project 1" description="packaging" data=Product %}
+      </div>
     </section>
-    <section>
+    <section class="pad-t-2">
       <p>jibbersish to test site</p>
-
-  </body>
-</main>
+    </section>
+  </div>

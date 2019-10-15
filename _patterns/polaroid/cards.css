@@ -1,59 +1,45 @@
 .action-card {
   border: 3;
   border-radius: .3em;
-  border-color: var(--color-primary);
-  overflow: hidden;
-  box-shadow: 2em .3em .4em var(--color-neutral);
+  border-color: #fff;
+  background-color: #fff;
+  position: relative;
+  transform: rotate(-3deg)
+}
+
+.action-card-content {
+  border-radius: .3em;
+  z-index: 2;
   background-color: #fff;
 }
 
-.vignette {
-	box-shadow:         inset 0px 0px 85px rgba(0,0,0,0.4);
-
-	line-height: 0;         /* ensure no space between bottom */
-
-	display: inline-block;  /* don't go wider than image */
-  max-height: 500px;
-}
-.vignette img {
-	z-index: -1;            /* position beneath */
-}
-
-.action-card:hover {
-  box-shadow: 0 .1em .4em var(--color-dark-red);
-}
-
-.action-tools-top {
-  background-color: rgba(0, 0, 0, .2);
-  filter: drop-shadow(0 .1em .1em #000);
-  color: #fff;
-}
-
-.action-tools-top {
-  background-color: #fff;
-  filter: none;
-  box-shadow: 0 .1em .3em #000;
-  color: #555;
+.action-card::after {
+  content: " ";
+  transform: skew(-5deg);
+  position: absolute;
+  left: 5%;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  box-shadow: -1em 1em 0.4em rgba(0,0,0,0.4);
+  background-color: transparent;
 }
 
 article {
   background-color: #fff;
-
 }
+
+.polaroid-text {
+  color: #000;
+  font-family: ff-market-web, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
 menu {
   display: inline-block;
   margin: 0;
   padding: 0;
-}
-
-.rightside {
-  padding-right: .75em;
-  padding-bottom: .75em;
-}
-
-.leftside {
-  padding-left: 1.3rem;
-  padding-bottom: 1rem;
 }
 
 .sticky {
@@ -66,10 +52,26 @@ menu {
 
 .sticky-note {
   display: block;
-  padding-top: 25em;
-  background-image: url("/images/stickynote-01.svg");
-  background-repeat: no-repeat;
+  position: relative;
+  transform: rotate(-3deg)
 }
-/* .max-height {
-  max-height: 500px;
-} */
+
+
+.sticky-note-content {
+  border-radius: .3em;
+  z-index: 2;
+  color: #000;
+}
+
+.sticky-note::after {
+  content: " ";
+  transform: skew(-5deg);
+  position: absolute;
+  left: 5%;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  box-shadow: -1em 1em 0.4em rgba(0,0,0,0.4);
+  background-color: transparent;
+  z-index: -2;
+}
