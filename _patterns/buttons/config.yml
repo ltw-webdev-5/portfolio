@@ -5,11 +5,12 @@ description: |
 patterns:
   basic:
     title: "Basic"
-    description: Should be used in almost all situations
+    description: Should be used in almost all situations, when used on white or purple background the button should be blue, and of the button is placed on blue background the button should be pruple.
+    width: 200
     fields:
       - name: text
         type: string
-        example: "Add to Cart"
+        example: "Learn More"
       - name: btn-text
         type: string
         example: "#"
@@ -19,31 +20,19 @@ patterns:
   ghost:
     title: "Ghost"
     description: The ghost button should only be used on banners and in situations where the background is a photo
+    width: 200
+    fields:
+      - name: text
+        type: string
+        example: "Learn More"
+  wide:
+    title: "Wide Button"
+    description: The wide button should only be used when the text that needs to go inside is more then 2 wordds.
     width: 320
     fields:
       - name: text
         type: string
-        example: "Add to Cart"
-  wide:
-    title: "Wide Button"
-    description: The wide button should only be used on cards and in situations where the text withing the button is longer and needs ectra room to fit the surrounding information
-    fields:
-      - name: text
-        type: string
-        example: "Add to Cart"
+        example: "Get in Touch"
       - name: aria
         type: string
-        example: "Add this item to your cart"
-  white-ghost:
-    title: "White"
-    description: This button should be used on the darker backgrounds so it can be read and stand out
-    fields:
-      - name: text
-        type: string
-        example: "See collection"
-      - name: url
-        type: url
-        example: "/products/"
-      - name: aria
-        type: string
-        example: "Add this item to your cart"
+        example: "Get in Touch with Jasmine"

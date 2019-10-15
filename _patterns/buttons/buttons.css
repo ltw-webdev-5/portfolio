@@ -24,7 +24,7 @@
 .btn-ghost:hover {
   background-color: var(--color-secondary-light-blue);
   border: solid 3px var(--color-secondary-light-blue);
-  color: var(--color-primary-blue);
+  color: var(--color-primary-purple);
 }
 
 
