@@ -1,0 +1,185 @@
+:root {
+  --color-primary-blue: #52C4DB;
+  --color-secondary-light-blue: #8CD5E4;
+  --color-primary-purple: #552984;
+  --color-secondary-light-purple: #2C2A6C;
+
+  --font-primary: "PT Serif", serif;
+  --font-secondary: "Adorn Smooth Pomander", sans-serif;
+  --font-tertiary:   "Avenir Next", sans-serif;
+
+  --border-radius: 8px;
+}
+
+.table {
+  min-width: 30em;
+}
+
+html {
+  font-family: var(--font-primary);
+  color: var(--color-primary-purple);
+}
+
+/* @utility Apply the secondary type face */
+
+.font-secondary {
+  font-family: var(--font-secondary);
+}
+
+/* @utility Apply the tertiary type face */
+
+.font-tertiary {
+  font-family: var(--font-tertiary);
+}
+
+/* @utility Apply a light background colour to an element */
+
+.section-light {
+  background-color: var(--color-primary-light);
+}
+
+/* @utility Apply a dark background colour to an element */
+
+.section-dark {
+  background-color: var(--color-primary);
+}
+
+/*-- heading formaat */
+
+h1 {
+  font-family: var(--font-secondary);
+  color: var(--color-primary-pruple);
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* list fomratting */
+
+ul {
+  font-family: var(--font-tertiary);
+  color: var(--color-secondary);
+  font-weight: normal;
+  font-style: normal;
+}
+
+ol {
+  font-family: var(--font-tertiary);
+  color: var(--color-secondary);
+  font-weight: normal;
+  font-style: normal;
+}
+
+dl {
+  font-family: var(--font-tertiary);
+  color: var(--color-secondary);
+  font-weight: normal;
+  font-style: normal;
+}
+
+dt {
+  font-family: var(--font-tertiary);
+  color: var(--color-secondary);
+  font-weight: bold;
+  font-style: normal;
+}
+
+dd {
+  font-family: var(--font-tertiary);
+  color: var(--color-secondary);
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* link formatting */
+
+a {
+  font-family: var(--font-primary);
+  color: var(--color-whatever);
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* blockquote formatting */
+
+blockquote {
+  font-family: var(--font-tertiary);
+  color: var(--color-accent);
+  font-weight: normal;
+  font-style: normal;
+}
+
+cite {
+  font-family: var(--font-tertiary);
+  color: var(--color-accent);
+  font-weight: normal;
+  font-style: italic;
+}
+
+q {
+  font-family: var(--font-tertiary);
+  color: var(--color-accent);
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* emphasis and edits formatting */
+
+em, i, dfn {
+  font-family: var(--font-tertiary);
+  color: var(--color-accent);
+  font-weight: normal;
+  font-style: italic;
+}
+
+mark {
+  background-color: var(--color-accent)
+}
+
+strong, b {
+  font-family: var(--font-tertiary);
+  color: var(--color-accent);
+  font-weight: bold;
+  font-style: normal;
+}
+
+del, s {
+  font-family: var(--font-tertiary);
+  color: var(--color-accent);
+  font-weight: normal;
+  font-style: line;
+}
+
+ins, u {
+  font-family: var(--font-tertiary);
+  color: var(--color-accent);
+  font-weight: normal;
+  font-style: underline;
+}
+
+abbr {
+  font-family: var(--font-tertiary);
+  color: var(--color-accent);
+  font-weight: normal;
+  font-style: uppercase;
+}
+
+dt {
+  font-family: var(--font-tertiary);
+  color: var(--color-secondary);
+  font-weight: bold;
+  font-style: normal;
+}
+
+.icon-link {
+  color: var(--color-secondary);
+  font-family: var(--font-secondary);
+  font-weight: 500;
+  font-style: normal;
+}
