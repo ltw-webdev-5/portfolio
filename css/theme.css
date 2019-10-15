@@ -11,10 +11,6 @@
   --border-radius: 8px;
 }
 
-.table {
-  min-width: 30em;
-}
-
 html {
   font-family: var(--font-primary);
   color: var(--color-primary-purple);
@@ -32,30 +28,18 @@ html {
   font-family: var(--font-tertiary);
 }
 
-/* @utility Apply a light background colour to an element */
-
-.section-light {
-  background-color: var(--color-primary-light);
-}
-
-/* @utility Apply a dark background colour to an element */
-
-.section-dark {
-  background-color: var(--color-primary);
-}
-
 /*-- heading formaat */
 
 h1 {
   font-family: var(--font-secondary);
-  color: var(--color-primary-pruple);
+  color: var(--color-primary-purple);
   font-weight: 400;
   font-style: normal;
 }
 
 h2, h3, h4, h5, h6 {
-  font-family: var(--font-secondary);
-  color: var(--color-primary);
+  font-family: var(--font-tertiary);
+  color: var(--color-primary-purple);
   font-weight: 500;
   font-style: normal;
 }
@@ -63,36 +47,36 @@ h2, h3, h4, h5, h6 {
 /* list fomratting */
 
 ul {
-  font-family: var(--font-tertiary);
-  color: var(--color-secondary);
+  font-family: var(--font-primary);
+  color: var(--color-primary-purple);
   font-weight: normal;
   font-style: normal;
 }
 
 ol {
-  font-family: var(--font-tertiary);
-  color: var(--color-secondary);
+  font-family: var(--font-primary);
+  color: var(--color-primary-purple);
   font-weight: normal;
   font-style: normal;
 }
 
 dl {
-  font-family: var(--font-tertiary);
-  color: var(--color-secondary);
+  font-family: var(--font-primary);
+  color: var(--color-primary-purple);
   font-weight: normal;
   font-style: normal;
 }
 
 dt {
-  font-family: var(--font-tertiary);
-  color: var(--color-secondary);
+  font-family: var(--font-primary);
+  color: var(--color-primary-purple);
   font-weight: bold;
   font-style: normal;
 }
 
 dd {
-  font-family: var(--font-tertiary);
-  color: var(--color-secondary);
+  font-family: var(--font-primary);
+  color: var(--color-primary-purple);
   font-weight: normal;
   font-style: normal;
 }
@@ -101,7 +85,7 @@ dd {
 
 a {
   font-family: var(--font-primary);
-  color: var(--color-whatever);
+  color: var(--color-primary-purple);
   font-weight: bold;
   font-style: normal;
 }
@@ -139,47 +123,41 @@ em, i, dfn {
 }
 
 mark {
-  background-color: var(--color-accent)
+  background-color: var(--color-primary-purple);
+  color: var(--colour-primary-blue);
 }
 
 strong, b {
   font-family: var(--font-tertiary);
-  color: var(--color-accent);
+  color: var(--color-primary-purple);
   font-weight: bold;
   font-style: normal;
 }
 
 del, s {
   font-family: var(--font-tertiary);
-  color: var(--color-accent);
+  color: var(--color-primary-purple);
   font-weight: normal;
   font-style: line;
 }
 
 ins, u {
   font-family: var(--font-tertiary);
-  color: var(--color-accent);
+  color: var(--color-primary-purple);
   font-weight: normal;
   font-style: underline;
 }
 
 abbr {
   font-family: var(--font-tertiary);
-  color: var(--color-accent);
+  color: var(--color-primary-purple);
   font-weight: normal;
   font-style: uppercase;
 }
 
 dt {
   font-family: var(--font-tertiary);
-  color: var(--color-secondary);
+  color: var(--color-primary-purple);
   font-weight: bold;
-  font-style: normal;
-}
-
-.icon-link {
-  color: var(--color-secondary);
-  font-family: var(--font-secondary);
-  font-weight: 500;
   font-style: normal;
 }
