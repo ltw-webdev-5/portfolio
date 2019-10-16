@@ -1,0 +1,27 @@
+.section-heading {
+  color: var(--color-neutral);
+}
+
+.coral {
+  color: var(--color-primary);
+}
+
+.about-section {
+  border: 0 solid var(--color-secondary);
+  border-width: 3px 0px 3px 0px;
+}
+
+.footer {
+  color: var(--color-neutral);
+  border: 0 solid var(--color-secondary);
+  border-width: 3px 0px 0px 0px;
+}
+
+.grey {
+  color: var(--color-neutral);
+}
+
+.box-shadow {
+  box-shadow: 1px 1px 15px grey;
+  margin: 1em;
+}

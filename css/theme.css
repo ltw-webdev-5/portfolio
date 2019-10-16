@@ -1,8 +1,8 @@
 :root {
-  --color-primary:#FF977E;
-  --color-secondary:#FFE3A3;
+  --color-primary: #fe6f61;
+  --color-secondary: #FFE3A3;
   --color-secondary-dark: #FFC748;
-  --color-neutral:#ACACAC;
+  --color-neutral: #ACACAC;
   --color-dark: #000;
 
   --font-primary: 'Muli', sans-serif;

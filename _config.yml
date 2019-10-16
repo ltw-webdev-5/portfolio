@@ -9,4 +9,6 @@ patternbot:
   font_url: "https://fonts.googleapis.com/css?family=Muli:400,700&display=swap"
   rationales:
     typefaces.primary: |
-      Muli is the overall typeface because it is a simple, readable and unique; Just like the rest of the website design.
+      Muli is the overall typeface because it is a simple, readable and unique. It really defines my style and personality. This will be the only font that is used throughout the entire website.
+    colors.primary: |
+      Coral is be the main colour of this brand because it is calm and serene yet strong and adventurous.
