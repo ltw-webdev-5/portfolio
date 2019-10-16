@@ -13,3 +13,8 @@
   color: var(--color-neutral);
   border-radius: 0px;
 }
+
+.btn-next:hover {
+  color: var(--color-primary);
+  border: none;
+}
