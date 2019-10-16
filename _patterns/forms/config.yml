@@ -1,0 +1,20 @@
+title: "Forms"
+description: |
+  Lots of different form fields for different areas in the website. Some can be chuncked together, and some will be by them selves on some pages.
+
+patterns:
+
+  email:
+    title: "Email"
+    description: This form field is used to ask the customer for their email. When registaring with the website or placing an order they can place their email to track their package
+    width: 1000
+
+  name:
+    title: "Name"
+    description: These form fields are used to get the name of the customer for their subscription
+    width: 1000
+
+  last-name:
+    title: "Name"
+    description: These form fields are used to get the name of the customer for their subscription
+    width: 1000
