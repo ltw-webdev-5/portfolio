@@ -16,18 +16,14 @@
   --font-primary: acumin-pro, sans-serif;
   --font-secondary: fatboy, serif;
   --font-header: acumin-pro-wide, sans-serif;
-  --font-subheader: ff-market-web, sans-serif;
+  --font-sharpie: ff-market-web, sans-serif;
+
 }
 
 html {
   font-family: var(--font-primary);
   color: #fff;
   background:  linear-gradient( rgba(23, 58, 39, .4), rgba(23, 58, 39, .4)), var(--background-image);
-}
-
-.main-title {
-  color: #fff;
-  font-family: var(--font-secondary);
 }
 
 h1 {

@@ -56,3 +56,39 @@ patterns:
           source: "site.products[0]"
           type: Product
     width: "80%"
+
+  sheet:
+    title: "sheet"
+    description: |
+      Use this type of card for most text
+    fields:
+      - name: title
+        type: string
+        example: "cap libecap"
+      - name: details
+        type: string
+        example: "me"
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product
+    width: "80%"
+
+  sheet-and-image:
+    title: "sheet"
+    description: |
+      Use this type of card for most text with image
+    fields:
+      - name: title
+        type: string
+        example: "cap libecap"
+      - name: details
+        type: string
+        example: "me"
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product
+    width: "80%"

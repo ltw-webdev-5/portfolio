@@ -1,10 +1,22 @@
 <header class="horizontal-nav banner" role="banner">
   <nav class="navigation"  id="nav" role="navigation" id="nav" tabindex="0">
     <ul class="grid list-group push-0 gutter-1-2 nav text-center">
-      <li class="unit unit-xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 bold micro {% if page.highlight_nav == 'index' %}current{% endif %}"><a class="link-box island-1-4" href="/index/">logo</a></li>
-      <li class="unit unit-xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 bold micro {% if page.highlight_nav == 'how' %}current{% endif %}"><a class="link-box island-1-4" href="#">About</a></li>
-      <li class="unit unit-xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 bold micro {% if page.highlight_nav == 'products' %}current{% endif %}"><a class="link-box island-1-4" href="/products/">Work</a></li>
-      <li class="unit unit-xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 bold micro {% if page.highlight_nav == 'checkout' %}current{% endif %}"><a class="link-box island-1-4" href="/checkout/">Contact</a></li>
+      <li class="unit unit-xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 bold micro {% if page.highlight_nav == 'index' %}current{% endif %}">
+        <a class="link-box island-1-4" href="/index/">
+          <i class="icon i-24">
+            <img src="/images/logo.svg" alt="logo">
+          </i>
+        </a>
+      </li>
+      <li class="unit unit-xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 bold micro {% if page.highlight_nav == 'how' %}current{% endif %}"><a class="link-box island-1-4" href="#about">About</a></li>
+      <li class="unit unit-xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 bold micro dropdown {% if page.highlight_nav == 'products' %}current{% endif %}"><a class="link-box island-1-4" href="#work">Work</a>
+        <ul class="list-group push-0 links">
+          <li><a class="link-box island-1-4 gutter-2" href="#project1">Project 1</a></li>
+          <li><a class="link-box island-1-4 gutter-2" href="#project2">Project 2</a></li>
+          <li><a class="link-box island-1-4 gutter-2" href="#project3">Project 3</a></li>
+        </ul>
+      </li>
+      <li class="unit unit-xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 bold micro {% if page.highlight_nav == 'checkout' %}current{% endif %}"><a class="link-box island-1-4" href="#contact">Contact</a></li>
     </ul>
   </nav>
 </header>
