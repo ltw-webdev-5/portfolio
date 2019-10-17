@@ -4,9 +4,9 @@
   --color-primary-purple: #552984;
   --color-secondary-light-purple: #2C2A6C;
 
-  --font-primary: "PT Serif", serif;
-  --font-secondary: "Adorn Smooth Pomander", sans-serif;
-  --font-tertiary:   "Avenir Next", sans-serif;
+  --font-primary: pt-serif, serif;
+  --font-cursive: adorn-smooth-pomander, sans-serif;
+  --font-tertiary: objektiv-mk1, sans-serif;
 
   --border-radius: 8px;
 }
