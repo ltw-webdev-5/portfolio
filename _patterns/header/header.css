@@ -50,7 +50,7 @@ label.nav-label::before {
 
 .nav-label.btn-hamburger {
   background-color: var(--color-primary-yellow);
-  color: var(--color-secondary);
+  color: white;
   border-radius: 0;
   border-color: transparent;
   margin: 15px;
