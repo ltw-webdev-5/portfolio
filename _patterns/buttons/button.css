@@ -1,48 +1,48 @@
 .btn {
   background-color: var(--color-primary-yellow);
   border-radius: 0;
-  color: var(--color-secondary);
+  color: white;
   border-color: transparent;
 }
 
 .btn-hamburger {
   background-color: var(--color-primary-yellow);
-  color: var(--color-secondary);
+  color: white;
   border-radius: 0;
   border-color: transparent;
 }
 
 .btn-hamburger:hover {
   background-color: var(--color-primary-purple);
-  color: var(--color-secondary);
+  color: white;
   border-radius: 0;
   border-color: transparent;
 }
 
 .btn-x {
   background-color: var(--color-primary-orange);
-  color: var(--color-secondary);
+  color: white;
   border-radius: 0;
   border-color: transparent;
 }
 
 .btn-x:hover {
   background-color: var(--color-primary-red);
-  color: var(--color-secondary);
+  color: white;
   border-radius: 0;
   border-color: transparent;
 }
 
 .btn-submit {
   background-color: var(--color-primary-yellow);
-  color: var(--color-secondary);
+  color: white;
   border-radius: 0;
   border-color: transparent;
 }
 
 .btn-submit:hover {
   background-color: var(--color-primary-purple);
-  color: var(--color-secondary);
+  color: white;
   border-radius: 0;
   border-color: transparent;
 }
