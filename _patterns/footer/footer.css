@@ -1,0 +1,48 @@
+footer {
+  background-color: var(--color-primary-purple);
+  color: var(--color-primary-blue);
+}
+
+.footer-nav {
+  text-align: center;
+  list-style-type: none;
+  text-align: center;
+}
+
+.footer-nav a {
+  color: var(--color-primary-blue);
+  text-decoration: none;
+}
+
+.footer-nav a:hover {
+  color: var(--color-secondary-light-blue);
+}
+
+.insta, .facebook, .behance {
+  color: var(--color-primary-blue);
+}
+
+@media only screen and (min-width: 38em) {
+
+  .align-left {
+    text-align: left;
+  }
+
+  .align-right {
+    text-align: right;
+  }
+
+  .no-pad-t {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .no-pad-b {
+    padding-bottom: 0;
+  }
+
+  .push-r-1-4 {
+    margin-right: 0.65rem;
+  }
+
+}
