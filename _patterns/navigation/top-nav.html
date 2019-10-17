@@ -1,15 +1,25 @@
-<header class="banne grid">
+<input type="checkbox" class="nav-check" id="nav-check">
+<!-- This is the button we’d click to open/close the navigation -->
+
+<header class="banner grid island">
+
+  <i class="icon i-64 icon-logo unit xs-3-4 m-3-4"><svg><use xlink:href="/images/icons.svg#logo-32"></use></svg></i>
+
+  <label class="nav-label hide-custom-input unit xs-1-4 m-1-4" for="nav-check">
+    <i class="icon i-32 nav-icon-open"><svg><use xlink:href="/images/icons.svg#bruger-nav"></use></svg></i>
+  </label>
+
   <nav role="navigation" id="navigation" tabindex="0" class="unit s-1 m-1 l-1 text-center">
     <ul class="nav list-group">
-      <li class="{% if page.highlight_nav =='index' %}current{% endif %}"><a class="island" href="/index.html">About</a></li>
+      <li class="{% if page.highlight_nav =='about' %}current{% endif %}"><a class="island" href="/index.html">About</a></li>
 
-      <li class="{% if page.highlight_nav =='about' %}current{% endif %}"><a class="island" href="#">Project</a></li>
+      <li class="{% if page.highlight_nav =='project' %}current{% endif %}"><a class="island" href="#">Project</a></li>
 
-        <li class="logo island-1-2 {% if page.highlight_nav =='cart' %}current{% endif %}"><a href="#"><i class="icon i-256"> <img src="/images/logo-purple.svg"></i></a></li>
+      <li class="logo island-1-2 {% if page.highlight_nav =='index' %}current{% endif %}"><a href="#"><i class="icon i-256"> <img src="/images/logo.svg"></i></a></li>
 
-      <li class="{% if page.highlight_nav =='learn' %}current{% endif %}"><a class="island" href="#">Services</a></li>
+      <li class="{% if page.highlight_nav =='services' %}current{% endif %}"><a class="island" href="#">Services</a></li>
 
-      <li class="{% if page.highlight_nav =='blog' %}current{% endif %}"><a class="island" href="#">Contact</a></li>
+      <li class="{% if page.highlight_nav =='contact' %}current{% endif %}"><a class="island" href="#">Contact</a></li>
     </ul>
   </nav>
 </header>

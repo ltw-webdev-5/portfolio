@@ -3,46 +3,102 @@ h1 {
 }
 
 header {
-  background-color: var(--color-primary-light);
-  border-top: 5px solid var(--color-primary);
-  border-bottom: 5px solid var(--color-primary);
+  background-color: var(--color-primary-purple);
+}
+
+nav {
+  color: var(--color-primary-blue);
+}
+
+.logo {
+  display: none;
+}
+
+.icon-logo {
+  color: var(--color-secondary-light-blue);
+  align: center;
+}
+
+.nav-icon-open{
+  color: var(--color-primary-blue);
+  align: right;
+}
+
+.nav a {
+  color: var(--color-primary-blue);
+  display: block;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.nav a:hover {
+  background-color: var(--color-primary-blue);
+  color: var(--color-primary-purple);
 }
 
 .nav {
   text-align: center;
-}
-
-.nav a {
-  display: block;
-  text-decoration: none;
-  background-color: transparent;
-  border-radius: 3px;
-  color: var(--color-primary);
-}
-
-.nav a:hover {
-  color: var(--color-primary-blue);
-}
-
-.nav {
+  display: none;
   margin: 0;
   padding: 0;
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
   text-align: center;
+  display: none;
 }
 
 .current {
-  border-bottom: 5px solid var(--color-primary-purple);
   color: var(--color-primary-blue);
 }
 
-.shopping-cart a:hover {
-  border-bottom: 5px solid var(--color-primary);
+.nav-check:checked ~ .banner .nav {
+  display: block;
 }
 
-@media only screen and (min-width: 60em) {
+.nav-check {
+  position: absolute;
+  top: -10em;
+}
+
+@media only screen and (min-width: 60em){
+
+  .nav a {
+    color: var(--color-primary-purple);
+  }
+
+  .nav a:hover {
+    background-color: transparent;
+    color: var(--color-primary-blue);
+  }
+
+  .icon-logo {
+    display: none;
+  }
+
+  .nav-icon-open {
+    display: none;
+  }
+
+  .nav-icon-close {
+    display: none;
+  }
+  header {
+    background-color: transparent;
+  }
+
+  .nav {
+  display: flex;
+  flex-wrap: wrap; /* Allow the items to be on many lines */
+  }
+
+  .nav li {
+    width: 50%;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
 
   .nav {
     display: inline-block;
