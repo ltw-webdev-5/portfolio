@@ -66,3 +66,57 @@ patterns:
         - name: text-label
           type: string
           example: "Text Input"
+    card-image-right:
+      title: "Image Right Card"
+      description: |
+        The Image Right Card is used on the project pages. It will contain information about the steps taken in creation of the project. The cards Image Right Card and Image Left Card must be alternated.
+      fields:
+        - name: heading
+          type: string
+          example: "Step 1"
+        - name: text
+          type: string
+          example: "This is the part where the explaination goes in."
+        - name: image
+          type: string
+          example: "/images/laundromate.jpg"
+        - name: alt
+          type: string
+          example: "the description of the image goes here"
+    card-image-left:
+      title: "Image Left Card"
+      description: |
+        The Image Left Card is used on the project pages. It will contain information about the steps taken in creation of the project. The cards Image Left Card and Image Right Card must be alternated.
+      fields:
+        - name: heading
+          type: string
+          example: "Step 2"
+        - name: text
+          type: string
+          example: "This is the part where the explaination goes in."
+        - name: image
+          type: string
+          example: "/images/jolie.jpg"
+        - name: alt
+          type: string
+          example: "the description of the image goes here"
+    card-project-header:
+      title: "Project Header Card"
+      description: |
+        The Project Header Card is used as the first thing on the project pages.
+      fields:
+        - name: heading
+          type: string
+          example: "LaundroMate"
+        - name: subheading
+          type: string
+          example: "App Design 	&#9679; UI/UX"
+        - name: image
+          type: string
+          example: "/images/laundromate-header.jpg"
+        - name: text
+          type: string
+          example: "This is where the description and explaination of the project goes."
+        - name: alt
+          type: string
+          example: "the description of the image goes here"

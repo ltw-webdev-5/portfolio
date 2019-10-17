@@ -2,9 +2,13 @@
   display: none;
   list-style-type: none;
   padding: 0;
+  margin: 0;
   height: 100vh;
   width: 100vw;
   background-color: var(--color-secondary-light);
+  position: fixed;
+  left: 0;
+  top: 0;
 }
 
 .nav a {
@@ -51,6 +55,7 @@ label.nav-label::before {
   border-color: transparent;
   margin: 15px;
   display: flex;
+  position: fixed;
 }
 
 .nav-label.btn-hamburger:hover {
@@ -59,4 +64,9 @@ label.nav-label::before {
 
 .nav-close {
   display: none;
+}
+
+.front {
+  z-index: 1000;
+  position: relative;
 }
