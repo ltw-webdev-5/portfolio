@@ -1,13 +1,26 @@
 .hero-banner {
   color: #fff;
-  text-shadow: .1em .1em .3em rgba(0, 0, 0, .8);
   height: 100vh;
-  background: rgba(76, 175, 80, 0.6);
 }
 
+.hero-banner picture {
+  opacity: .8;
+  height: 100vh;
+}
 
+.banner-title {
+  height: 100vh;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  width: 80%;
+}
 
-h4 {
-  font-family: var(--font-header);
-  letter-spacing: 1em;
+.main-title {
+  text-align: right;
+}
+
+.title-text {
+  font-size: 4em;
+  height: 100vh;
 }

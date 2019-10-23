@@ -26,12 +26,12 @@ html {
   background:  linear-gradient( rgba(23, 58, 39, .4), rgba(23, 58, 39, .4)), var(--background-image);
 }
 
-h1 {
+h1, h2 {
   font-family: var(--font-secondary);
   color: var(--color-primary);
 }
 
-h2, h3, h4, h5, h6 {
+h3, h4, h5, h6 {
   font-family: var(--font-header);
 }
 
