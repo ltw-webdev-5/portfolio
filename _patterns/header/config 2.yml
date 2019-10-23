@@ -1,9 +1,0 @@
-title: "Header"
-description: |
-  To be used once per page to help navigate through the website
-
-patterns:
-  header:
-    title: "Horizontal Navigation"
-    description: |
-      The Classic navigation, used when there are only a few other main sections
