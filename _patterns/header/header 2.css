@@ -1,0 +1,73 @@
+.horizontal-nav ul li {
+  padding: 0, 2em;
+}
+
+.contact, a {
+  text-decoration: none;
+  color: var(--color-secondary-light);
+}
+
+a:hover {
+  color: var(--color-primary);
+  font-weight: bold;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.links {
+  display: none;
+  background-color: rgba(23, 58, 39, .8);
+  position: absolute;
+  text-decoration: none;
+  z-index: 1;
+}
+
+.links li:hover {
+  color
+}
+.links {
+  margin-left: 3em;
+}
+
+.links a {
+
+}
+
+.dropdown .links li:hover {
+  color: var(--font-color-dark);
+}
+
+a:hover {
+  background-image: url("/images/icons_brush.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 2em;
+  min-width: 8em;
+
+}
+
+.dropdown .links li a:hover {
+  color: var(--color-primary);
+}
+
+
+.dropdown:hover .links {
+  display: block;
+}
+
+.dropdown:hover .links {
+  color: var(--color-header);
+}
+
+.horizontal-nav {
+  background-color: var(--color-header);
+}
+
+.current {
+  background-color: var(--color-primary);
+}
+
+.current a {
+  color: #fff;
+  font-weight: bold;
+}

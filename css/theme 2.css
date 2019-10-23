@@ -1,0 +1,79 @@
+:root {
+  --color-primary: #fdd835;
+  --color-secondary: #173a27;
+  --color-secondary-light: #9abda9;
+  --color-orange-light: #ffbb4d;
+  --color-orange: #fc962e;
+  --color-background: rgba(23, 58, 39, .4);
+  --background-image: url("../images/texture.jpg");
+  --color-note-orange:#e6790a;
+  --color-burnt-orange: #e86807;
+  --color-red: #962903;
+  --color-red-dark: #621704;
+  --color-header:#001600;
+  --font-primary-color: #fff;
+  --font-color-dark: #000;
+  --font-primary: acumin-pro, sans-serif;
+  --font-secondary: fatboy, serif;
+  --font-header: acumin-pro-wide, sans-serif;
+  --font-sharpie: ff-market-web, sans-serif;
+
+}
+
+html {
+  font-family: var(--font-primary);
+  color: #fff;
+  background:  linear-gradient( rgba(23, 58, 39, .4), rgba(23, 58, 39, .4)), var(--background-image);
+}
+
+h1 {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: var(--font-header);
+}
+
+p {
+  font-family: var(--font-primary);
+}
+cite {
+  font-family: var(--font-primary);
+  font-weight: 300;
+}
+
+mark {
+  background-color: var(--color-secondary-light);
+}
+a {
+  color: #fff;
+}
+
+b {
+  font-family: var(--font-primary);
+  font-weight: bold;
+}
+
+ol, ul, dl, q, th {
+  font-family: var(--font-primary);
+  color: var(--color-orange);
+}
+
+cite {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+}
+
+.skip-links a {
+  position: absolute;
+  top: -10em;
+}
+
+.skip-links a:focus {
+  top: 0;
+}
+
+a:focus {
+  outline: 3px solid var(--color-neutral);
+}

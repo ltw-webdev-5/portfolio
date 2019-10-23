@@ -1,0 +1,24 @@
+title: "Banner"
+description: |
+  Use for call to action and hero banners
+
+patterns:
+  main-banner:
+    fields:
+      - name: heading
+        type: string
+        example: Cap Libecap
+      - name: text
+        type: string
+        example: "Graphic Design"
+      - name: button_text
+        type: string
+        example: "contact"
+        required: false
+      - name: button_url
+        type: url
+        example: "/products/"
+        required: false
+    title: "Main"
+    description: |
+      Use this banner as the default

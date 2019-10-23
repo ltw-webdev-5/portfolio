@@ -1,0 +1,11 @@
+.social i:hover {
+  color: var(--color-primary);
+  font-weight: bold;
+}
+.contentinfo {
+  background-color: var(--color-header);
+}
+
+.contentinfo li {
+  color: #fff;
+}
