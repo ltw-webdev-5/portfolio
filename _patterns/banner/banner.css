@@ -9,6 +9,7 @@
   transform: translateX(-50%);
   z-index: 10;
   width: 80%;
+  /*background: var(--background-text) center center / 300px auto no-repeat;*/
 }
 
 .main-title {
