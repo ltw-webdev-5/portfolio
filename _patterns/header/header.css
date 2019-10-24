@@ -4,7 +4,6 @@
 
 .nav:hover {
   color: #fff;
-  font-weight: bold;
   background-image: url("/images/icons_brush.svg");
   background-repeat: no-repeat;
   background-size: 100% 2em;
