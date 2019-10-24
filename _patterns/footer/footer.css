@@ -8,4 +8,23 @@
 
 .contentinfo li {
   color: #fff;
+  font-weight: bold;
+}
+
+.footer:hover {
+  color: #fff;
+  font-weight: bold;
+  background-image: url("/images/icons_brush.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 2em;
+  min-width: 8em;
+  background-position: center;
+}
+
+.copyright li {
+  color: var(--color-secondary-light);
+}
+
+.social li {
+  display: block;
 }
