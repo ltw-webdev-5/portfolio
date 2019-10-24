@@ -64,3 +64,21 @@ patterns:
           source: "site.products[0]"
           type: Product
     width: "80%"
+
+  see-more:
+    title: "See More Work"
+    description: |
+      Use this for the bottom of the accompanying pages to redirect to work section
+    fields:
+      - name: title
+        type: string
+        example: "cap libecap"
+      - name: details
+        type: string
+        example: "me"
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product
+    width: "80%"

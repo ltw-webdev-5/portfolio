@@ -31,7 +31,19 @@
   display: inline-block;
 }
 
+.logo {
+  font-size: 1rem;
+}
+
 .logo:hover  {
   color: var(--color-secondary);
   border-color: var(--color-secondary);
+}
+
+@media only screen and (min-width: 25em) {
+
+  .logo {
+    font-size: 1.0309rem;
+  }
+
 }

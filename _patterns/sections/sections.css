@@ -13,3 +13,7 @@
   background-size: 100% 2em;
   min-width: 8em;
 }
+
+.see-more-link:hover {
+  color: var(--color-secondary);
+}

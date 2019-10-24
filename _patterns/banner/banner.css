@@ -36,9 +36,13 @@
   border-width: 2px;
   border-color: #fffff1;
   display: inline-block;
+  font-size: 1.8rem;
 }
 
-.title-text {
-  font-size: 6em;
-  height: 10vh;
+@media only screen and (min-width: 25em) {
+
+  .title {
+    font-size: 1.9718rem;
+  }
+
 }
