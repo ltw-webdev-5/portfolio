@@ -28,3 +28,39 @@ patterns:
       title: "Portfolio sections"
       description: |
         Use this to help seperate the portfolio sections
+
+  text-and-image:
+    title: "text and image"
+    description: |
+      Use this type of card for image accompanying text
+    fields:
+      - name: title
+        type: string
+        example: "cap libecap"
+      - name: details
+        type: string
+        example: "me"
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product
+    width: "80%"
+
+  image-text-inline:
+    title: "text and image inline at medium and large sizes"
+    description: |
+      Use this type of card for image accompanying text
+    fields:
+      - name: title
+        type: string
+        example: "cap libecap"
+      - name: details
+        type: string
+        example: "me"
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product
+    width: "80%"

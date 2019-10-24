@@ -3,8 +3,8 @@ description: |
   The form can be used when creating a product description. Use corresponding icon with product description
 
 patterns:
-  polaroid:
-    title: "polaroid"
+  figure:
+    title: "figure with caption"
     description: |
       Use this type of card for products
     fields:
@@ -21,11 +21,10 @@ patterns:
           type: Product
     width: "20em"
 
-
-  image-on-paper:
-    title: "image on paper"
+  image-card:
+    title: "Image Card"
     description: |
-      Use this type of card for images with a border
+      Use this type of card on the indext to direct user to project overview page
     fields:
       - name: title
         type: string
@@ -38,40 +37,3 @@ patterns:
         data:
           source: "site.products[0]"
           type: Product
-    width: "80%"
-
-  sheet:
-    title: "sheet"
-    description: |
-      Use this type of card for most text
-    fields:
-      - name: title
-        type: string
-        example: "cap libecap"
-      - name: details
-        type: string
-        example: "me"
-      - name: data
-        type: object
-        data:
-          source: "site.products[0]"
-          type: Product
-    width: "80%"
-
-  sheet-and-image:
-    title: "sheet"
-    description: |
-      Use this type of card for most text with image
-    fields:
-      - name: title
-        type: string
-        example: "cap libecap"
-      - name: details
-        type: string
-        example: "me"
-      - name: data
-        type: object
-        data:
-          source: "site.products[0]"
-          type: Product
-    width: "80%"

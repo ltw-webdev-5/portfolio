@@ -1,0 +1,96 @@
+title: "Image Sizes"
+description: |
+  If you want the full photo, resize it to the same dimensions as the placeholder, otherwise it will be cut off
+
+patterns:
+
+  image1by1:
+    title: "1by1"
+    description: |
+      Use this type for square images
+    fields:
+      - name: title
+        type: string
+        example: "cap libecap"
+      - name: details
+        type: string
+        example: "me"
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product
+    width: "80%"
+    height: 100%;
+
+  image2by3:
+    title: "image2by3"
+    description: |
+      Use this type for portrait images
+    fields:
+      - name: title
+        type: string
+        example: "cap libecap"
+      - name: details
+        type: string
+        example: "me"
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product
+    width: "80%"
+
+  image3by2:
+    title: "image3by2"
+    description: |
+      Use this type for landscape images
+    fields:
+      - name: title
+        type: string
+        example: "cap libecap"
+      - name: details
+        type: string
+        example: "me"
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product
+    width: "80%"
+
+  image4by3:
+    title: "4by3"
+    description: |
+      Use this type for tv/computer images
+    fields:
+      - name: title
+        type: string
+        example: "cap libecap"
+      - name: details
+        type: string
+        example: "me"
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product
+    width: "80%"
+
+  image16by9:
+    title: "16x9"
+    description: |
+      Use this setting for wide photos like banners
+    fields:
+      - name: title
+        type: string
+        example: "cap libecap"
+      - name: details
+        type: string
+        example: "me"
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product
+    width: "80%"

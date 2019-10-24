@@ -1,6 +1,6 @@
 /*
   Typografier || Code released under the UNLICENSE
-  https://typografier.web-dev.tools/#0,100,1.3,1.067,0;38,110,1.4,1.125,1;60,120,1.5,1.125,1;90,130,1.5,1.125,1
+  https://typografier.web-dev.tools/#0,110,1.3,1.067,0;38,120,1.4,1.125,1;60,130,1.5,1.125,1;90,140,1.5,1.125,1
 */
 
 html {
@@ -171,62 +171,62 @@ menu {
 }
 
 .tenamega {
-  font-size: 2.0408rem;
+  font-size: 2.2449rem;
   line-height: 2.925rem;
 }
 
 .tenakilo {
-  font-size: 1.9127rem;
-  line-height: 2.6rem;
+  font-size: 2.104rem;
+  line-height: 2.925rem;
 }
 
 .tena {
-  font-size: 1.7926rem;
+  font-size: 1.9718rem;
   line-height: 2.6rem;
 }
 
 .nina {
-  font-size: 1.68rem;
-  line-height: 2.275rem;
+  font-size: 1.848rem;
+  line-height: 2.6rem;
 }
 
 .yotta {
-  font-size: 1.5745rem;
+  font-size: 1.732rem;
   line-height: 2.275rem;
 }
 
 .zetta {
-  font-size: 1.4757rem;
-  line-height: 1.95rem;
+  font-size: 1.6232rem;
+  line-height: 2.275rem;
 }
 
 h1,
 .exa {
-  font-size: 1.383rem;
-  line-height: 1.95rem;
+  font-size: 1.5213rem;
+  line-height: 2.275rem;
 }
 
 h2,
 .peta {
-  font-size: 1.2962rem;
+  font-size: 1.4258rem;
   line-height: 1.95rem;
 }
 
 h3,
 .tera {
-  font-size: 1.2148rem;
-  line-height: 1.625rem;
+  font-size: 1.3362rem;
+  line-height: 1.95rem;
 }
 
 h4,
 .giga {
-  font-size: 1.1385rem;
-  line-height: 1.625rem;
+  font-size: 1.2523rem;
+  line-height: 1.95rem;
 }
 
 h5,
 .mega {
-  font-size: 1.067rem;
+  font-size: 1.1737rem;
   line-height: 1.625rem;
 }
 
@@ -234,28 +234,28 @@ h6,
 .kilo,
 input,
 textarea {
-  font-size: 1rem;
-  line-height: 1.3rem;
+  font-size: 1.1rem;
+  line-height: 1.625rem;
 }
 
 small,
 .milli {
-  font-size: .9372rem;
-  line-height: 1.3rem;
+  font-size: 1.0309rem;
+  line-height: 1.625rem;
 }
 
 .micro {
-  font-size: .8784rem;
+  font-size: .9662rem;
   line-height: 1.3rem;
 }
 
 .nano {
-  font-size: .8232rem;
+  font-size: .9055rem;
   line-height: 1.3rem;
 }
 
 .pico {
-  font-size: .7715rem;
+  font-size: .8487rem;
   line-height: 1.3rem;
 }
 
@@ -538,7 +538,7 @@ legend {
 @media only screen and (min-width: 38em) {
 
   html {
-    font-size: 110%;
+    font-size: 120%;
     line-height: 1.4;
   }
 
@@ -955,7 +955,7 @@ legend {
 @media only screen and (min-width: 60em) {
 
   html {
-    font-size: 120%;
+    font-size: 130%;
     line-height: 1.5;
   }
 
@@ -1372,7 +1372,7 @@ legend {
 @media only screen and (min-width: 90em) {
 
   html {
-    font-size: 130%;
+    font-size: 140%;
     line-height: 1.5;
   }
 
