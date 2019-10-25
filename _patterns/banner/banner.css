@@ -2,6 +2,15 @@
   height: 100vh;
 }
 
+.img-banner {
+  color: #fff;
+  height: 100vh;
+  /* background-image: url("../images/test.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll; */
+}
+
 .main-banner {
   color: #fff;
   height: 100vh;
@@ -9,6 +18,20 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll;
+}
+
+.image-title {
+  height: 100vh;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  width: 80%;
+  top: 25%;
+}
+
+.logo-test {
+  width: 20%;
+  display: inline-block;
 }
 
 .hero-banner {
@@ -40,17 +63,23 @@
 }
 
 .title {
-  border-style: solid;
-  border-width: 2px;
-  border-color: #fffff1;
   display: inline-block;
   font-size: 1.8rem;
+}
+
+.subhead {
+  font-weight: 300;
+  font-size: 1.4238rem;
 }
 
 @media only screen and (min-width: 25em) {
 
   .title {
-    font-size: 1.9718rem;
+    font-size: 4.9718rem;
+  }
+
+  .subhead {
+    font-size: 2.4238rem;
   }
 
 }
