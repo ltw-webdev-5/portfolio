@@ -12,7 +12,7 @@ patternbot:
     background: "--color-background"
     accent: "--color-primary"
     patterns:
-      brand.logos: "--color-secondary-light"
+      brand.logos: "--color-orange"
   rationales:
     typefaces.primary: |
       Kepler
