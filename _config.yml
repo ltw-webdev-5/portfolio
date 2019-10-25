@@ -4,7 +4,7 @@ patternbot:
   title: Cap Libecap
   description: |
     Graphic Designer based in Ottawa, Ontario.
-  font_url: "https://use.typekit.net/koj3aet.css"
+  font_url: "https://use.typekit.net/fgq6wuf.css"
   layouts:
     default: |
       The default layout should be used for almost every page, it includes the website's primary header & footer.
@@ -15,14 +15,12 @@ patternbot:
       brand.logos: "--color-secondary-light"
   rationales:
     typefaces.primary: |
-      Acumin Pro and Acumin Pro Wide were selected because as the body text it is easy to read and it complements the WTR Fatboy slab serif typeface.
-    typefaces.secondary: |
-      WTR Fatboy was used for the headers to give the website a loud poster feel.
+      Kepler
     colors.primary: |
-      The primary colour is a purple to represent mysticism and spells. It is a colour that is used frequently on competitor sites and in pop culture referencing magic.
+      The primary colour is white. This is so there is high contrast with the text and background colour.
     colors.secondary: |
-      The secondary colour is a kind of turquoise that is frequently used in movies and imagry for potions, ampulets and other magical items.
-    colors.neutral: |
+      The secondary colour is a kind of turquoise just to be used occasionally for accents
+    colors.additional: |
       These colours are used to aid and enhance the primary and secondary colours.
 collections:
     products:

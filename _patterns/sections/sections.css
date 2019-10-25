@@ -1,8 +1,6 @@
-
 .brush {
   color: #fff;
   display: block;
-
   }
 
 .brush h2 {
@@ -15,4 +13,9 @@
 
 .see-more-link:hover {
   color: var(--color-secondary);
+}
+
+.see {
+  width: 40%;
+  display: inline-block;
 }
