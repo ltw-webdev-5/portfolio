@@ -12,10 +12,10 @@ patternbot:
     background: "--color-background"
     accent: "--color-primary"
     patterns:
-      brand.logos: "--color-orange"
+      brand.logos: "--color-secondary"
   rationales:
     typefaces.primary: |
-      Kepler
+      Kepler extended is used because it has a heavier weight and slightly more spacing between the characters, making it a good typeface to use on a dark background.
     colors.primary: |
       The primary colour is white. This is so there is high contrast with the text and background colour.
     colors.secondary: |
