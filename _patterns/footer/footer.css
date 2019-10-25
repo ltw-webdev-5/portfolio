@@ -28,3 +28,12 @@
 .social li {
   display: block;
 }
+
+
+@media only screen and (min-width: 38em) {
+
+  .social {
+    text-align:center;
+  }
+
+}

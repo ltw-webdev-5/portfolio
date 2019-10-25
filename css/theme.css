@@ -18,6 +18,9 @@ html {
   background-color: #000;
 
 }
+.light {
+  font-weight: 300;
+}
 
 main {
   background-image: var(--background-text):
