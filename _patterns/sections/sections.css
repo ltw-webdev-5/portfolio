@@ -15,7 +15,18 @@
   color: var(--color-secondary);
 }
 
+.see-more-link:hover .box {
+  border-color: var(--color-secondary);
+}
+
 .see {
-  width: 40%;
+  width: 60%;
+  display: inline-block;
+}
+
+.box {
+  border-style: solid;
+  border-color: #fff;
+  border-width: .1rem;
   display: inline-block;
 }

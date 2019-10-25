@@ -72,7 +72,7 @@
   font-size: 1.4238rem;
 }
 
-.logo {
+.logo, .menu {
   text-align: center;
 }
 
@@ -88,6 +88,10 @@
 
   .logo {
     text-align: left;
+  }
+
+  .menu {
+    text-align: right;
   }
 
 }
