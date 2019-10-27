@@ -8,12 +8,12 @@
 
 .image img {
   transition: transform .5s ease-in-out, filter 1.5s ease-in-out;
-  filter: grayscale(.9);
+  /* filter: grayscale(.9); */
 }
 
 .image:hover img {
   transform: scale(1.2);
-  filter: grayscale(0);
+  /* filter: grayscale(0); */
 }
 
 .card-text {
