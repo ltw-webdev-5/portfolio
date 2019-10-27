@@ -7,7 +7,7 @@
   display: inline-block;
   background-image: url("/images/icons_brush.svg");
   background-repeat: no-repeat;
-  background-size: 100% 2em;
+  background-size: 100% 1em;
   min-width: 8em;
 }
 
