@@ -8,7 +8,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: -30.5em 0em;
+  background-position: -32.5em 10em;
 }
 
 .contentinfo li {
@@ -41,7 +41,7 @@
   }
 
   .contentinfo {
-    background-position: -27em 7em;
+    background-position: -46em 18em;
   }
 
 }
@@ -49,7 +49,7 @@
 @media only screen and (min-width: 60em) {
 
   .contentinfo {
-    background-position: -40em 14em;
+    background-position: -20em 14em;
   }
 
 }
