@@ -16,10 +16,16 @@ html {
   color: var(--color-primary-purple);
 }
 
+/* @utility Apply the primary type face */
+
+.font-prime {
+  font-family: var(--font-primary);
+}
+
 /* @utility Apply the secondary type face */
 
-.font-secondary {
-  font-family: var(--font-secondary);
+.font-cursive {
+  font-family: var(--font-cursive);
 }
 
 /* @utility Apply the tertiary type face */
@@ -93,24 +99,25 @@ a {
 /* blockquote formatting */
 
 blockquote {
-  font-family: var(--font-tertiary);
+  font-family: var(--font-primary);
   color: var(--color-accent);
   font-weight: normal;
   font-style: normal;
 }
 
 cite {
-  font-family: var(--font-tertiary);
+  font-family: var(--font-primary);
   color: var(--color-accent);
   font-weight: normal;
   font-style: italic;
+  align-content: right;
 }
 
 q {
-  font-family: var(--font-tertiary);
+  font-family: var(--font-prime);
   color: var(--color-accent);
   font-weight: normal;
-  font-style: normal;
+  font-style: italic;
 }
 
 /* emphasis and edits formatting */
