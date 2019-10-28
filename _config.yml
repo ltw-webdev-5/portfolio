@@ -3,6 +3,12 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
+
+  layouts:
+    default: |
+      The default layout should be used for almost every page, it includes the website's primary header and footer.
+    product: |
+      The product layout should be used for displaying the details and design process of the selected project.
   title: "Gabriella Cincoleon"
   description: |
     Gabriella Cincoleon's online graphic design portfolio.
