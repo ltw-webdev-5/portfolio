@@ -1,6 +1,0 @@
-# www.robotstxt.org
-
-Sitemap: http://gabbycincoleon.ca/sitemap.xml
-
-User-Agent: *
-Disallow:
