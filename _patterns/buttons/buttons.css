@@ -6,22 +6,20 @@
 }
 
  .btn:hover {
-  background-color: var(--color-primary);
-  border-color: var(--color-primary);
-  color: #000;
+  border-color: var(--color-secondary);
+  color: var(--color-secondary);
   font-weight: bold;
   animation: none;
   box-shadow: none;
   }
 
 .btn-ghost {
-  background-color: transparent;
-  border-color: #000;
-  color: #000;
+  border-color: #fff;
+  color: #fff;
 }
 
 .btn-ghost:hover {
-  background-color: var(--color-primary);
+  background-color: var(--color-secondary);
   color: #000;
 }
 

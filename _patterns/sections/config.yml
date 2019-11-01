@@ -53,6 +53,24 @@ patterns:
           type: Product
     width: "80%"
 
+  subheader-text:
+    title: "text and image inline at medium and large sizes"
+    description: |
+      Use this type of card for header to be inline with accompanying text
+    fields:
+      - name: title
+        type: string
+        example: "cap libecap"
+      - name: details
+        type: string
+        example: "me"
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product
+    width: "80%"
+
   see-more:
     title: "See More Work"
     description: |
