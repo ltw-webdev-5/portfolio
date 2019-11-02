@@ -5,4 +5,24 @@ theme: jekyll_patternbot
 patternbot:
   title: "Jasmine"
   discription: |
+    Hey I’m Jasmine,
+
+    I am a maritimer living a city girl life. I grew up artsy in a creative household which always helped me to work towards my artistic side. I have discovered my vibrant, quirky, and hardworking side at a young age and with graphic design I am able to harness that into my work. I love making people laugh with a great story, and helping my clients to tell their stories through design. You’ll see me around with a coca-cola in hand and dreaming about travel.
   font_url: "https://use.typekit.net/pbl6vxx.css"
+  colors:
+  rationales:
+    colors.primary.blue: |
+      Light blue is one of the primary brand colours. It was chosen to represent my me as a person, and to add a feel of trust, calmness, and somewhat vibrant colour throughout the site.
+    colors.primary.purple: |
+      Purple is one of the other primary brand colours. It was chosen to accent the blue and add a feel of ambition, peace, and creativity throughout the site.
+    colors.secondary.light.blue: |
+      This colour was chosen for specifc section and actions such as the <mark> tag.
+    typefaces.primary: |
+      Open Sans was chosen for its accessibility and readability. It is also a font I use as a part of my brand, so using it here makes my brand more consistent.
+    typefaces.secondary: |
+      Proxima Nova was chosen to be used fo headings. Its a slightly bolder font that matches my brand well. It is also a very readable font which is ideal for websites.
+
+--color-primary-blue: #52C4DB;
+--color-secondary-light-blue: #8CD5E4;
+--color-primary-purple: #552984;
+--color-secondary-light-purple: #2C2A6C;
