@@ -7,3 +7,4 @@ patterns:
       title: "Full Page Navigation"
       description: |
         The Full Page Navigation is used to navigate through the website to different sections.
+      height: 400
