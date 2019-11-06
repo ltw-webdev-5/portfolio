@@ -18,3 +18,8 @@ patternbot:
       Muli is the overall typeface because it is a simple, readable and unique. It really defines my style and personality. This will be the only font that is used throughout the entire website.
     colors.primary: |
       Coral is be the main colour of this brand because it is calm and serene yet strong and adventurous.
+
+
+collections:
+  work:
+    output: true

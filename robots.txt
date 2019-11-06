@@ -1,0 +1,4 @@
+Sitemap: https://gabbycincoleon.ca/sitemap.xml
+
+User-Agent: *
+Disallow:
