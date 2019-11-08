@@ -26,6 +26,6 @@
 .card-text h3 {
   font-weight: 700;
 }
-.card:hover .card-text {
+.card:hover .card-text h3{
   visibility: visible;
 }

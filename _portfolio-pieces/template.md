@@ -1,11 +1,4 @@
 ---
-layout: default
----
-<h1>{{page.title}}</h1>
-<h2>{{page.scope}}</h2>
-<h2>{{page.research}}</h2>
-<h2>{{page.sketches}}</h2>
----
 layout: portfolio
 title: ""
 banner: "images/banner.jpg"

@@ -9,17 +9,9 @@ patterns:
     description: |
       Use this type for square images
     fields:
-      - name: title
-        type: string
-        example: "cap libecap"
-      - name: details
-        type: string
-        example: "me"
-      - name: data
-        type: object
-        data:
-          source: "site.products[0]"
-          type: Product
+      - name: image
+        type: url
+        example: "/images/placeholder-1by1.svg"
     width: "80%"
     height: 100%;
 
@@ -28,17 +20,9 @@ patterns:
     description: |
       Use this type for portrait images
     fields:
-      - name: title
-        type: string
-        example: "cap libecap"
-      - name: details
-        type: string
-        example: "me"
-      - name: data
-        type: object
-        data:
-          source: "site.products[0]"
-          type: Product
+      - name: image
+        type: url
+        example: "/images/2by3.png"
     width: "80%"
 
   image3by2:
@@ -46,17 +30,9 @@ patterns:
     description: |
       Use this type for landscape images
     fields:
-      - name: title
-        type: string
-        example: "cap libecap"
-      - name: details
-        type: string
-        example: "me"
-      - name: data
-        type: object
-        data:
-          source: "site.products[0]"
-          type: Product
+      - name: image
+        type: url
+        example: "/images/3by2.png"
     width: "80%"
 
   image4by3:
@@ -64,17 +40,9 @@ patterns:
     description: |
       Use this type for tv/computer images
     fields:
-      - name: title
-        type: string
-        example: "cap libecap"
-      - name: details
-        type: string
-        example: "me"
-      - name: data
-        type: object
-        data:
-          source: "site.products[0]"
-          type: Product
+      - name: image
+        type: url
+        example: "/images/4by3.png"
     width: "80%"
 
   image16by9:
@@ -82,15 +50,7 @@ patterns:
     description: |
       Use this setting for wide photos like banners
     fields:
-      - name: title
-        type: string
-        example: "cap libecap"
-      - name: details
-        type: string
-        example: "me"
-      - name: data
-        type: object
-        data:
-          source: "site.products[0]"
-          type: Product
+      - name: image
+        type: url
+        example: "/images/placeholder-16by9.svg"
     width: "80%"

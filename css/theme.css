@@ -1,5 +1,5 @@
 :root {
-  --color-primary: #fff;
+  --color-primary: #F2F2F2;
   --color-secondary: #fdd835;
   --color-secondary-light: #9abda9;
   --color-orange-light: #ffbb4d;
@@ -12,11 +12,11 @@
 
 html {
   font-family: var(--font-primary);
-  color: #fff;
+  color: #F2F2F2;
   /*background:  linear-gradient( rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), var(--background-text) center center / 32px auto no-repeat, var(--background-image);*/
   /* background: var(--background-text);
   background-size: contain; */
-  background-color: #000;
+  background-color: #121212;
 
 }
 .light {

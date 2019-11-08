@@ -1,11 +1,10 @@
-<div class="relative">
-    <a href="#">
+<div class="card relative">
+    <a href="{{include.url}}" class="block">
       <div class="image">
-        <img class="img-flex" aria-details="#display" src="/images/placeholder-1by1.svg" alt="portfolio-photo">
+        <img class="img-flex" aria-details="#display" src="{{include.image}}" alt="portfolio-photo">
       </div>
       <div class="card-text text-center">
-        <h3 class="exa">Header</h3>
-        <p class="tera">Brief Description</p>
+        <h3 class="exa">{{include.title}}</h3>
       </div>
     </a>
 </div>

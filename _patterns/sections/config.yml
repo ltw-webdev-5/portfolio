@@ -5,12 +5,15 @@ description: |
 patterns:
   project-brief:
     fields:
-      - name: heading
+      - name: title
         type: string
-      - name: text
+        example: "Subheader"
+      - name: details
         type: string
+        example: "a brief description"
       - name: image
         type: url
+        example: "/images/placeholder-1by1.svg"
     title: "Project Brief"
     description: |
       Use this layout for the project brief and description
@@ -24,15 +27,10 @@ patterns:
     fields:
       - name: title
         type: string
-        example: "cap libecap"
+        example: "Subheader"
       - name: details
         type: string
-        example: "me"
-      - name: data
-        type: object
-        data:
-          source: "site.products[0]"
-          type: Product
+        example: "A short description"
     width: "80%"
 
   image-text-inline:
@@ -42,33 +40,23 @@ patterns:
     fields:
       - name: title
         type: string
-        example: "cap libecap"
+        example: "subheader"
       - name: details
         type: string
-        example: "me"
-      - name: data
-        type: object
-        data:
-          source: "site.products[0]"
-          type: Product
+        example: "A short description"
     width: "80%"
 
   subheader-text:
-    title: "text and image inline at medium and large sizes"
+    title: "subheader and text inline at medium and large sizes"
     description: |
       Use this type of card for header to be inline with accompanying text
     fields:
       - name: title
         type: string
-        example: "cap libecap"
+        example: "Sketches"
       - name: details
         type: string
-        example: "me"
-      - name: data
-        type: object
-        data:
-          source: "site.products[0]"
-          type: Product
+        example: "This is a look at the process I took to explore concepts and refine ideas"
     width: "80%"
 
   see-more:
@@ -78,13 +66,7 @@ patterns:
     fields:
       - name: title
         type: string
-        example: "cap libecap"
-      - name: details
-        type: string
-        example: "me"
-      - name: data
-        type: object
-        data:
-          source: "site.products[0]"
-          type: Product
+        example: "See More Work"
+      - name: image
+        type: url
     width: "80%"
