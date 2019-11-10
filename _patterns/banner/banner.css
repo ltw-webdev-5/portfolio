@@ -77,11 +77,13 @@
 .title {
   display: inline-block;
   font-size: 1.97rem;
+  color: var(--color-secondary-light);
 }
 
 .subhead {
   font-weight: 300;
   font-size: 1.4238rem;
+  color: var(--color-orange);
 }
 
 .logo, .menu {

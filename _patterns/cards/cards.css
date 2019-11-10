@@ -1,7 +1,7 @@
 
-.image {
+/* .image {
   overflow: hidden;
-}
+} */
 
 .image img {
   transition: transform .5s ease-in-out, filter 1.5s ease-in-out;
@@ -19,13 +19,13 @@
   top: 75%;
   transform: translate(-50%, -50%);
   z-index: 4;
-  visibility: hidden;
-  transition: .5s ease-in-out;
+  opacity: 0;
+  transition: opacity .5s ease-in-out;
 }
 
 .card-text h3 {
   font-weight: 700;
 }
-.card:hover .card-text h3{
-  visibility: visible;
+.card:hover .card-text {
+  opacity: 1;
 }

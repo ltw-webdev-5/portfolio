@@ -4,6 +4,16 @@ description: |
 
 patterns:
 
+  img-flex:
+    title: "Image Flex"
+    description: |
+      Use this for images that don't fit into a specific ratio
+    fields:
+      - name: image
+        type: url
+        example: "/images/2by3.png"
+    width: "80%"
+
   image1by1:
     title: "1by1"
     description: |
@@ -23,6 +33,16 @@ patterns:
       - name: image
         type: url
         example: "/images/2by3.png"
+    width: "80%"
+
+  image3by1:
+    title: "image3by1"
+    description: |
+      Use this type for narrow landscape images
+    fields:
+      - name: image
+        type: url
+        example: "/images/3by2.png"
     width: "80%"
 
   image3by2:

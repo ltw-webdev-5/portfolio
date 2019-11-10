@@ -30,3 +30,20 @@
   border-width: .1rem;
   display: inline-block;
 }
+
+.subheader {
+  text-align: center;
+}
+
+.hyphen {
+  hyphens: manual;
+  orphans: 3;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .subheader {
+    text-align: right;
+  }
+
+}

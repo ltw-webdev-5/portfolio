@@ -44,6 +44,9 @@ patterns:
       - name: details
         type: string
         example: "A short description"
+      - name: image
+        type: url
+        example: "/images/placeholder-1by1.svg"
     width: "80%"
 
   subheader-text:

@@ -10,7 +10,10 @@ patterns:
     fields:
       - name: title
         type: string
-        example: "Portfolio Piece"
+        example: "Figure header"
+      - name: details
+        type: string
+        example: "Figure description"
       - name: image
         type: url
         example: "/images/placeholder-1by1.svg"
