@@ -1,0 +1,9 @@
+.process-banner {
+  font-weight: bold;
+  border: 0 solid var(--color-secondary);
+  border-width: 3px 0px 3px 0px;
+  background-color: #fff;
+  color: var(--color-neutral);
+  border-radius: 0px;
+  margin-bottom: 5em;
+}
