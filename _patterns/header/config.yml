@@ -1,0 +1,13 @@
+title: "Header"
+description:
+    This is a section that is a black and white banner thsat is a image of me to show csse all origonal photography.
+
+patterns:
+  header:
+    title: "header"
+    description: |
+      This section will be repeated on most pages that will havew the naviagtion and an origonal image.
+    fields:
+      - name: image
+        type: string
+        example: "bw-banner.jpg"

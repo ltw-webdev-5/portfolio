@@ -37,7 +37,6 @@ nav {
 }
 
 .nav {
-  text-align: center;
   display: none;
   margin: 0;
   padding: 0;
@@ -48,9 +47,6 @@ nav {
   display: none;
 }
 
-.current {
-  color: var(--color-primary-blue);
-}
 
 .nav-check:checked ~ .banner .nav {
   display: block;
@@ -61,14 +57,23 @@ nav {
   top: -10em;
 }
 
+.current {
+  border-bottom: 5px solid var(--color-primary-purple);
+}
+
+
 @media only screen and (min-width: 60em){
+
+  nav {
+    background-color: var(--color-primary-blue);
+  }
 
   .nav a {
     color: var(--color-primary-purple);
   }
 
   .nav a:hover {
-    background-color: transparent;
+    background-color: var(--color-primary-purple);
     color: var(--color-primary-blue);
   }
 
@@ -103,8 +108,7 @@ nav {
   .nav {
     display: inline-block;
     flex-wrap: none;
-    padding-top: 1em;
-  }
+    }
 
   .nav li {
     display: inline-block;
@@ -115,5 +119,16 @@ nav {
   .nav a {
     display: inline-block;
   }
+
+  .nav a:hover {
+    background-color: transparent;
+    color: var(--color-primary-purple);
+    border-bottom: 5px solid var(--color-primary-purple);
+  }
+
+  .logo a:hover {
+    border-bottom: 0px solid transparent;
+  }
+
 
 }
