@@ -1,19 +1,36 @@
-.btn {
+.btn-blue {
   background-color: var(--color-primary-blue);
   color: var(--color-primary-purple);
-  border: solid 3px var(--color-primary-);
   font-family: var(--font-secondary);
+  border: 0px solid transparent;
   text-align: center;
   font-weight: normal;
   font-style: normal;
   display: block;
 }
 
-.btn:hover {
+.btn-purple {
+  background-color: var(--color-primary-purple);
+  color: var(--color-primary-blue);
+  font-family: var(--font-secondary);
+  border: 0px solid transparent;
+  text-align: center;
+  font-weight: normal;
+  font-style: normal;
+  display: block;
+  width: 180px;
+}
+
+.btn-blue:hover {
   background-color: var(--color-secondary-light-blue);
-  border: solid 3px var(--color-secondary-light-blue);
   color: var(--color-secondary-light-purple);
 }
+
+.btn-purple:hover {
+  background-color: var(--color-secondary-light-purple);
+  color: var(--color-secondary-light-blue);
+}
+
 
 .btn-ghost {
   background-color: transparent;

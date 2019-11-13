@@ -36,3 +36,14 @@ patterns:
       - name: aria
         type: string
         example: "Get in Touch with Jasmine"
+  basic-purple:
+    title: "Basic Purple Button"
+    description: Should be used in other situations opposite to blue button, when used on blue background the button should be purple.
+    width: 320
+    fields:
+      - name: text
+        type: string
+        example: "Get in Touch"
+      - name: aria
+        type: string
+        example: "Get in Touch with Jasmine"
