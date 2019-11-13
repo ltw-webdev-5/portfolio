@@ -168,3 +168,12 @@ dt {
   font-weight: bold;
   font-style: normal;
 }
+
+.skip-links a {
+  position: absolute;
+  top: -3em;
+}
+
+.skip-links a:focus {
+  top: 0;
+}

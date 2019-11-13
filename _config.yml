@@ -11,18 +11,15 @@ patternbot:
   font_url: "https://use.typekit.net/pbl6vxx.css"
   colors:
   rationales:
-    colors.primary.blue: |
+    colors.primary: |
       Light blue is one of the primary brand colours. It was chosen to represent my me as a person, and to add a feel of trust, calmness, and somewhat vibrant colour throughout the site.
-    colors.primary.purple: |
       Purple is one of the other primary brand colours. It was chosen to accent the blue and add a feel of ambition, peace, and creativity throughout the site.
-    colors.secondary.light.blue: |
-      This colour was chosen for specifc section and actions such as the <mark> tag.
+    colors.secondary: |
+      This colour was chosen as a light acent to the button hovers, and links within the site to give it s softer accent.
+      This colour was chosen to give more harshness to some of the linka and buttons as well.
     typefaces.primary: |
-      Open Sans was chosen for its accessibility and readability. It is also a font I use as a part of my brand, so using it here makes my brand more consistent.
-    typefaces.secondary: |
-      Proxima Nova was chosen to be used fo headings. Its a slightly bolder font that matches my brand well. It is also a very readable font which is ideal for websites.
-
---color-primary-blue: #52C4DB;
---color-secondary-light-blue: #8CD5E4;
---color-primary-purple: #552984;
---color-secondary-light-purple: #2C2A6C;
+       PT Sans was chosen for its accessibility and readability for body copy.
+    typefaces.cursive: |
+      Adorn Smooth is a font I use as a part of my brand, so using it here makes my brand more consistent. It is a display cusrive font that will be used form headings.
+    typefaces.cursive: |
+      Objektiv is a font I used to mirror Avenir Next, it is a very similar font that is used as a sub heading font, and accents.
