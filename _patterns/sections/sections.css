@@ -1,7 +1,21 @@
-.windy-shot {
+.sitting {
   box-shadow: -20px -20px rgba(85, 42, 132, 100);
-  width: 60%;
-  margin-left: 100px;
+  width: 80%;
+  margin-left: 40px;
+}
+
+.contact {
+  box-shadow: -20px -20px rgba(85, 42, 132, 100);
+  width: 80%;
+}
+
+.left-sitting {
+  box-shadow: -20px -20px rgba(85, 42, 132, 100);
+  width: 80%;
+}
+
+.max-length {
+  margin-left: 0;
 }
 
 .width {
@@ -17,23 +31,113 @@
   padding-top: 1em;
 }
 
+.hair-bw{
+  width: 150%;
+}
+
 .quote {
   color: #fff;
   text-align: center;
-  font-size: 60px;
+  padding-left: 1em;
+  font-size: 40px;
+  line-height: 1.5;
+  padding-top: .5em;
+}
+
+.quotes-icon {
+  color: #fff;
+}
+
+
+.square-1, .square-2, .square-3, .square-4, .square-5, .square-6 {
+  align: center;
+  align-content: center;
+  width: 90%;
+}
+
+.square-3, .square-4, .square-5, .square-6 {
+  display: none;
+}
+
+.subscribe{
+  background-color: transparent;
+}
+
+.connect {
+  background-color: var(--color-primary-blue);
+}
+
+.insta, .facebook, .behance {
+  color: var(--color-primary-purple);
 }
 
 @media only screen and (min-width: 60em){
 
-  .quote{
-    font-size: 100px;
-    padding-top: 1.5em;
+
+  .square-3 {
+    display: flex;
+    width: 90%;
   }
+
+  .quote {
+    color: #fff;
+    text-align: center;
+    padding-left: 1em;
+    font-size: 98px;
+    line-height: 1.5;
+    padding-top: 0;
+  }
+
+  .i-250, .i--250 {
+    height: 250px;
+    width: 250px;
+  }
+
+  .hair-bw{
+    width: 100%;
+  }
+
+  .left-sitting {
+    box-shadow: -20px -20px rgba(85, 42, 132, 100);
+    width: 80%;
+    margin-left: 5em;
+  }
+
 }
+
 
 @media only screen and (min-width: 90em){
 
-  .quote{
-    font-size: 130px;
+  .square-4, .square-5, .square-6{
+    display: flex;
+    width: 90%;
+  }
+
+  .subscribe {
+    padding-left: 5em;
+  }
+
+  .hello {
+    font-size: 117px;
+    padding-bottom: 20px;
+  }
+
+  .sitting {
+    box-shadow: -20px -20px rgba(85, 42, 132, 100);
+    width: 65%;
+    margin-left: 180px;
+  }
+
+  .i-450, .i--450 {
+    height: 450px;
+    width: 450px;
+  }
+
+  .quote {
+    color: #fff;
+    text-align: center;
+    padding-left: 1em;
+    font-size: 200px;
+    line-height: 1.5;
   }
 }

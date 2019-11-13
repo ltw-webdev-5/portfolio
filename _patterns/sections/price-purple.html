@@ -1,18 +1,18 @@
 <section class="grid grid-middle island-2">
 
   <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-t-2">
+    <img class="img-flex sitting" src="/images/photos/{{include.image}}" alt="">
+  </div>
+
+  <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-t-2">
     <h3 class="font-cursive">{{include.service | default: 'Brand Design'}}</h3>
     <p class="max-length">{{include.service-description | default: 'This will be a description about my branding srvices. How i go about bringing and the tools and tecchniques I use when working with clients.'}}</p>
 
     <p class="bold">Price starting at ${{include.price | default: '200'}}</p>
     <p class="micro">This price is subject to chsnge dependng on the project that you are looking for</p>
     <div class="width">
-      {% pattern buttons/basic text="Get in Touch" btn-text="#" aria="Get it touch with Jasmine" %}
+      {% pattern buttons/basic-purple text="Get in Touch" aria="Get in Touch with Jasmine" %}
     </div>
-  </div>
-
-  <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-t-2">
-    <img class="img-flex sitting" src="/images/photos/{{include.image}}" alt="">
   </div>
 
 </section>

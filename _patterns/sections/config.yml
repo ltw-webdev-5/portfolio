@@ -1,0 +1,55 @@
+title: "Sections"
+description:
+    Sections
+
+patterns:
+  hello:
+    title: "Hello I'm Jasmine"
+    description: |
+      This is a small intro to me that breifly talks about me and my passions. Users can then click the button to go to my about page to read more about my store, and who I am as a graphic designer.
+    fields:
+      - name: image
+        type: string
+        example: "bw-banner.jpg"
+
+patterns:
+  price-blue:
+    title: "Price Blue"
+    description: |
+      This is a section that has a description of what the service I offer and how I work, I also show my general price for this service, with a condition that each [project veries.
+    fields:
+      - name: service
+        type: string
+        example: "Brand Design"
+    fields:
+      - name: service description
+        type: string
+        example: "This is a descroption about branding and howe i brand different type of clients using a technique i will go into depth later on"
+    fields:
+      - name: price
+        type: string
+        example: "200"
+    fields:
+      - name: image
+        type: string
+        example: "illustartin-shot.jpg"
+  price-purple:
+    title: "Price Blue"
+    description: |
+      This is a section that has a description of what the service I offer and how I work, I also show my general price for this service, with a condition that each [project veries.
+    fields:
+      - name: service
+        type: string
+        example: "Brand Design"
+    fields:
+      - name: service description
+        type: string
+        example: "This is a descroption about branding and howe i brand different type of clients using a technique i will go into depth later on"
+    fields:
+      - name: price
+        type: string
+        example: "200"
+    fields:
+      - name: image
+        type: string
+        example: "illustartin-shot.jpg"
