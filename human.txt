@@ -1,0 +1,27 @@
+# humanstxt.org
+
+# TEAM
+
+Sophie Riopel
+
+---
+
+# THANKS
+
+Pixabay — Stunning free images & royalty free stock
+https://pixabay.com/
+
+---
+
+# TECHNOLOGY
+
+## Software
+
+- Git + GitHub
+- Jekyll
+- Markdown
+- Atom
+
+## Hosting
+
+https://www.netlify.com/

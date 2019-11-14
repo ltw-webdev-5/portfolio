@@ -1,0 +1,6 @@
+# robotstxt.org
+
+Sitemap: https://jovial-montalcini-b67b8c.netlify.com//sitemap.xml
+
+User-Agent: *
+Disallow:
