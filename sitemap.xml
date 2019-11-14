@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://jovial-montalcini-b67b8c.netlify.com/</loc>
+    <lastmod>2019-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+  </url>
+
+  <url>
+    <loc>https://jovial-montalcini-b67b8c.netlify.com/laundromate/</loc>
+    <lastmod>2019-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+  </url>
+
+  <url>
+    <loc>https://jovial-montalcini-b67b8c.netlify.com/tasty-treats/</loc>
+    <lastmod>2019-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+  </url>
+
+  <url>
+    <loc>https://jovial-montalcini-b67b8c.netlify.com/honey-comb/</loc>
+    <lastmod>2019-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+  </url>
+
+  <url>
+    <loc>https://jovial-montalcini-b67b8c.netlify.com/bus-passes/</loc>
+    <lastmod>2019-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+  </url>
+
+</url>
