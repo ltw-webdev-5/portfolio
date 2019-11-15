@@ -1,6 +1,6 @@
 .btn {
-  background-color: var(--color-burnt-orange);
-  border-color: var(--color-burnt-orange);
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
   color: #fff;
   font-weight: bold;
 }

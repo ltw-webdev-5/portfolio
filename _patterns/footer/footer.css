@@ -4,16 +4,17 @@
 
 .contentinfo {
   background-color: #000;
-  background-image: url("../images/footer.jpg");
+  /* background-image: url("../images/footer.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: -32.5em 10em;
+  background-position: -32.5em 10em; */
 }
 
 .contentinfo li {
   color: #fff;
 }
+
 
 .footer:hover {
   color: #fff;
