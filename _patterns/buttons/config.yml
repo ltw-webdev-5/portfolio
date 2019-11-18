@@ -17,14 +17,32 @@ patterns:
       - name: aria
         type: string
         example: "Add this item to your cart"
+      - name: url
+        type: url
+        example: "#"
+
   ghost:
     title: "Ghost"
-    description: The ghost button should only be used on banners and in situations where the background is a photo
+    description: The ghost button should only be used on banners and in situations where the background is a photo or a pruple background colour
     width: 200
     fields:
       - name: text
         type: string
         example: "Learn More"
+      - name: url
+        type: url
+        example: "#"
+  ghost-purple:
+    title: "Ghost Purple"
+    description: The purple ghost button should only be used on banners and in situations where the background is a photo or blue background colour
+    width: 200
+    fields:
+      - name: text
+        type: string
+        example: "Learn More"
+      - name: url
+        type: url
+        example: "#"
   wide:
     title: "Wide Button"
     description: The wide button should only be used when the text that needs to go inside is more then 2 wordds.
@@ -36,6 +54,9 @@ patterns:
       - name: aria
         type: string
         example: "Get in Touch with Jasmine"
+      - name: url
+        type: url
+        example: "#"
   basic-purple:
     title: "Basic Purple Button"
     description: Should be used in other situations opposite to blue button, when used on blue background the button should be purple.
@@ -47,3 +68,6 @@ patterns:
       - name: aria
         type: string
         example: "Get in Touch with Jasmine"
+      - name: url
+        type: url
+        example: "#"
