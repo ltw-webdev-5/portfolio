@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>{{page.sitetitle}}</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="/css/main.css" rel="stylesheet">
+  <link href="https://use.typekit.net/pbl6vxx.css" rel="stylesheet">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="icon" type="image/png" href="favicon-196.png">
+  <meta name="ICBM" content="45.41117,-75.69812">
+  <meta name="geo.position" content="45.41117,-75.69812">
+  <meta name="geo.region" content="ca-on">
+  <meta name="geo.placename" content="Ottawa">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{page.metatitle}}">
+  <meta property="og:url" content="{{page.metaurl}}">
+  <meta property="og:image" content="https://jasminegraphicdesigner.ca/images/{{page.metaimg}}">
+  <meta property="og:site_name" content="Jasmine's Portfolio">
+  <meta property="og:description" content="{{page.metadecription}}">
+  <meta property="og:locale" content="en_CA">
+</head>
+<body>
+
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+  <header role="banner" class="masthead" id="header">
+    {% pattern navigation/top-nav %}
+  </header>
+  <main role="main" id="main" tabindex="0">
+    {{content}}
+  </main>
+  {% pattern footer/footer %}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Jasmine Carlucci-Tanguay's Portfolio",
+      "author": {
+        "@type": "Person",
+        "@id": "#jasminecarlucci-tanguay"
+      },
+      "description": "Jasmine Carlucci-Tanguay's portfolio for graphic design, specialising in Illustartions, Branding, Motion Graphics, Packaging with a few other things",
+      "image": "https://jasminegraphicdesigner.ca/images/photos/portrait.png",
+      "url": "https://jasminegraphicdesigner.ca/#work",
+      "keywords": "Branding, Illustration, Packaging, Motion, Case study, Graphic Design work"
+    }
+  </script>
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "@id": "#jasminecarlucci-tanguay",
+      "name": "Jasmine Carlucci-Tanguay",
+      "email": "graphicdesigner.jasmine@gmail.com",
+      "url": "https://jasminegraphicdesigner.ca"
+    }
+  </script>
+</body>
+</html>
