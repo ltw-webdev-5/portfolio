@@ -27,11 +27,37 @@
     <li><a href="#nav">Jump to navigation</a></li>
   </ul>
   <header role="banner" class="masthead" id="header">
-    {% pattern header/header %}
+    {% pattern header/header image="bw-banner.jpg" %}
   </header>
   <main role="main" id="main" tabindex="0">
     {{content}}
   </main>
   {% pattern footer/footer %}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Jasmine Carlucci-Tanguay's Portfolio",
+      "author": {
+        "@type": "Person",
+        "@id": "#jasminecarlucci-tanguay"
+      },
+      "description": "Jasmine Carlucci-Tanguay's portfolio for graphic design, specialising in Illustartions, Branding, Motion Graphics, Packaging with a few other things",
+      "image": "https://aaronsander.ca/images/me.png",
+      "url": "https://aaronsander.ca/#work",
+      "keywords": "Web, Responsive, CSS, Mobile, E-Commerce, shopping"
+    }
+  </script>
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "@id": "#jasminecarlucci-tanguay",
+      "name": "Jasmine Carlucci-Tanguay",
+      "email": "graphicdesigner.jasmine@gmail.com",
+      "url": "https://jasminegraphicdesigner.ca"
+    }
+  </script>
 </body>
 </html>``

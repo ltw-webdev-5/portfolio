@@ -1,0 +1,27 @@
+# humanstxt.org
+
+# TEAM
+
+- [me] {https://github.com/JasmineCT}
+- myself
+- my wonderful teacher [Thomas J Bradley] {https://github.com/thomasjbradley}
+
+---
+
+# THANKS
+
+## Mockup
+Mockups from Graphic Burger
+{https://graphicburger.com/}
+
+---
+
+# TECHNOLOGY
+
+## Software
+
+Written using Atom and Github. Supported by Yaml, Jekyll and Markdown.
+
+## Hosting
+
+The site is hosted through Hover and Cloudflare. Email hosting by Fastmail.
