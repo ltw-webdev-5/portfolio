@@ -18,7 +18,11 @@ footer {
   color: var(--color-secondary-light-blue);
 }
 
-.insta, .facebook, .behance {
+footer .insta, footer .facebook, footer .behance {
+  color: var(--color-primary-blue);
+}
+
+.social a {
   color: var(--color-primary-blue);
 }
 
