@@ -27,10 +27,21 @@
 }
 
 .btn-purple:hover {
-  background-color: var(--color-secondary-light-purple);
+  background-color: var(--color-primary-purple);
   color: var(--color-secondary-light-blue);
 }
 
+.btn-ghost-purple {
+  background-color: transparent;
+  border: solid 3px var(--color-primary-purple);
+  color: var(--color-primary-purple);
+}
+
+.btn-ghost-purple:hover {
+  background-color: var(--color-secondary-light-purple);
+  border: solid 3px var(--color-secondary-light-purple);
+  color: var(--color-primary-blue);
+}
 
 .btn-ghost {
   background-color: transparent;
