@@ -16,6 +16,10 @@ html {
   color: var(--color-primary-purple);
 }
 
+.blue {
+  color: var(--color-primary-blue);
+}
+
 /* @utility Apply the primary type face */
 
 .font-prime {
@@ -100,14 +104,14 @@ a {
 
 blockquote {
   font-family: var(--font-primary);
-  color: var(--color-accent);
+  color: var(--color-primary-purple);
   font-weight: normal;
   font-style: normal;
 }
 
 cite {
   font-family: var(--font-primary);
-  color: var(--color-accent);
+  color: var(--color-primary-purple);
   font-weight: normal;
   font-style: italic;
   align-content: right;
@@ -115,7 +119,7 @@ cite {
 
 q {
   font-family: var(--font-prime);
-  color: var(--color-accent);
+  color: var(--color-primary-purple);
   font-weight: normal;
   font-style: italic;
 }
@@ -123,15 +127,12 @@ q {
 /* emphasis and edits formatting */
 
 em, i, dfn {
-  font-family: var(--font-tertiary);
-  color: var(--color-accent);
   font-weight: normal;
   font-style: italic;
 }
 
 mark {
-  background-color: var(--color-primary-purple);
-  color: var(--colour-primary-blue);
+  background-color: var(--color-primary-blue);
 }
 
 strong, b {
