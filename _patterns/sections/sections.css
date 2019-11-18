@@ -71,7 +71,41 @@
   color: var(--color-primary-purple);
 }
 
+.cards {
+  background-color: var(--color-primary-blue);
+  height: 250px;
+  width: 250PX;
+  margin: 20px;
+}
+
+.about-me {
+  background-color: var(--color-primary-blue);
+}
+
+.faq {
+  background-color: var(--color-primary-blue);
+}
+
+@media only screen and (min-width: 40em){
+
+
+  .cards {
+    background-color: var(--color-primary-blue);
+    height: 300px;
+    width: 300PX;
+    margin: 20px;
+  }
+}
+
 @media only screen and (min-width: 60em){
+
+
+  .cards {
+    background-color: var(--color-primary-blue);
+    height: 350px;
+    width: 350PX;
+    margin: 20px;
+  }
 
 
   .square-3 {
@@ -139,5 +173,9 @@
     padding-left: 1em;
     font-size: 200px;
     line-height: 1.5;
+  }
+
+  .card-4 {
+    display: none;
   }
 }
