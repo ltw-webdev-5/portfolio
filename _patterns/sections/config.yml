@@ -53,3 +53,15 @@ patterns:
       - name: image
         type: string
         example: "illustartin-shot.jpg"
+    personal-quote:
+      title: "Personal Quote"
+      description: |
+        This is a section that has a quote and
+      fields:
+        - name: personal quote
+          type: string
+          example: "If the plan doesn’t work, change the plan. Never the goal"
+      feilds:
+        - name: quote description
+          type: string
+          example: "It is so easy to find the darkness, but the trick is the notice the smallest of lights and be grateful for just one a day. Because all those small lights together creates your sun"

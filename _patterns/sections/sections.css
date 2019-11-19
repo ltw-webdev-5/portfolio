@@ -4,6 +4,10 @@
   margin-left: 40px;
 }
 
+.follow-me {
+  background-color: var(--color-primary-blue);
+}
+
 .contact {
   box-shadow: -20px -20px rgba(85, 42, 132, 100);
   width: 80%;
@@ -86,6 +90,7 @@
   background-color: var(--color-primary-blue);
 }
 
+
 @media only screen and (min-width: 40em){
 
 
@@ -136,7 +141,6 @@
     width: 80%;
     margin-left: 5em;
   }
-
 }
 
 
@@ -175,7 +179,4 @@
     line-height: 1.5;
   }
 
-  .card-4 {
-    display: none;
-  }
 }
