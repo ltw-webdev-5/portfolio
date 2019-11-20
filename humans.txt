@@ -8,9 +8,13 @@
 ---
 
 # THANKS
+-Graphicburger.com - This is a free site that provides photoshop mock-ups which I used for the business card, street sign, a frame sign, and t-shirt.
 
-(This is the place where you put sources of things)
-(Locations where you got icons, etc.)
+-Fontawesome.com - This is the website I used to get the icons found in the footer for social media and email.
+
+-Vimeo - For hosting the videos found on the site
+
+-Learn the web - https://learn-the-web.algonquindesign.ca - Amazing cheatsheet guides and videos to help make this site possible
 
 ---
 

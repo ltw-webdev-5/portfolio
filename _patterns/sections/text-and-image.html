@@ -1,8 +1,8 @@
 <div>
   <div class="island">
-    <img aria-details="#portfolio" class="img-flex" src="/images/placeholder-16by9.svg" alt="#">
+    <img aria-details="#{{include.aria-details}}" class="img-flex" src="/images/placeholder-16by9.svg" alt="#">
   </div>
-  <div class="island">
+  <div id="include.aria-details" class="island">
     <h3>{{include.title}}</h3>
     <p>{{include.details}}</p>
   </div>

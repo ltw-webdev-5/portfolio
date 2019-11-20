@@ -17,6 +17,15 @@ patterns:
       - name: image
         type: url
         example: "/images/placeholder-1by1.svg"
+      - name: aria-details
+        type: string
+        example: "Assign non-visible text to enhance the description of an element"
+      - name: aria-label
+        type: string
+        example: "Assign the description of an element to other elements on the page"
+      - name: alt-text
+        type: string
+        example: "Assign the description to an image if necessary"
     width: "20em"
 
   image-card:
@@ -33,4 +42,13 @@ patterns:
       - name: url
         type: url
         example: "/about/"
+      - name: aria-details
+        type: string
+        example: "Assign non-visible text to enhance the description of an element"
+      - name: aria-label
+        type: string
+        example: "Assign the description of an element to other elements on the page"
+      - name: alt-text
+        type: string
+        example: "Assign the description to an image if necessary"
     width: "20em"

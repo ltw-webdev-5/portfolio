@@ -11,6 +11,18 @@ patterns:
       - name: details
         type: string
         example: "a brief description"
+      - name: aria-details
+        type: string
+        example: "Assign non-visible text to enhance the description of an element"
+      - name: aria-label
+        type: string
+        example: "Assign the description of an element to other elements on the page"
+      - name: alt-text
+        type: string
+        example: "Assign the description to an image if necessary"
+      - name: mock-up
+        type: url
+        example: "/images/3by2.png"
       - name: image
         type: url
         example: "/images/placeholder-1by1.svg"
@@ -31,6 +43,15 @@ patterns:
       - name: details
         type: string
         example: "A short description"
+      - name: aria-details
+        type: string
+        example: "Assign non-visible text to enhance the description of an element"
+      - name: aria-label
+        type: string
+        example: "Assign the description of an element to other elements on the page"
+      - name: alt-text
+        type: string
+        example: "Assign the description to an image if necessary"
     width: "80%"
 
   image-text-inline:
@@ -47,6 +68,15 @@ patterns:
       - name: image
         type: url
         example: "/images/placeholder-1by1.svg"
+      - name: aria-details
+        type: string
+        example: "Assign non-visible text to enhance the description of an element"
+      - name: aria-label
+        type: string
+        example: "Assign the description of an element to other elements on the page"
+      - name: alt-text
+        type: string
+        example: "Assign the description to an image if necessary"
     width: "80%"
 
   subheader-text:
@@ -60,6 +90,15 @@ patterns:
       - name: details
         type: string
         example: "This is a look at the process I took to explore concepts and refine ideas"
+      - name: aria-details
+        type: string
+        example: "Assign non-visible text to enhance the description of an element"
+      - name: aria-label
+        type: string
+        example: "Assign the description of an element to other elements on the page"
+      - name: alt-text
+        type: string
+        example: "Assign the description to an image if necessary"
     width: "80%"
 
   see-more:
@@ -72,4 +111,13 @@ patterns:
         example: "See More Work"
       - name: image
         type: url
+      - name: aria-details
+        type: string
+        example: "Assign non-visible text to enhance the description of an element"
+      - name: aria-label
+        type: string
+        example: "Assign the description of an element to other elements on the page"
+      - name: alt-text
+        type: string
+        example: "Assign the description to an image if necessary"
     width: "80%"

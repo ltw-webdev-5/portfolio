@@ -12,6 +12,12 @@ patterns:
       - name: image
         type: url
         example: "/images/2by3.png"
+      - name: aria-details
+        type: string
+        example: "Assign non-visible text to enhance the description of an element"
+      - name: alt-text
+        type: string
+        example: "Assign the description to an image if necessary"
     width: "80%"
 
   image1by1:
@@ -22,6 +28,12 @@ patterns:
       - name: image
         type: url
         example: "/images/placeholder-1by1.svg"
+      - name: aria-details
+        type: string
+        example: "Assign non-visible text to enhance the description of an element"
+      - name: alt-text
+        type: string
+        example: "Assign the description to an image if necessary"
     width: "80%"
     height: 100%;
 
@@ -33,6 +45,12 @@ patterns:
       - name: image
         type: url
         example: "/images/2by3.png"
+      - name: aria-details
+        type: string
+        example: "Assign non-visible text to enhance the description of an element"
+      - name: alt-text
+        type: string
+        example: "Assign the description to an image if necessary"
     width: "80%"
 
   image3by1:
@@ -43,6 +61,12 @@ patterns:
       - name: image
         type: url
         example: "/images/3by2.png"
+      - name: aria-details
+        type: string
+        example: "Assign non-visible text to enhance the description of an element"
+      - name: alt-text
+        type: string
+        example: "Assign the description to an image if necessary"
     width: "80%"
 
   image3by2:
@@ -53,6 +77,12 @@ patterns:
       - name: image
         type: url
         example: "/images/3by2.png"
+      - name: aria-details
+        type: string
+        example: "Assign non-visible text to enhance the description of an element"
+      - name: alt-text
+        type: string
+        example: "Assign the description to an image if necessary"
     width: "80%"
 
   image4by3:
@@ -63,6 +93,12 @@ patterns:
       - name: image
         type: url
         example: "/images/4by3.png"
+      - name: aria-details
+        type: string
+        example: "Assign non-visible text to enhance the description of an element"
+      - name: alt-text
+        type: string
+        example: "Assign the description to an image if necessary"
     width: "80%"
 
   image16by9:
@@ -73,4 +109,10 @@ patterns:
       - name: image
         type: url
         example: "/images/placeholder-16by9.svg"
+      - name: aria-details
+        type: string
+        example: "Assign non-visible text to enhance the description of an element"
+      - name: alt-text
+        type: string
+        example: "Assign the description to an image if necessary"
     width: "80%"

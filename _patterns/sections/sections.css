@@ -11,7 +11,7 @@
   min-width: 8em;
 }
 
-.see-more-link:hover {
+.see-more-link:hover, .see-more-link:hover h3{
   color: var(--color-secondary);
 }
 

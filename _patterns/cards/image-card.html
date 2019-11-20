@@ -1,9 +1,9 @@
 <div class="card filter relative">
     <a href="{{include.url}}" class="block relative">
       <div class="image embed embed-1by1">
-        <img class="embed-item" aria-details="#display" src="{{include.image}}" alt="portfolio-photo">
+        <img class="embed-item" aria-details="#{{include.aria-details}}" src="{{include.image}}" alt="{{include.alt-text}}">
       </div>
-      <div class="card-text text-center">
+      <div id="{{include.aria-details}}" class="card-text text-center">
         <h2 class="exa island-1-2">{{include.title}}</h2>
       </div>
     </a>

@@ -9,7 +9,7 @@
   /* filter: grayscale(.9); */
 }
 
-.image:hover img {
+.card a:hover img {
   transform: scale(1.2);
   filter: none;
   /* filter: grayscale(0); */

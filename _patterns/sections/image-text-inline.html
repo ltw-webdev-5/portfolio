@@ -1,8 +1,8 @@
 <div class="grid grid-middle">
   <div class="unit unit-content-middle unit-xs-1 s-1 m-1-2 l-1-2 island">
-    <img aria-details="#portfolio" class="img-flex" src="{{include.image}}" alt="#">
+    <img aria-details="#{{include.aria-details}}" class="img-flex" src="{{include.image}}" alt="{{include.alt-text}}">
   </div>
-  <div class="unit unit-content-middle unit-xs-1 s-1 m-1-2 l-2-2 island text-left">
+  <div  id="{{include.aria-details}}" class="unit unit-content-middle unit-xs-1 s-1 m-1-2 l-2-2 island text-left">
     <p class="push-0">{{include.details}}</p>
   </div>
 </div>

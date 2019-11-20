@@ -76,13 +76,15 @@
 
 .title {
   display: inline-block;
-  font-size: 1.97rem;
+  font-size: 4rem;
+  line-height: .75;
   color: var(--color-secondary-light);
 }
 
 .subhead {
   font-weight: 300;
-  font-size: 1.4238rem;
+  font-size: 2rem;
+  line-height: .75;
   color: var(--color-orange);
 }
 
@@ -90,7 +92,7 @@
   text-align: center;
 }
 
-@media only screen and (min-width: 25em) {
+@media only screen and (min-width: 38em) {
 
   .title {
     font-size: 4.9718rem;

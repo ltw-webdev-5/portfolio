@@ -2,165 +2,103 @@
 layout: default
 ---
 
+<div>
+  {% pattern banner/hero-banner heading="Package Design" banner_img="/images/about.jpg" %}
+</div>
+<section class="wrapper island">
   <div>
-    {% pattern banner/hero-banner heading="Package Design" banner_img="/images/about.jpg" %}
-  </div>
-  <section class="wrapper island">
-    <div>
     <h2 class="tena text-center pad-t">Starbucks Bistro Box</h2>
-    </div>
-    <div class="border">
-      {% pattern images/image3by2 image="/images/packaging-wide.jpeg" %}
-    </div>
+  </div>
+  <div class="border">
+    {% pattern images/image3by2 image="/images/packaging-wide.jpeg" alt-text="Photo of the final package design"%}
+  </div>
+</section>
+<section class="wrapper gutter">
+  <h2 class="zetta">Scope</h2>
+  <p>This is a package design I did at Algonquin College. The purpose of the assignment was to find creative ways to reduce the amount of plastic used in packaging, without compromising the product inside or turning off potential customers.</p>
+</section>
+<section class="wrapper gutter">
+  <h2 class="zetta">Research</h2>
+  <p class="push-0">For this project, I chose to redesign Starbuck's Bistro Box. The Bistro Box is a very popular item sold at Starbucks which is made entirely out of plastic. This is for three main reasons:</p>
+  <ul class="gutter-1-2 push-0 pad-t-3-4 list-group">
+    <li class="milli" style="line-height: 1.3">The customers need to see the food.</li>
+    <li class="milli pad-t pad-b" style="line-height: 1.3">The box needs to be recloseable.</li>
+    <li class="milli pad-b-3-4" style="line-height: 1.3">The box needs to be durable to withstand traveling to destinations.</li>
+  </ul>
+  <p>When designing a new package, my concept needed to fulfill these requirements as well, with the least amount of plastic as well. Before sketching, I needed to understand Starbucks better as well as their typical customer.</p>
+  <h3 class="text-left giga push-0 pad-b-1-2">Starbucks Image</h3>
+  <p>Starbucks is an iconic brand recognized all over the world. They started as a small coffee shop on Pike Street in Seattle, Washington growing into what it is today. They can be found in airports, colleges, and in most cities and towns.</p>
+  <p>Style and image is very important to Starbucks. Everything from the experience in their coffee shops to the packaging of the products they sell. It’s so important that they created a higher end store called Starbucks Reserve. This research tells us that there is a market opportunity at Starbucks for a more environmentally friendly package. Both financially and socially.</p>
+  <p class="push-0">Starbucks is a socially conscience company that is willing to incrue higher costs in order to maintain their core values. A couple examples are:
+    <ul class="gutter-1-2 pad-t-3-4 push-0 list-group">
+      <li class="milli pad-b" style="line-height: 1.3">One of the first large companies to get LEED environmental certifications.</li>
+      <li class="milli pad-b-3-4" style="line-height: 1.3">Willing to close serveral stores to retrain their employees in order to maintain core values.</li>
+    </ul>
+    <p>One of Starbucks' goals to be more socially and evironmentally friendly. It is aware of the amount of plastic is uses and actively looks for ways to reduce the amount where it is possible. One way Starbucks is currently doing this is by eliminating straws from their stores. Another possible way they could reduce their use of plastic would be to consider redesigning the Bistro Box.</p>
   </section>
-  <section class="wrapper gutter">
-    <h2 class="zetta">Scope</h2>
-    <p class="gutter">This is a package design I did at Algonquin College. The purpose of the assignment was to find creative ways to reduce the amount of plastic used in packaging, without compromising the product inside or turning off potential customers.</p>
-  </section>
-  <section class="wrapper gutter">
-
-    <h2 class="zetta">Research</h2>
-    <p class="gutter">For this project, I chose to redesign Starbuck's Bistro Box. The Bistro Box is a very popular item sold at Starbucks which is made entirely out of plastic. This is for three main reasons:</p>
-      <ul class="gutter push-0 list-group">
-        <li class="milli gutter">The customers need to see the food</li>
-        <li class="milli gutter pad-t-1-2 pad-b-1-2">The box needs to be recloseable</li>
-        <li class="milli gutter">The box needs to be durable to withstand traveling to destinations</li>
-      </ul>
-      <p class="island">When designing a new package, my concept needed to fulfill these requirements as well, with the least amount of plastic as well. Before sketching, I needed to understand Starbucks better as well as their typical customer.</p>
-          <h3 class="text-left">Starbucks Image and Values</h3>
-          <p class="gutter">Starbucks is an iconic brand recognized all over the world. They started as a small coffee shop on Pike Street in Seattle, Washington growing into what it is today. They can be found in airports, colleges, and in most cities and towns.</p>
-          <p class="gutter">Style and image is very important to Starbucks. Everything from the experience in their coffee shops to the packaging of the products they sell. It’s so important that they created a higher end store called Starbucks Reserve. This research tells us that there is a market opportunity at Starbucks for a more environmentally friendly package. Both financially and socially.</p>
-          <p class="gutter">Starbucks is a socially conscience company that is willing to incrue higher costs in order to maintain their core values. A couple examples are:
-          <ul class="gutter list-group">
-            <li class="milli gutter pad-b-1-2">One of the first large companies to get LEED environmental certifications.</li>
-            <li class="milli gutter">Willing to close serveral stores to retrain their employees in order to maintain core values.</li>
-          </ul>
-          <p class="gutter">One of Starbucks' goals to be more socially and evironmentally friendly. It is aware of the amount of plastic is uses and actively looks for ways to reduce the amount where it is possible. One way Starbucks is currently doing this is by eliminating straws from their stores. Another possible way they could reduce their use of plastic would be to consider redesigning the Bistro Box.</p>
-          <h3 class="push-0 text-left max-length">Current Bistro Box</h3>
-        <div>
-          {% pattern sections/image-text-inline title="subheader" details="This is the current Bistro Box. It does it's job well, but uses 742 cm2 of
+  <section class="wrapper">
+    <h3 class="gutter push-0 text-left giga">Current Bistro Box</h3>
+    <div>
+      {% pattern sections/image-text-inline title="subheader" details="This is the current Bistro Box. It does it's job well, but uses 742 cm2 of
       plastic for 157 grams of food. To put that in perspective, Ottawa has over 30 Starbucks. If each one just sold one bistro box a day, that would be 22,260 cm2 (or 24 ft2) of
-      plastic being thrown away." image="/images/bistro-box.jpg" %}
+      plastic being thrown away." image="/images/bistro-box.jpg" aria-details="bistro-box" alt-text="Image of the current Starbucks bistro box. Clear plastic with fruit visible inside" %}
+    </div>
+  </section>
+  <section class="wrapper gutter">
+      <h2 class="zetta">Outcome</h2>
+      <div class="grid grid-middle">
+        <div class=" unit unit-xs-1-2 s-1-2 m-1-4 l-1-4 island">
+          {% pattern images/img-flex image="/images/packaging-box.png" aria-details="Assign non-visible text to enhance the description of an element" alt-text="Assign the description to an image if necessary"%}
+        </div>
+        <div class=" unit unit-xs-1-2 s-1-2 m-1-4 l-1-4 island">
+          {% pattern images/img-flex image="/images/packaging-box-step1.png" aria-details="Assign non-visible text to enhance the description of an element" alt-text="Assign the description to an image if necessary"%}
+        </div>
+        <div class=" unit unit-xs-1-2 s-1-2 m-1-4 l-1-4 island-1-2">
+          {% pattern images/img-flex image="/images/packaging-box-step2.png" aria-details="Assign non-visible text to enhance the description of an element" alt-text="Assign the description to an image if necessary"%}
+        </div>
+        <div class=" unit unit-xs-1-2 s-1-2 m-1-4 l-1-4 island-1-2">
+          {% pattern images/img-flex image="/images/packaging-box-step3.png" aria-details="Assign non-visible text to enhance the description of an element" alt-text="Assign the description to an image if necessary"%}
+        </div>
+        <div class="unit-content-center pad-t unit unit-xs-1 s-1 m-1 l-1">
+          <p>The concept I came up with was a pyramid shaped package. It has an outer container that unfolds into a box tray, allowing the package to be opened and closed. The inner package has food dividers to keep food seperate as well as give the package a more durable design.</p>
+          <p>It eliminates almost all the plastic used in the current bistro box. It has a plastic window on the outer box to allow customers to see the food quality inside. The package would be made of FBB (folding box board) paperboard. FBB paperboard is an industry standard when it comes to packaging food for its versatility, durability and recyclability. By printing with vegetable inks, Starbucks can further push the sustainability of the new bistro box.</p>
+          <h3 class="giga push-0 pad-b-1-2">Strengths of this Design</h3>
+          <p>The design is closer to following Starbucks' design and image asthetics. It can be creatively displayed both vertically and horizontally at starbucks stores. The outer container provides an opportunity for custom designs such as seasonal, specific foods, or special events.</p>
+          <p>Although the cost of producing this concept box would be more expansive than the cheaper plastic box, these costs could be offset by the marketability of advertising a newer more sustainable bistro box which falls in line with their sustainability efforts.</p>
         </div>
       </div>
-        <div class="unit unit-xs-1 s-1 m-1 l-1">
-          <h2 class="zetta">Outcome</h2>
-          <div class="grid grid-middle">
-            <div class="unit-content-center unit unit-xs-1-2 s-1-2 m-1-4 l-1-4">
-              {% pattern images/img-flex image="/images/packaging-box.png" %}
-            </div>
-            <div class="unit-content-center unit unit-xs-1-2 s-1-2 m-1-4 l-1-4">
-              {% pattern images/img-flex image="/images/packaging-box-step1.png" %}
-            </div>
-            <div class="unit-content-center unit unit-xs-1-2 s-1-2 m-1-4 l-1-4">
-              {% pattern images/img-flex image="/images/packaging-box-step2.png" %}
-            </div>
-            <div class="unit-content-center unit unit-xs-1-2 s-1-2 m-1-4 l-1-4">
-              {% pattern images/img-flex image="/images/packaging-box-step3.png" %}
-            </div>
-            <div class="unit-content-center unit unit-xs-1 s-1 m-1 l-1">
-              <p class="gutter">The concept I came up with was a pyramid shaped package. It has an outer container that unfolds into a box tray, allowing the package to be opened and closed. The inner package has food dividers to keep food seperate as well as give the package a more durable design.</p>
-              <p class="gutter">It eliminates almost all the plastic used in the current bistro box. It has a plastic window on the outer box to allow customers to see the food quality inside. The package would be made of FBB (folding box board) paperboard. FBB paperboard is an industry standard when it comes to packaging food for its versatility, durability and recyclability.</p>
-              <p class="gutter">By printing with vegetable inks, Starbucks can further push the sustainability of the new bistro box.</p>
-              <h3>Strengths of this Design</h3>
-              <p class="gutter">The design is closer to following Starbucks' design and image asthetics. It can be creatively displayed both vertically and horizontally at starbucks stores. The outer container provides an opportunity for custom designs such as seasonal, specific foods, or special events.</p>
-              <p class="gutter">Although the cost of producing this concept box would be more expansive than the cheaper plastic box, these costs could be offset by the marketability of advertising a newer more sustainable bistro box which falls in line with their sustainability efforts.</p>
-            </div>
-          </div>
-        </div>
   </section>
   <section class="wrapper island grid grid-middle">
-      <div class="unit-content-center unit unit-xs-1 s-1 m-1 l-1">
-        <h2 class="zetta push-0 text-left max-length">Sketches</h2>
-      </div>
-      <div class="unit unit-content-centerunit-xs-1 s-1 m-1 l-1">
-        <div class="grid">
-          <div class="unit unit-xs-1-2 s-1-2 m-1-3 l-1-3 island-1-4">
-            {% pattern images/img-flex image="/images/sketches.jpg" %}
-          </div>
-          <div class="unit unit-xs-1-2 s-1-2 m-1-3 l-1-3 island-1-4">
-            {% pattern images/img-flex image="/images/sketches2.jpg" %}
-          </div>
-          <div class="unit unit-xs-1-2 s-1-2 m-1-3 l-1-3 island-1-4">
-            {% pattern images/img-flex image="/images/sketches3.jpg" %}
-          </div>
-          <div class="unit unit-xs-1-2 s-1-2 m-1-3 l-1-3 island-1-4">
-            {% pattern images/img-flex image="/images/skeches4.jpg" %}
-          </div>
-          <div class="unit unit-xs-1-2 s-1-2 m-1-3 l-1-3 island-1-4">
-            {% pattern images/img-flex image="/images/sketches5.jpg" %}
-          </div>
-          <div class="unit unit-xs-1-2 s-1-2 m-1-3 l-1-3 island-1-4">
-            {% pattern images/img-flex image="/images/sketches6.jpg" %}
-          </div>
+    <div class="unit-content-center unit unit-xs-1 s-1 m-1 l-1">
+      <h2 class="zetta push-0 text-left max-length">Sketches</h2>
+    </div>
+    <div class="unit unit-content-center unit-xs-1 s-1 m-1 l-1">
+      <div class="grid">
+        <div class="unit unit-xs-1-2 s-1-2 m-1-2 l-1-4 island-1-8 border">
+          {% pattern images/img-flex image="/images/package-sketch-3.jpg" aria-details="Assign non-visible text to enhance the description of an element" alt-text="Assign the description to an image if necessary"%}
+        </div>
+        <div class="unit unit-xs-1-2 s-1-2 m-1-2 l-1-4 island-1-8 border">
+          {% pattern images/img-flex image="/images/package-sketch-4.jpg" aria-details="Assign non-visible text to enhance the description of an element" alt-text="Assign the description to an image if necessary"%}
+        </div>
+        <div class="unit unit-xs-1-2 s-1-2 m-1-2 l-1-4 island-1-8 border">
+          {% pattern images/img-flex image="/images/package-sketch-2.jpg" aria-details="Assign non-visible text to enhance the description of an element" alt-text="Assign the description to an image if necessary"%}
+        </div>
+        <div class="unit unit-xs-1-2 s-1-2 m-1-2 l-1-4 island-1-8 border">
+          {% pattern images/img-flex image="/images/package-sketch-1.jpg" aria-details="Assign non-visible text to enhance the description of an element" alt-text="Assign the description to an image if necessary"%}
         </div>
       </div>
-      <div class="unit unit-content-center unit-xs-1 s-1 m-1 l-1">
-        <div class="grid">
-          <div class="island unit unit-xs-1 s-1 m-1 l-1">
-            <p class="push-0">During the sketching phase I was looking for a design that could be durable, I explored a variety of concepts, such as planets, audio equipment, and sound frequencies. I also explored different styles such as abstract logo design. Music plays a big role in many people’s daily life.  It can get people excited. It can help people relax, focus, day dream, even help their plants grow according to some studies. I wanted the design of the logo to try and capture the dynamic nature of music while also looking professional and high end to reflect the quality of the products sold at Planet of Sound.</p>
-          </div>
+    </div>
+    <div class="unit unit-content-center unit-xs-1 s-1 m-1 l-1">
+      <div class="grid">
+        <div class="unit unit-xs-1 s-1 m-1 l-1 pad-t">
+          <p class="push-0">During the sketching phase I was looking for a design that could be durable while interesting and unique. I started by drawing plastic containers to get an idea of the shape needed to hold food in place. From there I explored if I could create that shape using only paper. Initially I found inspiration from the Russian Matryoshka doll which has smaller dolls inside of it. I liked this style for its ability to contain smaller objects while having the opportunity to apply unique designs on the outside of the container. From here I explored how stacking, how it would be handled, and how it could look on display. Ulimately I came to  my final design; A durable, recloseable, and more sustainable package.</p>
         </div>
       </div>
-    <!-- <h2>Sketches</h2>
-    <p>Music acts like an amplipher of someone’s mood. It can get people excited. It can help people relax, focus, day dream, even help your plants grow according to some studies. Music is pretty influencial and plays a large role in most people’s daily life. I wanted to design a logo, that conveyed that feeling while also looking professional and high end to reflect the quality of the products sold at Planet of Sound</p> -->
+    </div>
   </section>
-  <section class="wrapper grid grid-middle">
-    <div class="unit-content-center unit unit-xs-1 s-1 m-1 l-1">
-      <h3 class="push-0 text-left max-length">Current Bistro Box</h3>
-    </div>
-    <div class="unit-content-center unit unit-xs-1 s-1 m-1 l-1">
-      {% pattern sections/image-text-inline title="subheader" details="This is the current Bistro Box. It does it's job well, but uses 742 cm2 of
-plastic for 157 grams of food. To put that in perspective, Ottawa has over 30 Starbucks. If each one just sold one bistro box a day, that would be 22,260 cm2 (or 24 ft2) of
-plastic being thrown away." image="/images/bistro-box.jpg" %}
-    </div>
-    <div class="unit-content-center unit unit-xs-1 s-1 m-1 l-1">
-      <h3 class="push-0 text-left max-length">Starbucks Image and Values</h3>
-    </div>
-    <div class="unit unit-content-centerunit-xs-1 s-1 m-1 l-1">
-      <p>Style and image is very important to Starbucks. Everything from the experience in their coffee shops to the packaging of the products they sell. It’s so important that they created a higher end store called Starbucks Reserve. This research tells us that there is a market opportunity at Starbucks for a more environmentally friendly package. Both financially and socially.
-      <p>Their typical customer is willing to pay a little bit more for a Starbucks product. They are paying for the convenience of a higher quality good. Starbucks is aware of the amount of plastic is uses and actively looks for ways to reduce the amount where it is possible. One way Starbucks is currently doing this is by eliminating straws from their stores. Another possible way they could reduce their use of plastic would be to consider repackaging the Bistro Box.</p>
 
-    </div>
-    <div class="unit-content-center unit unit-xs-1 s-1 m-1 l-1">
-      <h3 class="push-0 text-left max-length">Clear Space</h3>
-    </div>
-    <div class="unit-content-center unit unit-xs-1 s-1 m-1 l-1">
-      {% pattern sections/image-text-inline title="subheader" details="Clear space is the amount of space between the logo and other content/elements. The “o” in the word “of” is used to set the minimum amount of clear space. Using the “o” allows the company to determine the right amount of clear space at different sizes, while still maintaining proximity and continuity to other elements." image="/images/planet-of-sound-logo-06.png" %}
-    </div>
-    <div class="unit-content-center unit unit-xs-1 s-1 m-1 l-1">
-      <h3 class="push-0 text-left max-length">Colours</h3>
-    </div>
-    <div class="unit unit-content-centerunit-xs-1 s-1 m-1-2 l-1-2">
-      <div class="grid">
-        <div class="unit unit-xs-1 s-1 m-1-3 l-1-3">
-          {% pattern cards/figure title="Figure header" details="Hex: #62b546" image="/images/colour-green.png" %}
-        </div>
-        <div class="unit unit-xs-1 s-1 m-1-3 l-1-3">
-          {% pattern cards/figure title="Figure header" details="Hex: #000000" image="/images/colour-black.png" %}
-        </div>
-        <div class="unit unit-xs-1 s-1 m-1-3 l-1-3">
-          {% pattern cards/figure title="Figure header" details="Hex: #ffffff" image="/images/colour-white.png" %}
-        </div>
-
-      </div>
-    </div>
-    <div class="unit unit-content-center unit-xs-1 s-1 m-1-2 l-1-2">
-      <div class="grid">
-        <div class="island unit unit-xs-1 s-1 m-1 l-1">
-          <p class="push-0">  Only use the Planet of Sound colour green as an accent. When used as the primary colour, it overpowers the type and the logo. If using the logo on a colourful background, say for packaging, use the inverted logo or the black and white logo. This will create enough contrast for the logo to continue to stand out and be identifiable.</p>
-        </div>
-      </div>
-    </div>
-    <div class="unit-content-center unit unit-xs-1 s-1 m-1 l-1">
-      <h3 class="push-0 text-left max-length">Typeface</h3>
-    </div>
-    <div class="unit-content-center unit unit-xs-1 s-1 m-1 l-1">
-      {% pattern sections/image-text-inline title="subheader" details="Neue Kabel is the only typeface used with the two weights being bold and regular. The company’s name is split into two different font sizes, using a scale of 2:1 (“Sound” will always be twice the font size of “Planet of”). Bold is used for “Planet of” and regular is used for “Sound” to unite the text and give it a structured and unified look while feeling dynamic." image="/images/planet-of-sound-type.png" %}
-    </div>
-    </section>
   <section class="wrapper text-center">
     <div>
-      {% pattern sections/see-more title="See More Work" details="me" data=Product %}
+      {% pattern sections/see-more title="See More Work" aria-details="Assign non-visible text to enhance the description of an element" aria-label="Take a look at other graphic design work I have done" alt-text="Assign the description to an image if necessary" %}
     </div>
   </section>
