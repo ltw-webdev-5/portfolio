@@ -32,7 +32,7 @@
 
 .hover-box:hover .hover-box-img,
 .hover-box:focus .hover-box-img {
-  opacity: 0.2;
+  opacity: 0.1;
   filter: alpha(opacity=50);
   transform: scale(1.1);
 }

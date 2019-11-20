@@ -7,3 +7,19 @@
   border-radius: 0px;
   margin-bottom: 5em;
 }
+
+@media only screen and (min-width:38em) {
+
+  .name-banner {
+    font-size: 41px;
+  }
+
+}
+
+@media only screen and (min-width:46em) {
+
+  .name-banner {
+    font-size: 55px;
+  }
+
+}
