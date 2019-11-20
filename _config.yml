@@ -8,14 +8,14 @@ patternbot:
   layouts:
     default: |
       The default layout should be used for almost every page, it includes the website's primary header & footer.
-    illustration: |
-      The default layout should be used for almost every page, it includes the website's primary header & footer.
-    logo: |
-      The default layout should be used for almost every page, it includes the website's primary header & footer.
-    motion: |
-      The default layout should be used for almost every page, it includes the website's primary header & footer.
-    package: |
-      The default layout should be used for almost every page, it includes the website's primary header & footer.
+    # illustration: |
+    #   The default layout should be used for almost every page, it includes the website's primary header & footer.
+    # logo: |
+    #   The default layout should be used for almost every page, it includes the website's primary header & footer.
+    # motion: |
+    #   The default layout should be used for almost every page, it includes the website's primary header & footer.
+    # package: |
+    #   The default layout should be used for almost every page, it includes the website's primary header & footer.
   colors:
     background: "--color-background"
     accent: "--color-primary"
