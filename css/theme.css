@@ -16,6 +16,11 @@ html {
   color: var(--color-primary-purple);
 }
 
+.page-width {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
 .blue {
   color: var(--color-primary-blue);
 }
@@ -177,4 +182,24 @@ dt {
 
 .skip-links a:focus {
   top: 0;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .page-width {
+    padding-left: 15em;
+    padding-right: 15em;
+  }
+
+  p {
+    font-size: 25px;
+  }
+
+  dd {
+    font-size: 25px;
+  }
+
+  dt {
+    font-size: 35px;
+  }
 }
