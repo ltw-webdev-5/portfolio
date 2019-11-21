@@ -41,16 +41,4 @@
     text-align:center;
   }
 
-  .contentinfo {
-    background-position: -46em 18em;
-  }
-
-}
-
-@media only screen and (min-width: 60em) {
-
-  .contentinfo {
-    background-position: -20em 14em;
-  }
-
 }

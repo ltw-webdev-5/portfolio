@@ -3,7 +3,7 @@
   --color-secondary: #fdd835;
   --color-secondary-light: #9abda9;
   --color-orange-light: #ffbb4d;
-  --color-orange: #fc962e;
+  --color-orange: #da7610;
   --color-background: rgba(0, 0, 0, .4);
   --background-text: url("../images/texture-text.png");
   --background-image: url("../images/bg-noise.png");
@@ -86,7 +86,7 @@ b {
 
 ol, ul, dl, q, th {
   font-family: var(--font-primary);
-  color: var(--color-orange);
+  color: var(--color-orange-light);
 }
 
 cite {
