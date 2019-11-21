@@ -1,85 +1,93 @@
 ---
 layout: default
 ---
-<div>
-  <div>
-    <h2 class="cursive">{{include.design-title}}</h2>
-    <h3 class="font-tertiary">{{include.client}}</h3>
-    <p class="milli">{{include.date}}</p>
+<div class="island-2 page-width">
+  <div class="text-center pad-b-2">
+    <h2 class="font-cursive">{{page.title}}</h2>
+    <h3 class="font-tertiary">{{page.client}}</h3>
+    <p class="mega">{{page.date-created}}</p>
   </div>
 
   <div>
-    <p>{{include.intro}}</p>
-    <img class="img-flex" src="/images/case-study/{{include.image}}" alt="{{include.image-description}}">
+    <p>{{page.intro}}</p>
+    <img class="img-flex pad-b-2" src="/images/case-study/{{page.image-intro}}" alt="{{page.image-description}}">
   </div>
 
-  <div class="gird">
-    <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+  <div class="grid">
+
+    <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 island">
       <dl>
-        <dt>Client</dt>
-        <dd>{{include.client}}</dd>
-        <dt>Breif</dt>
-        <dd>{{include.breif}}</dd>
-        <dt>Role</dt>
-        <dd>{{include.role}}</dd>
+        <dt>Client:</dt>
+        <dd>{{page.client}}</dd>
+        <dt>Brief:</dt>
+        <dd>{{page.brief}}</dd>
+        <dt>Role:</dt>
+        <dd>{{page.role}}</dd>
       </dl>
     </div>
-      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-        <dl>
-          <dt>Objective</dt>
-          <dd>{{include.objective}}</dd>
-        </dl>
-      </div>
+
+
+    <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 island-1-2">
+      <dl>
+        <dt>Objective:</dt>
+        <dd>{{page.objective}}</dd>
+      </dl>
+    </div>
+
+
   </div>
 
   <h3 class="font-tertiary">Background</h3>
-  <p>{{include.background}}</p>
+  <p>{{page.background}}</p>
 
   <h3 class="font-tertiary">Homework</h3>
-  <p>{{include.homework}}</p>
+  <p>{{page.homework}}</p>
   <div class="grid">
-    <img class="img-flex unit xs-1 s-1 m-1-2 l-1-4 xl-1-4" src="/images/case-study/{{include.image}}" alt="{{include.image-description}}">
-    <img class="img-flex unit xs-1 s-1 m-1-2 l-1-4 xl-1-4" src="/images/case-study/{{include.image}}" alt="{{include.image-description}}">
-    <img class="img-flex unit xs-1 s-1 m-1-2 l-1-4 xl-1-4" src="/images/case-study/{{include.image}}" alt="{{include.image-description}}">
-    <img class="img-flex unit xs-1 s-1 m-1-2 l-1-4 xl-1-4" src="/images/case-study/{{include.image}}" alt="{{include.image-description}}">
+    <img class="img-flex unit xs-1 s-1 m-1-2 l-1-4 xl-1-4" src="/images/case-study/{{page.image-1}}" alt="{{page.image-description}}">
+    <img class="img-flex unit xs-1 s-1 m-1-2 l-1-4 xl-1-4" src="/images/case-study/{{page.image-2}}" alt="{{page.image-description}}">
+    <img class="img-flex unit xs-1 s-1 m-1-2 l-1-4 xl-1-4" src="/images/case-study/{{page.image-3}}" alt="{{page.image-description}}">
+    <img class="img-flex unit xs-1 s-1 m-1-2 l-1-4 xl-1-4" src="/images/case-study/{{page.image-4}}" alt="{{page.image-description}}">
   </div>
 
   <h3 class="font-tertiary">Draft Sketches</h3>
-    <img class="img-flex" src="/images/case-study/{{include.image}}" alt="{{include.image-description}}">
-    <div class="grid">
-      <img class="img-flex unit xs-1 s-1 m-1-2 l-1-4 xl-1-4" src="/images/case-study/{{include.image}}" alt="{{include.image-description}}">
-      <img class="img-flex unit xs-1 s-1 m-1-2 l-1-4 xl-1-4" src="/images/case-study/{{include.image}}" alt="{{include.image-description}}">
-      <img class="img-flex unit xs-1 s-1 m-1-2 l-1-4 xl-1-4" src="/images/case-study/{{include.image}}" alt="{{include.image-description}}">
-      <img class="img-flex unit xs-1 s-1 m-1-2 l-1-4 xl-1-4" src="/images/case-study/{{include.image}}" alt="{{include.image-description}}">
-    </div>
-    <h3 class="font-tertiary">Refinement</h3>
-    <p>{{include.refinements}}</p>
-    <div class="grid">
-      <img class="img-flex unit xs-1 s-1 m-1-2 l-1-2 xl-1-2" src="/images/case-study/{{include.image}}" alt="{{include.image-description}}">
-      <img class="img-flex unit xs-1 s-1 m-1-2 l-1-2 xl-1-2" src="/images/case-study/{{include.image}}" alt="{{include.image-description}}">
-    </div>
+  <img class="img-flex" src="/images/case-study/{{page.image-sketch}}" alt="{{page.image-description}}">
+  <p>{{page.sketches}}</p>
+  <div class="grid">
+    <img class="img-flex unit xs-1 s-1 m-1-2 l-1-4 xl-1-4" src="/images/case-study/{{page.image-sketch-1}}" alt="{{page.image-description}}">
+    <img class="img-flex unit xs-1 s-1 m-1-2 l-1-4 xl-1-4" src="/images/case-study/{{page.image-sketch-2}}" alt="{{page.image-description}}">
+    <img class="img-flex unit xs-1 s-1 m-1-2 l-1-4 xl-1-4" src="/images/case-study/{{page.image-sketch-3}}" alt="{{page.image-description}}">
+    <img class="img-flex unit xs-1 s-1 m-1-2 l-1-4 xl-1-4" src="/images/case-study/{{page.image-sketch-4}}" alt="{{page.image-description}}">
+  </div>
+  <h3 class="font-tertiary">Refinement</h3>
+  <p>{{page.refinements}}</p>
+  <div class="grid">
+    <img class="img-flex unit xs-1 s-1 m-1-2 l-1-2 xl-1-2" src="/images/case-study/{{page.image-ref-1}}" alt="{{page.image-description}}">
+    <img class="img-flex unit xs-1 s-1 m-1-2 l-1-2 xl-1-2" src="/images/case-study/{{page.image-ref-2}}" alt="{{page.image-description}}">
+  </div>
 
-    <h3 class="font-tertiary">Final design</h3>
-    <p>{{include.final}}</p>
-    <img class="img-flex" src="/images/case-study/{{include.image}}" alt="{{include.image-description}}">
+  <h3 class="font-tertiary">Final design</h3>
+  <p>{{page.final}}</p>
+  <img class="img-flex" src="/images/case-study/{{page.image-fin}}" alt="{{page.image-description}}">
 
-    <h3 class="font-tertiary">Mockups</h3>
-    <div class="grid">
-      <img class="img-flex unit xs-1 s-1 m-1-2 l-1-2 xl-1-2" src="/images/case-study/{{include.image}}" alt="{{include.image-description}}">
-      <img class="img-flex unit xs-1 s-1 m-1-2 l-1-2 xl-1-2" src="/images/case-study/{{include.image}}" alt="{{include.image-description}}">
-    </div>
+  <h3 class="font-tertiary">Mockups</h3>
+  <div class="grid">
+    <img class="img-flex unit xs-1 s-1 m-1-2 l-1-2 xl-1-2" src="/images/case-study/{{page.image-moc-1}}" alt="{{page.image-description}}">
+    <img class="img-flex unit xs-1 s-1 m-1-2 l-1-2 xl-1-2" src="/images/case-study/{{page.image-moc-2}}" alt="{{page.image-description}}">
+  </div>
 
-    <h3 class="font-tertiary">Measuemnts</h3>
-    <div class="grid">
-      <img class="img-flex unit xs-1 s-1 m-1-2 l-1-2 xl-1-2" src="/images/case-study/{{include.image}}" alt="{{include.image-description}}">
-      <img class="img-flex unit xs-1 s-1 m-1-2 l-1-2 xl-1-2" src="/images/case-study/{{include.image}}" alt="{{include.image-description}}">
-    </div>
+  <h3 class="font-tertiary">Measuemnts</h3>
+  <div class="grid">
+    <img class="img-flex unit xs-1 s-1 m-1-2 l-1-2 xl-1-2" src="/images/case-study/{{page.image-mes-v}}" alt="{{page.image-description}}">
+    <img class="img-flex unit xs-1 s-1 m-1-2 l-1-2 xl-1-2" src="/images/case-study/{{page.image-mes-h}}" alt="{{page.image-description}}">
+  </div>
 
-    <h3 class="font-tertiary">Typeface</h3>
-    <p>{{include.typeface}}</p>
-    <img class="img-flex" src="/images/case-study/{{include.image}}" alt="{{include.image-description}}">
+  <h3 class="font-tertiary">Typeface</h3>
+  <p>{{page.typeface}}</p>
+  <img class="img-flex" src="/images/case-study/{{page.image-type}}" alt="{{page.image-description}}">
 
-    <h3 class="font-tertiary">Colours</h3>
-    <p>{{include.colours}}</p>
-    {% %}
+  <h3 class="font-tertiary">Colours</h3>
+  <p>{{page.colours}}</p>
+  {% for col in page.colors %}
+  {% pattern colours/colors color=col %}
+  {% endfor %}
 </div>

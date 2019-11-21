@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<div>
+  <div>
+    <h2 class="cursive">{{include.design-title}}</h2>
+    <h3 class="font-tertiary">{{include.client}}</h3>
+    <p class="milli">{{include.date}}</p>
+  </div>
+
+  <div>
+    <p>{{include.intro}}</p>
+    <img class="img-flex" src="/images/case-study/{{include.image}}" alt="{{include.image-description}}">
+  </div>
+
+  <div class="gird">
+    <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+      <dl>
+        <dt>Client</dt>
+        <dd>{{include.client}}</dd>
+        <dt>brief</dt>
+        <dd>{{include.brief}}</dd>
+        <dt>Role</dt>
+        <dd>{{include.role}}</dd>
+      </dl>
+    </div>
+    <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+      <dl>
+        <dt>Objective</dt>
+        <dd>{{include.objective}}</dd>
+      </dl>
+    </div>
+  </div>

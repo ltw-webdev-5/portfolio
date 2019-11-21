@@ -23,3 +23,6 @@ patternbot:
       Adorn Smooth is a font I use as a part of my brand, so using it here makes my brand more consistent. It is a display cusrive font that will be used form headings.
     typefaces.cursive: |
       Objektiv is a font I used to mirror Avenir Next, it is a very similar font that is used as a sub heading font, and accents.
+collections:
+  case-study:
+    output: true

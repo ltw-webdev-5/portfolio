@@ -1,0 +1,28 @@
+---
+layout: branding
+title: "Branding"
+client: "Animal Defence League of Canada"
+date-created: "April 17, 2019"
+intro: "Brand identity and collateral design for Animal Defence League of Canada, a non profit organization that is opposed to all forms of animal exploitation and cruelty. They value themselves on informing the public through their websites and news letters. Such a great organization deserved to have a logo that clearly represents what they stand for in a modern world."
+image-intro: "adlc_og.png"
+brief: "Create a new logo and brand identity to help the public become aware and get the knowledge they need."
+role: "Create a new logo and brand identity to help the public become aware and get the knowledge they need."
+objective: " The objective of this project is to clear up the confusion between other non profit animal protection organizations in Ottawa and help ADLC become more known nation wide. The objective is to create a new logo that will be a visual representation of the organization that clearly demonstrates the organizations values on animal safety."
+background: "The Animal Defence League of Canada was formed in 1958 and is governed by a volunteer Board of Directors. Animal Defence League of Canada is a non profit organization that is opposed to all forms of animal exploitation and cruelty. They value themselves on informing the public about the oppression of animals and how to prevent or alleviate exploitation, cruelty and suffering. "
+homework: "Doing the homework and research on other Canadian Logo’s. Trying to capture the Canadian aspect that others have done so well. Clearly representing and organization and encapsulating a Canadian feeling."
+image-1: "canada-150.jpg"
+image-2: "canada-geese_Logo.jpg"
+image-3: "canada-hockey-logo.jpg"
+image-4: "dairy-farm.jpg"
+image-sketch: "sketches.jpg"
+image-sketch-1: "sketch-1.jpg"
+image-sketch-2: "sketch-2.jpg"
+image-sketch-3: "sketch-3.jpg"
+image-sketch-4: "sketch-4.jpg"
+sketches: ""
+refinement: ""
+image-ref-1: "refine-1.jpg"
+image-ref-2: "refine-2.jpg"
+colors:
+  - "#AEC637"
+---
