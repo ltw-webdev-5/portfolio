@@ -6,7 +6,7 @@ patterns:
   hello:
     title: "Hello I'm Jasmine"
     description: |
-      This is a small intro to me that breifly talks about me and my passions. Users can then click the button to go to my about page to read more about my store, and who I am as a graphic designer.
+      This is a small intro to me that briefly talks about me and my passions. Users can then click the button to go to my about page to read more about my store, and who I am as a graphic designer.
     fields:
       - name: image
         type: string

@@ -77,9 +77,9 @@
 
 .cards {
   background-color: var(--color-primary-blue);
-  height: 250px;
+  /* height: 250px;
   width: 250PX;
-  margin: 20px;
+  margin: 20px; */
 }
 
 .about-me {
@@ -96,9 +96,9 @@
 
   .cards {
     background-color: var(--color-primary-blue);
-    height: 300px;
+    /* height: 300px;
     width: 300PX;
-    margin: 20px;
+    margin: 20px; */
   }
 }
 
@@ -107,9 +107,9 @@
 
   .cards {
     background-color: var(--color-primary-blue);
-    height: 350px;
+    /* height: 350px;
     width: 350PX;
-    margin: 20px;
+    margin: 20px; */
   }
 
 
