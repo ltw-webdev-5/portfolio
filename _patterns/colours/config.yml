@@ -1,0 +1,10 @@
+title: "colors"
+description:
+    This section will be for my case study for branding to showcase the colours.
+
+patterns:
+  Colors:
+    fields:
+      - name: text
+        type: string
+        example: "FFF"

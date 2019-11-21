@@ -1,0 +1,11 @@
+.color {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  padding-top: 70px;
+  background-color: var(--color-primary-blue);
+  display: inline-block;
+}
