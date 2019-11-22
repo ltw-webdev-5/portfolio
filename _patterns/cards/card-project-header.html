@@ -1,17 +1,37 @@
-<div class="bg-grey">
-  <div class="push">
-    <div class="block relative">
-      <div class="embed embed-5by1">
-        <img class="img-flex embed-item" src="{{include.image}}" alt="{{include.alt}}" class="project-hover">
-      </div>
-      <div class="pin-lb push-none gutter">
-        <h3 class="text-left push-1-4">{{include.heading}}</h3>
-        <p class="text-left white">{{include.subheading}}</p>
+<div class="grid">
+  <div class="bg-grey unit unit-xs-hidden unit-s-hidden m-1 l-1">
+    <div class="push">
+      <div class="block relative">
+        <div class="embed embed-5by1">
+          <img class="img-flex embed-item" src="{{include.image}}" alt="{{include.alt}}" class="project-hover">
+        </div>
+        <div class="pin-lb push-none gutter">
+          <h3 class="text-left push-1-4">{{include.heading}}</h3>
+          <p class="text-left white">{{include.subheading}}</p>
+        </div>
       </div>
     </div>
+    <div class="gutter">
+      <h4 class="push-1-4">About</h4>
+      <p class="pad-b push-0">{{include.text}}</p>
+    </div>
   </div>
-  <div class="gutter">
-    <h4 class="push-1-4">About</h4>
-    <p class="pad-b push-0">{{include.text}}</p>
+
+  <div class="bg-grey unit xs-1 s-1 unit-m-hidden unit-l-hidden">
+    <div class="push">
+      <div class="block relative">
+        <div class="embed embed-3by1">
+          <img class="img-flex embed-item" src="{{include.image}}" alt="{{include.alt}}" class="project-hover">
+        </div>
+        <div class="pin-lb push-none gutter">
+          <h3 class="text-left tera push-0">{{include.heading}}</h3>
+          <p class="text-left white milli push-1-2">{{include.subheading}}</p>
+        </div>
+      </div>
+    </div>
+    <div class="gutter">
+      <h4 class="push-1-4">About</h4>
+      <p class="pad-b push-0">{{include.text}}</p>
+    </div>
   </div>
 </div>
