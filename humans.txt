@@ -7,12 +7,20 @@
 
 ---
 
+# Photographs
+
+- The photograhs used in the main banner and hero banner were taken by me using 35 mm black and white film with a flash attachment.
+
+---
+
 # THANKS
 -Graphicburger.com - This is a free site that provides photoshop mock-ups which I used for the business card, street sign, a frame sign, and t-shirt.
 
 -Fontawesome.com - This is the website I used to get the icons found in the footer for social media and email.
 
 -Vimeo - For hosting the videos found on the site
+
+-Music: The song used in the broadcast package video is "I Know After Laughter" by Mounika
 
 -Learn the web - https://learn-the-web.algonquindesign.ca - Amazing cheatsheet guides and videos to help make this site possible
 
