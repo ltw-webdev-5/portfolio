@@ -13,17 +13,8 @@
 html {
   font-family: var(--font-primary);
   color: #e2e2e2;
-  /*background:  linear-gradient( rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), var(--background-text) center center / 32px auto no-repeat, var(--background-image);*/
-  /* background: var(--background-text);
-  background-size: contain; */
   background-color: #1b1b1b;
-  /* background: url(/images/bg-noise.svg) repeat,-webkit-linear-gradient(bottom, hsla(255,100%,100%,.81) 0%, hsla(0,0%,100%,0)) bottom/100% 800px no-repeat,#111 50% repeat;
-  background: url(/images/bg-noise.svg) repeat,-o-linear-gradient(bottom, hsla(255,100%,100%,.81) 0%, hsla(0,0%,100%,0)) bottom/100% 800px no-repeat,#111 50% repeat;
-  background: url(/images/bg-noise.svg) repeat,linear-gradient(to top, hsla(0,0,0,.81) 0%, hsla(0,0%,100%,0)) bottom/100% 800px no-repeat,#111 50% repeat; */
-  /* background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
-  background-blend-mode: multiply,multiply; */
-  /* background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%), url("/images/bg-noise.svg") #989898;
-  background-blend-mode: multiply,multiply; */
+  font-display: swap
  }
 
 .light {
