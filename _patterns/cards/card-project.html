@@ -1,4 +1,4 @@
-<div class="unit xs-1 s-1 m-1-2 l-1-2">
+<div class="unit unit-xs-hidden unit-s-hidden m-1-2 l-1-2">
   <a href="{{include.url}}" class="block relative project-card">
     <div class="embed embed-16by9">
       <img class="img-flex project-image embed-item" src="{{include.image}}" class="project-hover">
@@ -6,6 +6,18 @@
     <div class="pin-lb push-none gutter">
       <h3 class="text-left push-1-4">{{include.heading}}</h3>
       <p class="text-left white">{{include.text}}</p>
+    </div>
+  </a>
+</div>
+
+<div class="unit xs-1 s-1 unit-m-hidden unit-l-hidden">
+  <a href="{{include.url}}" class="block relative project-card">
+    <div class="embed embed-16by9">
+      <img class="img-flex project-image embed-item" src="{{include.image}}" class="project-hover">
+    </div>
+    <div class="pin-lb push-none gutter">
+      <h3 class="text-left push-0 tera">{{include.heading}}</h3>
+      <p class="text-left white milli push-1-2">{{include.text}}</p>
     </div>
   </a>
 </div>
