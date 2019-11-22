@@ -71,3 +71,14 @@ patterns:
       - name: url
         type: url
         example: "#"
+  submit:
+    title: "Submit"
+    description: This is only for my form, for the submit button
+    width: 200
+    fields:
+      - name: aria
+        type: string
+        example: "This will send Jasmine and email"
+      - name: url
+        type: url
+        example: "#"
