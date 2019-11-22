@@ -1,5 +1,5 @@
 :root {
-  --color-primary: #F2F2F2;
+  --color-primary: #e2e2e2;
   --color-secondary: #fdd835;
   --color-secondary-light: #9abda9;
   --color-orange-light: #ffbb4d;
@@ -67,7 +67,11 @@ mark {
   background-color: var(--color-secondary-light);
 }
 a {
-  color: #fff;
+  color: #e2e2e2;
+}
+
+.hover:hover {
+  color: var(--color-secondary);
 }
 
 b {
@@ -78,6 +82,17 @@ b {
 ol, ul, dl, q, th {
   font-family: var(--font-primary);
   color: var(--color-orange-light);
+}
+
+dd {
+  font-family: var(--font-primary);
+  color: var(--color-orange-light);
+}
+
+dt {
+  font-family: var(--font-primary);
+  color: var(--color-secondary-light);
+
 }
 
 cite {
