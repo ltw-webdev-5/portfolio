@@ -8,7 +8,11 @@
   </url>
   <!-- If you want to add another page, add another <url> tag -->
   <url>
-    <loc>https://gabbycincoleon.ca/about/</loc>
+    <loc>https://gabbycincoleon.ca/#work/</loc>
+  </url>
+
+  <url>
+    <loc>https://gabbycincoleon.ca/#about/</loc>
   </url>
 
 </urlset>
