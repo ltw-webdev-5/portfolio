@@ -110,5 +110,5 @@ cite {
 }
 
 a:focus {
-  outline: 3px solid var(--color-neutral);
+  outline: 3px solid #ffbd94;
 }

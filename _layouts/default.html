@@ -26,11 +26,13 @@
     <li><a href="#nav">Jump to navigation content</a></li>
     <li><a href="#main">Jump to main content</a></li>
   </ul>
-  <main role="main" id="main" tabindex="0">
-    {% pattern header/header %}
+
+  {% pattern header/header %}
+  <main role="main" tabindex="0">
     {{content}}
-    {% pattern footer/footer %}
   </main>
+  {% pattern footer/footer %}
+
 </body>
 </html>
 <script type="application/ld+json">
