@@ -107,6 +107,7 @@
 
   .portfolio {
     transform: rotate(0deg);
+    font-size: 4em;
   }
 
   .hero-title {
@@ -132,6 +133,10 @@
 
   .menu {
     text-align: right;
+  }
+
+  .portfolio {
+    font-size: 5em;
   }
 
 }
