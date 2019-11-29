@@ -1,5 +1,12 @@
-<div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-2">
+<div class="unit unit-xs-hidden unit-s-hidden m-1-2 l-1-2 gutter-2">
   <ul>
+    <li class="{% if page.highlight_nav == 'index' %}current{% endif %} push-1-2"><a class="yellow hover giga" href="/index/">Home</a></li>
+    <li class="push-1-2"><a href="mailto:hello@sophieriopel.design?Subject=Info" target="_top" class="orange hover giga">Contact</a></li>
+  </ul>
+</div>
+
+<div class="unit xs-1 s-1 unit-m-hidden unit-l-hidden text-center">
+  <ul class="list-group">
     <li class="{% if page.highlight_nav == 'index' %}current{% endif %} push-1-2"><a class="yellow hover giga" href="/index/">Home</a></li>
     <li class="push-1-2"><a href="mailto:hello@sophieriopel.design?Subject=Info" target="_top" class="orange hover giga">Contact</a></li>
   </ul>

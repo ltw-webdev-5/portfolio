@@ -36,6 +36,10 @@ label.nav-label::before {
   display: block;
 }
 
+.nav-check-2:checked ~ .nav {
+  display: block;
+}
+
 .nav-open {
   display: block;
 }
@@ -45,6 +49,14 @@ label.nav-label::before {
 }
 
 .nav-check:checked ~ .nav-label .nav-close {
+  display: block;
+}
+
+.nav-check-2:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check-2:checked ~ .nav-label .nav-close {
   display: block;
 }
 
