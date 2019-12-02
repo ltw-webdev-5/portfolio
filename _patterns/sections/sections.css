@@ -90,6 +90,11 @@
   background-color: var(--color-primary-blue);
 }
 
+.specialties {
+  max-width: 56em;
+  margin: 0 auto;
+}
+
 @media only screen and (min-width: 35em){
 
   .quote {
@@ -218,6 +223,22 @@
 }
 
 @media only screen and (min-width: 100em){
+
+  .quote {
+    font-size: 120px;
+  }
+
+}
+
+@media only screen and (min-width: 104em) {
+
+    .specialties {
+      max-width: none;
+    }
+
+}
+
+@media only screen and (min-width: 120em){
 
   .quote {
     font-size: 150px;
