@@ -43,6 +43,11 @@ html {
   font-family: var(--font-tertiary);
 }
 
+.carl {
+  width: 250px;
+  margin-left: 80px;
+}
+
 /*-- heading formaat */
 
 h1 {
@@ -191,6 +196,12 @@ dt {
     padding-right: 15em;
   }
 
+  .carl {
+    width: 500px;
+    align-items: center;
+    margin-left: 0;
+  }
+
   p {
     font-size: 25px;
   }
@@ -201,5 +212,14 @@ dt {
 
   dt {
     font-size: 35px;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  .carl {
+    width: 500px;
+    align-items: center;
+    margin-left: 300px;
   }
 }
