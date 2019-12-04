@@ -1,0 +1,20 @@
+---
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  {% for page in site.pages %}
+    {% if page.layout %}
+      {% if page.url contains "pattern-library" %}{% continue %}{% endif %}
+      {% include sitemap-entry.xml entry=page %}
+    {% endif %}
+  {% endfor %}
+
+  {% for work in site.work %}
+    {% if work.layout %}
+      {% include sitemap-entry.xml entry=work %}
+    {% endif %}
+  {% endfor %}
+
+</urlset>
