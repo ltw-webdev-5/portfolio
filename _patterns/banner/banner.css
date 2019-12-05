@@ -18,6 +18,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll;
+  background-position: bottom;
 }
 
 .image-title {
@@ -36,12 +37,14 @@
 
 .hero-banner {
   color: var(--color-secondary);
-  height: 70vh;
+  height: 80vh;
   background-image: url("../images/about.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: left bottom;
+  /* background-position: left bottom; */
+  background-position: -20px 50px;
+  overflow: hidden;
 }
 
 .banner-title {
@@ -59,7 +62,7 @@
   transform: translate(-50%, -50%)
 } */
 .hero-title {
-  text-align: center;
+  text-align: right;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -67,7 +70,7 @@
 }
 
 .main-title {
-  text-align: center;
+  text-align: right;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -78,14 +81,14 @@
   display: inline-block;
   font-size: 4rem;
   line-height: .75;
-  color: var(--color-secondary-light);
+  color: #639d98;
 }
 
 .portfolio {
   display: inline-block;
   font-size: 3rem;
   line-height: .75;
-  color: var(--color-orange);
+  color: #639d98;
   /* position: absolute;
   left: 50%;
   transform: translateX(-50%); */
@@ -103,6 +106,14 @@
   text-align: center;
 }
 
+@media only screen and (min-width: 25em) {
+
+  .hero-banner {
+    background-position: 0px 20px;
+  }
+
+}
+
 @media only screen and (min-width: 28em) {
 
   .portfolio {
@@ -111,8 +122,12 @@
   }
 
   .hero-title {
-    left: 50%;
-    top: 21%;
+    left: 42%;
+    top: 20%;
+  }
+
+  .hero-banner {
+    background-position: 0px 20px;
   }
 
 }
@@ -137,6 +152,26 @@
 
   .portfolio {
     font-size: 5em;
+  }
+
+  .hero-banner {
+    background-position: 0px 20px;
+  }
+
+}
+
+@media only screen and (min-width: 45em) {
+
+  .hero-banner {
+    background-position: bottom left;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .hero-banner {
+    background-position: bottom left;
   }
 
 }
