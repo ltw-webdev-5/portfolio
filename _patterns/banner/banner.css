@@ -72,14 +72,14 @@
 .main-title {
   text-align: right;
   position: absolute;
-  left: 50%;
+  left: 32%;
   transform: translateX(-50%);
-  top: 35%;
+  top: 17%;
 }
 
 .title {
   display: inline-block;
-  font-size: 4rem;
+  font-size: 3rem;
   line-height: .75;
   color: #639d98;
 }
@@ -97,7 +97,7 @@
 
 .subhead {
   font-weight: 300;
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: .75;
   color: var(--color-orange);
 }
@@ -110,6 +110,12 @@
 
   .hero-banner {
     background-position: 0px 20px;
+  }
+
+  .main-title {
+    left: 41%;
+    top: 18%;
+    width: 67%;
   }
 
 }
@@ -130,12 +136,20 @@
     background-position: 0px 20px;
   }
 
+  .title {
+    font-size: 4rem;
+  }
+
+  .main-title {
+    left: 38%;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
 
   .title {
-    font-size: 4.9718rem;
+    font-size: 4.2rem;
   }
 
   .subhead {
@@ -158,6 +172,11 @@
     background-position: 0px 20px;
   }
 
+  .main-title {
+    left: 16%;
+    width: 100%
+  }
+
 }
 
 @media only screen and (min-width: 45em) {
@@ -166,12 +185,39 @@
     background-position: bottom left;
   }
 
+  .main-title {
+    left: 25%;
+    width: 70%;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
 
   .hero-banner {
     background-position: bottom left;
+  }
+
+  .main-title {
+    left: 22%;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+
+  .main-title {
+    left: 21%;
+    top: 18%;
+  }
+
+  .title {
+    font-size: 4.982rem;
+  }
+
+  .subhead {
+    font-size: 3.4238rem;
   }
 
 }
