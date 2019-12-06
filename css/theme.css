@@ -146,3 +146,12 @@ ol > li:before {
 .half-height {
   height: 50vh;
 }
+
+.underline {
+  text-decoration: underline;
+}
+
+.bg-gradient {
+  background: rgb(61,131,173);
+  background: linear-gradient(180deg, rgba(61,131,173,1) 0%, rgba(18,45,61,1) 100%);
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>{{page.title}}</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="The Graphic Design Portfolio of Sophie Riopel.">
+  <link rel="shortcut icon" href="image/favicon.ico">
+  <link rel="icon" type="image/png" href="images/favicon-196.png">
+  <link href="/css/main.css" rel="stylesheet">
+  <meta name="ICBM" content="45.41117,-75.69812">
+  <meta name="geo.position" content="45.41117;-75.69812">
+  <meta name="geo.region" content="ca-on">
+  <meta name="geo.placename" content="Ottawa">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{page.title}}">
+  <meta property="og:url" content="{{page.ogurl}}">
+  <meta property="og:image" content="https://jovial-montalcini-b67b8c.netlify.com/images/logo-sr.svg">
+  <meta property="og:site_name" content="Sophie Riopel">
+  <meta property="og:description" content="{{page.ogdescription}}">
+  <meta property="og:locale" content="en_CA">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  {% pattern header/header %}
+  {{content}}
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org"
+    "@type": "Person"
+    "@id": "#ixamxkamii"
+    "name": "Sophie Riopel"
+    "email": "hello@sophieriopel.design"
+    "url": "https://jovial-montalcini-b67b8c.netlify.com/"
+  }
+  </script>
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org"
+      "@type": "Person"
+      "name": "Sophie Riopel"
+      "email": "hello@sophieriopel.design"
+      "address": {
+        "@type": "PostalAddress"
+        "streetAddress": "2181 Navaho Dr. Apt. 1001"
+        "addressLocality": "Napean"
+        "addressRegion": "Ontario"
+        "addressCountry": "Canada"
+        "postalCode": "K2C 3K3"
+      }
+    }
+  </script>
+
+</body>
+</html>
