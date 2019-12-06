@@ -24,6 +24,12 @@
 
 -Learn the web - https://learn-the-web.algonquindesign.ca - Amazing cheatsheet guides and videos to help make this site possible
 
+-Blender  - For providing an amazing 3d program for free.
+
+-BlenderGuru -For his Blender tutorials.
+
+-CGBoost - For their Blender tutorials.
+
 ---
 
 # TECHNOLOGY
