@@ -50,4 +50,8 @@
     text-align: center;
   }
 
+  .social li {
+    width: 24%;
+  }
+
 }
