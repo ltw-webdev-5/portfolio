@@ -21,6 +21,16 @@
   background-position: bottom;
 }
 
+.lost-banner {
+  color: #fff;
+  height: 100vh;
+  background-image: url("../images/home-banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+}
+
 .image-title {
   height: 100vh;
   left: 50%;
@@ -69,12 +79,23 @@
   top: 21%;
 }
 
+.lost-position {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 11%;
+}
+
 .main-title {
   text-align: right;
   position: absolute;
   left: 17%;
   transform: translateX(-50%);
   top: 17%;
+}
+.lost-title {
+  display: inline-block;
+  font-size: 5rem;
 }
 
 .title {
@@ -188,6 +209,10 @@
   .main-title {
     left: 25%;
     width: 70%;
+  }
+
+  .lost-title {
+    text-align: right;
   }
 
 }

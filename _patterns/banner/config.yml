@@ -68,3 +68,26 @@ patterns:
       - name: banner_img
         type: url
         example: "/images/about.jpg"
+
+  404-banner:
+    title: "404"
+    description: |
+      Use this banner for the 404 page.
+    fields:
+      - name: heading
+        type: string
+        example: "Cap Libecap"
+      - name: text
+        type: string
+        example: "Graphic Design"
+      - name: button_text
+        type: string
+        example: "contact"
+        required: false
+      - name: button_url
+        type: url
+        example: "/products/"
+        required: false
+      - name: banner_img
+        type: url
+        example: "/images/ruben.jpg"
