@@ -4,6 +4,7 @@
 
 .contentinfo {
   background-color: #000;
+
   /* background-image: url("../images/footer.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -38,7 +39,15 @@
 @media only screen and (min-width: 38em) {
 
   .social {
-    text-align:center;
+    margin: auto;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .social {
+    text-align: center;
   }
 
 }
