@@ -18,3 +18,17 @@
   color: var(--color-primary);
   border: none;
 }
+
+.btn-back-home {
+  color: var(--color-primary);
+  border: 0 solid var(--color-primary);
+  border-width: 3px;
+  border-radius: 3px;
+}
+
+.btn-back-home:hover {
+  color: var(--color-secondary-dark);
+  border: 0 solid var(--color-secondary-dark);
+  border-width: 3px;
+  border-radius: 3px;
+}
