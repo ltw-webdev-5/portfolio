@@ -1,0 +1,19 @@
+.card .card-text {
+  display: none;
+  color: var(--color-primary-blue);
+  font-weight: 400;
+}
+
+.card:hover .card-text {
+  display: block;
+}
+
+.card:hover img {
+  filter: brightness(20%);
+  transform: scale(1.05);
+  transition: all 300ms linear;
+}
+
+.header-text {
+  padding-bottom: 0px;
+}
