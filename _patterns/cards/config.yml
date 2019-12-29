@@ -18,4 +18,4 @@ patterns:
         example: "#"
       - name: alt
         type: string
-        example: "Presentation"
+        example: "Project"
