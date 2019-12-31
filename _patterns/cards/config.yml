@@ -10,6 +10,9 @@ patterns:
       - name: heading
         type: string
         example: "INSERT TEXT"
+      - name: description
+        type: string
+        example: "Creating a unified overall look and feel, suited just for you"
       - name: image
         type: string
         example: "ADLC.jpg"
