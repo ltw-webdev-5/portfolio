@@ -16,6 +16,7 @@
 .left-sitting {
   box-shadow: -20px -20px rgba(85, 42, 132, 100);
   width: 80%;
+  margin-left: 5em;
 }
 
 .max-length {
