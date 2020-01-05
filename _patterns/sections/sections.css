@@ -16,7 +16,6 @@
 .left-sitting {
   box-shadow: -20px -20px rgba(85, 42, 132, 100);
   width: 80%;
-  margin-left: 5em;
 }
 
 .max-length {
@@ -37,14 +36,14 @@
 }
 
 .hair-bw{
-  width: 150%;
+  width: 100%;
 }
 
 .quote {
   color: #fff;
   text-align: center;
   padding-left: 1em;
-  font-size: 35px;
+  font-size: 20px;
   line-height: 1.5;
   padding-top: .5em;
 }
@@ -100,7 +99,7 @@
 
   .quote {
     padding-left: 1em;
-    font-size: 60px;
+    font-size: 36px;
   }
 }
 
@@ -122,7 +121,7 @@
 
   .quote {
     padding-left: 1em;
-    font-size: 70px;
+    font-size: 50px;
   }
 }
 
@@ -146,7 +145,7 @@
     color: #fff;
     text-align: center;
     padding-left: 1em;
-    font-size: 80px;
+    font-size: 70px;
     line-height: 1.5;
     padding-top: 0;
   }
