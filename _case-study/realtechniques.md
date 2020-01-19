@@ -16,14 +16,41 @@ background2: "In 2010 the Pixiwoo channel started to really excel and the idea b
 
 This brand is 100% animal cruelty free, and adhere to fair labor productions.
 "
-homework:
-image1:
-image1-description:
-image2:
-image2-description:
-image3:
-image3-description:
-image4:
-image4-description:
-sketches:
+homework: "The main competitors of Real Techniques are Mac, Sephora, and Chanel. These companies are highly recognized in the beauty industry and sell makeup brushes world wide. While doing some homework and research on these other beauty industry packaging I found majority of makeup brushes are packaged use 60-90% of plastic. While some like Chanel and Mac use paper or metal; it is better for the environment and can be reusable. However the customers don’t get to see the brush for hygiene purposes. Real Techniques packaging offers the customer to see what the brushes they are getting. They also offer other products in their packaging, like a carriers, or bin to hold your brushes. Although some of their base brushes are not sold individually in stores. Real Techniques offers visibility on the burgess, but it uses one-use plastic that is hard on the environment. "
+image1: "mac-logo.jpg"
+image1-description: "Beauty shop logo of mac. Black background with M A C in a typwritter font."
+image2: "sephora-logo.jpg"
+image2-description: "Sephora beuty shop logo, with an icon of a flame shape representing the S"
+image3: "chanel-logo.jpg"
+image3-description: "Chanel logo, this is for the beauty side of chanel. There are two C's in the icon logo, one faceing to the right one facing to the left, and they are overalaping each other."
+og1: "mac-origonal.jpg"
+og1-description: ""
+og2: "chanel-origonal.jpg"
+og2-description: ""
+og3: "sephora-og.png"
+og3-description: ""
+og4: "rt-origonal.jpg"
+og4-description: ""
+image-sketch: ""
+sketches: "During the sketching process I wanted to create a unique package design that allows to keep the brush in a hygienic state, but also give the customer a preview of the brush that they are looking for. I wanted to create a single brush packaging for real techniques base brushes because they did not sell their individual base kit brushes. "
+sketch-1: "sketchbook-RT.jpg"
+sketch1-description: ""
+sketch-2: ""
+sketch2-description: ""
+sketch-3: ""
+sketch3-description: ""
+sketch-4: ""
+sketch4-description: ""
+refinements: "In this step I take the best idea, the one that jump out of the page. Being unique and speaking to the branding of the company. I take them into illustrator, and create the dyelines of the packaging to then understand how it will be built. For this step I have to make accurate measurements and continuously build them out to make sure it is understood for the manufacturing stage."
+refine1: ""
+refine1-description: ""
+refine2: ""
+refine2-description: ""
+final:
+final-img: ""
+final-description: ""
+moc1: ""
+moc1-description: ""
+moc2: ""
+moc2-description: ""
 ---
