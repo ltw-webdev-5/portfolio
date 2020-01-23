@@ -147,6 +147,10 @@ ol > li:before {
   height: 50vh;
 }
 
+.full-width {
+  height: 100vw;
+}
+
 .underline {
   text-decoration: underline;
 }
@@ -156,6 +160,10 @@ ol > li:before {
   background: linear-gradient(180deg, rgba(61,131,173,1) 0%, rgba(18,45,61,1) 100%);
 }
 
-.home-hover{
+.no-overflow {
+  overflow: hidden;
+}
 
+.mintygreen {
+  background-color: #ABDDC2;
 }
