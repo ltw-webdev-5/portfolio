@@ -189,6 +189,29 @@ dt {
   top: 0;
 }
 
+.embed {
+  margin-left: 0;
+  margin-right: 0;
+  position: relative;
+  width: 100%;
+}
+
+.embed-16by9 {
+  padding-top: 56.25%;
+}
+
+.embed-item {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.video {
+  width: 100%;
+}
+
 @media only screen and (min-width: 60em) {
 
   .page-width {
