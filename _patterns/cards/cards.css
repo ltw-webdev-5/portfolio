@@ -39,3 +39,8 @@ dt {
   height: 100vh;
   background-color: var(--color-secondary-light);
 }
+
+.max-height {
+  max-height: 400px;
+  max-width: 250px;
+}

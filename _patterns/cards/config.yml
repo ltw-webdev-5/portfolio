@@ -162,3 +162,26 @@ patterns:
         - name: date
           type: string
           example: "June 2018 - July 2018"
+    card-project-about:
+      title: "Project About"
+      description: |
+        The Project Header Left Card is used to place an image of the project in the header.
+      fields:
+        - name: image
+          type: string
+          example: "/images/placeholder.jpg"
+        - name: alt
+          type: string
+          example: "the description of the image goes here"
+        - name: intro
+          type: string
+          example: "Project Intro"
+        - name: info
+          type: string
+          example: "Project info"
+        - name: link
+          type: url
+          example: "#"
+        - name: link-name
+          type: string
+          example: "Button Basic"

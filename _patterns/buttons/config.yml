@@ -37,3 +37,14 @@ patterns:
       description: |
         The Instagram button directs viewers to the Instagram page of Sophie Riopel.
       width: "12em"
+    button-basic:
+      title: "Basic"
+      description: |
+        The Basic button is used for all basic links.
+      fields:
+        - name: link
+          type: url
+          example: "#"
+        - name: link-name
+          type: string
+          example: "Button Basic"
