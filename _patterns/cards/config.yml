@@ -131,3 +131,34 @@ patterns:
         - name: alt
           type: string
           example: "the description of the image goes here"
+    card-project-head-left:
+      title: "Project Header Left"
+      description: |
+        The Project Header Left Card is used to place an image of the project in the header.
+      fields:
+        - name: image
+          type: string
+          example: "/images/placeholder.jpg"
+        - name: alt
+          type: string
+          example: "the description of the image goes here"
+    card-project-head-right:
+      title: "Project Header Right"
+      description: |
+        The Project Header Right Card is used to show project info.
+      fields:
+        - name: title
+          type: string
+          example: "Project Title"
+        - name: client
+          type: string
+          example: "Client Name"
+        - name: type
+          type: string
+          example: "Field Type"
+        - name: size
+          type: string
+          example: "1"
+        - name: date
+          type: string
+          example: "June 2018 - July 2018"

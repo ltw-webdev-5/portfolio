@@ -25,3 +25,17 @@
   height: 100%;
   width: 100%;
 }
+
+.image-project {
+  height: 100vh;
+}
+
+dt {
+  font-weight: bold;
+  color: var(--color-primary-pink);
+}
+
+.head-project {
+  height: 100vh;
+  background-color: var(--color-secondary-light);
+}
