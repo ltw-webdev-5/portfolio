@@ -7,7 +7,7 @@ intro: "Brand identity and collateral design for Animal Defence League of Canada
 image-intro: "adlc_og.png"
 area-intro-description: "Original animal defence league of Canada logo. With a collage of animals to the left side and the words to the right side all surrounded by a brown and royal blue bordered box."
 brief: "Create a new logo and brand identity to help the public become aware and get the knowledge they need."
-role: "Create a new logo and brand identity to help the public become aware and get the knowledge they need."
+role: "I was tasked to create a more recognizable and unique logo to pitch to A.D.L.C with a brand identity that they can easily implement."
 objective: " The objective of this project is to clear up the confusion between other non profit animal protection organizations in Ottawa and help ADLC become more known nation wide. The objective is to create a new logo that will be a visual representation of the organization that clearly demonstrates the organizations values on animal safety."
 background: "The Animal Defence League of Canada was formed in 1958 and is governed by a volunteer Board of Directors. Animal Defence League of Canada is a non profit organization that is opposed to all forms of animal exploitation and cruelty. They value themselves on informing the public about the oppression of animals and how to prevent or alleviate exploitation, cruelty and suffering. "
 homework: "Doing the homework and research on other Canadian Logo’s. Trying to capture the Canadian aspect that others have done so well. Clearly representing and organization and encapsulating a Canadian feeling."
