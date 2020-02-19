@@ -31,5 +31,5 @@ style3-description: "Play doah man jumping for joy and play doh explosion of tas
 style-frame4: "cokeframe4.jpg"
 style4-description: "coca-cola bottle in middle of frame"
 final: "The final animation for the Coca-Cola commercial with sounds and animated sections to show the branding."
-video: "coke-commercial.mp4"
+video: "cocacola.mp4"
 ---
