@@ -2,8 +2,17 @@
   padding: 0, 2em;
 }
 
+.menu a {
+  color: #000;
+}
+
+.menu a:hover {
+  color: #000;
+}
+
 .nav:hover {
-  color: #1a1a1a;
+  /* color: #4e5f77; */
+  /* color: #f4dbcb; */
   background-image: url("/images/icons_brush.svg");
   background-repeat: no-repeat;
   background-size: 100% 1em;
@@ -12,7 +21,12 @@
 }
 
 .horizontal-nav {
-  background-color: #000;
+  /* background-color: #4e5f77; */
+  background-color: #f4dbcb;
+  mix-blend-mode: exclusion;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
 }
 
 .current {
@@ -27,8 +41,9 @@
 .logo a {
   border-style: solid;
   border-width: 1px;
-  border-color: #fffff1;
+  border-color: #000;
   display: inline-block;
+  color: #000;
 }
 
 .logo {
@@ -36,8 +51,8 @@
 }
 
 .logo:hover  {
-  color: var(--color-secondary);
-  border-color: var(--color-secondary);
+  color: #000;
+  border-color: #000;
 }
 
 @media only screen and (min-width: 25em) {

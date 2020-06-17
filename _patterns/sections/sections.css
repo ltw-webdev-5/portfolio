@@ -13,15 +13,32 @@
 
 .see-more-link:hover, .see-more-link:hover h3{
   color: var(--color-secondary);
+  font-size: 1.3362rem;
 }
 
 .see-more-link:hover .box {
   border-color: var(--color-secondary);
 }
 
+.see-more {
+  animation: float 6s ease-in-out infinite;
+}
+
 .see {
   width: 60%;
   display: inline-block;
+  z-index: 2;
+  transform: translate(-50%, -50%);
+  top: 31%;
+  left: 50%;
+}
+
+.cloud-text {
+  z-index: 3;
+  transform: translate(-50%, -50%);
+  top: 84%;
+  left: 51%;
+  width: 100%;
 }
 
 .box {

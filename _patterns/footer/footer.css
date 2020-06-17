@@ -1,9 +1,12 @@
 .social {
   font-weight: 600;
 }
+.footer-contact {
+  color: #fff;
+}
 
 .contentinfo {
-  background-color: #000;
+  background-color: #4e5f77;
 
   /* background-image: url("../images/footer.jpg");
   background-size: cover;
@@ -18,7 +21,7 @@
 
 
 .footer:hover {
-  color: #1a1a1a;
+  color: #fff;
   font-weight: 600;
   background-image: url("/images/icons_brush.svg");
   background-repeat: no-repeat;
@@ -28,7 +31,7 @@
 }
 
 .copyright li {
-  color: var(--color-secondary-light);
+  color: #fff;
 }
 
 .social li {

@@ -4,14 +4,16 @@
 } */
 
 .image img {
-  transition: transform .5s ease-in-out, filter 1.5s ease-in-out;
-  /* filter: brightness(.4) sepia(1) hue-rotate(-120deg) saturate(2); */
+  /* transition: transform .5s ease-in-out, filter .5s ease-in-out;
+  filter: brightness(.6) sepia(1) hue-rotate(-182deg) saturate(2); */
   /* filter: grayscale(.9); */
 }
 
 .card a:hover img {
   transform: scale(1.2);
-  filter: none;
+  /* filter: none; */
+  transition: transform .5s ease-in-out, filter .5s ease-in-out;
+  filter: brightness(.6) sepia(1) hue-rotate(-182deg) saturate(2);
   /* filter: grayscale(0); */
 }
 
@@ -19,6 +21,7 @@
   position: absolute;
   left: 50%;
   top: 60%;
+  width: 100%;
   transform: translate(-50%, -50%);
   z-index: 4;
   opacity: 0;
@@ -26,9 +29,9 @@
 }
 
 .card-text h2 {
-  font-weight: 700;
-  color: var(--color-secondary);
-  background-color: #000;
+  font-weight: 300;
+  color: #fff;
+  /* background-color: var(--color-accent); */
   display: inline-block;
   border: solid;
 }
