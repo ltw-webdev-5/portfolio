@@ -1,6 +1,6 @@
 # Jasmine Carlucci-Tanguay
 
-####[jasminegraphicdesigner.ca](https://jasminegraphicdesigner.ca)
+####[jasminecarlucci.ca](https://jasminecarlucci.ca)
 
 ![Circular version of logo](Jasmine-GD-icon.png)
 
