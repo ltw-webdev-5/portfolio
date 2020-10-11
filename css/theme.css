@@ -6,7 +6,7 @@
 
   --font-primary: pt-serif, serif;
   --font-cursive: adorn-smooth-pomander, sans-serif;
-  --font-tertiary: objektiv-mk1, sans-serif;
+  --font-three: objektiv-mk1, sans-serif;
 
   --border-radius: 8px;
 }
@@ -39,8 +39,8 @@ html {
 
 /* @utility Apply the tertiary type face */
 
-.font-tertiary {
-  font-family: var(--font-tertiary);
+.font-three {
+  font-family: var(--font-three);
 }
 
 .carl {
@@ -58,7 +58,7 @@ h1 {
 }
 
 h2, h3, h4, h5, h6 {
-  font-family: var(--font-tertiary);
+  font-family: var(--font-three);
   color: var(--color-primary-purple);
   font-weight: 500;
   font-style: normal;
@@ -146,35 +146,35 @@ mark {
 }
 
 strong, b {
-  font-family: var(--font-tertiary);
+  font-family: var(--font-three);
   color: var(--color-primary-purple);
   font-weight: bold;
   font-style: normal;
 }
 
 del, s {
-  font-family: var(--font-tertiary);
+  font-family: var(--font-three);
   color: var(--color-primary-purple);
   font-weight: normal;
   font-style: line;
 }
 
 ins, u {
-  font-family: var(--font-tertiary);
+  font-family: var(--font-three);
   color: var(--color-primary-purple);
   font-weight: normal;
   font-style: underline;
 }
 
 abbr {
-  font-family: var(--font-tertiary);
+  font-family: var(--font-three);
   color: var(--color-primary-purple);
   font-weight: normal;
   font-style: uppercase;
 }
 
 dt {
-  font-family: var(--font-tertiary);
+  font-family: var(--font-three);
   color: var(--color-primary-purple);
   font-weight: bold;
   font-style: normal;
